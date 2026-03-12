@@ -51,6 +51,7 @@ class LeagueofLegendsService{
 
     async getChampion(champName, language) {
         const lastVersion = await this.#getVersion();
+        champName = champName.replace(" ", "");
         champName = champName.charAt(0).toUpperCase() + champName.substring(1);
         const path = `cdn/${lastVersion}/data/${language}/champion/${champName}.json`;
 
