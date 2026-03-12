@@ -15,11 +15,33 @@
     left: 0;
     width: 100%;
     height: 212px;
-    background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%);
+    background: linear-gradient(to top, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 50%);
     pointer-events: none;
     z-index: 1;
 }
 
 .hero-section {
     z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.champ-classes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 453px;
+    }
+
+    .hero::after {
+        height: 453px;
+    }
 }
