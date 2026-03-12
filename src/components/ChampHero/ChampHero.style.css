@@ -44,4 +44,20 @@
     .hero::after {
         height: 453px;
     }
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        height: 604px;
+    }
+
+    .hero::after {
+        height: 604px;
+    }
+
+    .champ-classes {
+        flex-direction: row;
+    }
 }

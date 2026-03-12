@@ -1,32 +1,101 @@
-.class-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: auto;
-    gap: 3px;
-    background-color: rgb(29, 29, 29, 0.66);
-    padding: 1px 8px;
-    border-radius: 15px;
+.class-div-MobileandTablet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  gap: 3px;
+  background-color: rgb(29, 29, 29, 0.66);
+  padding: 1px 8px;
+  border-radius: 15px;
 }
 
-.class-div p {
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 10%;
+.class-div-desktop {
+  display: none;
+}
+
+.class-div-MobileandTablet p {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 10%;
+}
+
+.role-badge {
+  position: relative; /* Necessário para posicionar o tooltip */
+  cursor: pointer;
+}
+
+.role-badge::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: rgb(29, 29, 29, 0.66);
+  color: white;
+  padding: 8px 12px;
+  font-weight: 300;
+  border-radius: 4px;
+  font-size: 20px;
+  white-space: nowrap;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  z-index: 10;
+}
+
+.role-badge::before {
+  content: "";
+  position: absolute;
+  bottom: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgb(29, 29, 29, 0.66) transparent transparent transparent;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  z-index: 10;
+}
+
+/* Efeito de Hover */
+.role-badge:hover::after,
+.role-badge:hover::before {
+  opacity: 1;
+  visibility: visible;
+  bottom: 140%;
+}
+
+.role-badge:hover::before {
+  bottom: 125%;
 }
 
 @media screen and (min-width: 768px) {
-    .class-div {
-        padding: 6px 16px;
-        gap: 5px;
-        border-radius: 25px;
-    }
+  .class-div-MobileandTablet {
+    padding: 6px 16px;
+    gap: 5px;
+    border-radius: 25px;
+  }
 
-    .class-div p {
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: 10%;
-    }
+  .class-div-MobileandTablet p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 10%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .class-div-MobileandTablet {
+    display: none;
+  }
+
+  .class-div-desktop {
+    display: block;
+  }
 }
