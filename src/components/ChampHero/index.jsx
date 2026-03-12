@@ -1,13 +1,17 @@
+import { ChampTitleandSub } from '../ChampTitleandSub';
 import './ChampHero.style.css'
 
-export function ChampHero ({champName}) {
+export function ChampHero ({champInfo}) {
+
+    const splashUrl = `url(${champInfo.skins[0].img})`;
+
     return (
         <>
-            <section className="hero">
-                <div className="hero-content">
-                    Olá!
-                </div>
-            </section>
+            <div className="hero" style={{'--bg-hero': splashUrl}}>
+                <section className="hero-section">
+                    <ChampTitleandSub name={champInfo.name} title={champInfo.title}/>
+                </section>
+            </div>
         </>
     )
 }

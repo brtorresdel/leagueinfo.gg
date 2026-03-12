@@ -1,9 +1,9 @@
 import { ChampHero } from "../../components/ChampHero";
 
-export function ChampInfo({champName}) {
+export function ChampInfo({champInfo}) {
     return (
         <>
-            <ChampHero champName={champName} />
+            <ChampHero champInfo={champInfo} />
         </>
     )
 }

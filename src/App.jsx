@@ -9,15 +9,21 @@ function App() {
 
   useEffect(() =>  {
 
-    const championInfo = LoLService.getChampion("Katarina", "pt_BR");
+    const getChampionInfo = async (champName) => {
+      const championInfo = await LoLService.getChampion(champName, "pt_BR");
 
-    console.log(championInfo);
+      setChampion(championInfo);
+    }
 
-  }, [champion, setChampion])
+    getChampionInfo("Katarina");
+
+  }, []);
+
+  if (!champion) return <div>Carregando...</div>
 
   return (
     <>
-      <ChampInfo champName={"Katarina"} />
+      <ChampInfo champInfo={champion} />
     </>
   )
 }

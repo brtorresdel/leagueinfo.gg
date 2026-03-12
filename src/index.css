@@ -13,8 +13,19 @@
 body {
   font-family: var(--text-font);
   color: var(--text-color);
+  font-weight: 100;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: var(--title-font);
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+section {
+  width: 270px;
+  margin-bottom: 10px;
 }

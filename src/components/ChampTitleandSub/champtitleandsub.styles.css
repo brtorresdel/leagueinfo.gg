@@ -1,0 +1,12 @@
+.name-n-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-n-title h1 {
+    margin-bottom: -5px;
+}
+
+.name-n-title h3 {
+    font-size: medium;
+}
