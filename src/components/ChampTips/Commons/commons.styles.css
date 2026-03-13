@@ -65,3 +65,35 @@ button.active img {
   filter: invert(88%) sepia(58%) saturate(5758%) hue-rotate(345deg)
     brightness(97%) contrast(102%);
 }
+
+@media screen and (min-width: 768px) {
+  button h2 {
+    font-size: 32px;
+  }
+
+  .champ-tips-list{
+    height: auto;
+    width: 50%;
+    flex-shrink: 0;
+  }
+
+  .champ-tip-list-content {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .champ-tip-list-track {
+    display: flex;
+    width: 200%;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .champ-tip-list-track.ally {
+    transform: translateX(0%);
+  }
+
+  .champ-tip-list-track.enemy {
+    transform: translateX(-50%);
+  }
+}

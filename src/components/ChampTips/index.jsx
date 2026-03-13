@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "./champtips.styles.css";
 import { ChampTipsMobile } from "./ChampTipsMobile";
+import { ChampTipsTabletDesktop } from "./ChampTipsTabletDesktop";
 
 export function ChampTips({allyTips, enemyTips}) {
-    const [allyTipsView, setAllyTipsView] = useState('');
+    const [allyTipsView, setAllyTipsView] = useState('active');
     const [enemyTipsView, setEnemyTipsView] = useState('');
 
     const toggleAllyTips = () => {
@@ -49,7 +50,15 @@ export function ChampTips({allyTips, enemyTips}) {
             </section>
             <section className="champ-tips-tabletDesktop">
 
-                
+                <ChampTipsTabletDesktop ally={{
+                    tipsToggle: toggleAllyTips,
+                    tipsList: allyTips,
+                    tipsView: allyTipsView
+                }} enemy={{
+                    tipsToggle: toggleEnemyTips,
+                    tipsList: enemyTips,
+                    tipsView: enemyTipsView
+                }} />
 
             </section>
         </div>
