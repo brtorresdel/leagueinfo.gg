@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./champtips.styles.css";
+import { ChampTipsMobile } from "./ChampTipsMobile";
 
 export function ChampTips({allyTips, enemyTips}) {
     const [allyTipsView, setAllyTipsView] = useState('');
@@ -14,6 +15,7 @@ export function ChampTips({allyTips, enemyTips}) {
 
         if (enemyTipsView) setEnemyTipsView('');
     };
+
     const toggleEnemyTips = () => {
         if (!enemyTipsView) {
             setEnemyTipsView('active');
@@ -28,7 +30,7 @@ export function ChampTips({allyTips, enemyTips}) {
         <div className="champ-tips-div">
             <section className="champ-tips-mobile">
 
-                <ChampTipsBlock  
+                <ChampTipsMobile  
                 view={allyTipsView} 
                 toggle={toggleAllyTips} 
                 title="Dicas de mecânica" 
@@ -36,7 +38,7 @@ export function ChampTips({allyTips, enemyTips}) {
                 icon="check" 
                 type="ally"/>
 
-                <ChampTipsBlock  
+                <ChampTipsMobile  
                 view={enemyTipsView} 
                 toggle={toggleEnemyTips} 
                 title="Estratégias de confronto" 
@@ -45,27 +47,9 @@ export function ChampTips({allyTips, enemyTips}) {
                 type="enemy"/>
 
             </section>
-        </div>
-    )
-}
+            <section className="champ-tips-tabletDesktop">
 
-function ChampTipsBlock({view, toggle, title, list, icon, type}) {
-    return (
-        <div className={`champ-tips ${view}`}>
-                    <button onClick={toggle}>
-                        <h2>{title}</h2>
-                        <img src="./src/assets/icons/arrow.svg" />
-                    </button>
-                    <div className="champ-tips-list">
-                        <ul>
-                            {list.map(tip => {
-                                return <li>
-                                    <img src={`./src/assets/icons/${icon}.svg`} className={type}/>
-                                    {tip}
-                                </li>
-                            })}
-                        </ul>
-                    </div>
-                </div>
+            </section>
+        </div>
     )
 }
