@@ -32,3 +32,14 @@
         font-size: 32px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .name-n-title h1 {
+        font-size: 128px;
+        margin-bottom: -40px;
+    }
+
+    .name-n-title h3 {
+        font-size: 45px;
+    }
+}

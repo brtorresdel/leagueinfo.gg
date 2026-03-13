@@ -16,3 +16,9 @@
         width: 50px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .class-icon {
+        width: 75px;
+    }
+}

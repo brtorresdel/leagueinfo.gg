@@ -41,6 +41,11 @@ section {
 @media screen and (min-width: 1024px) {
   section {
     width: 725px;
-    margin-bottom: 27px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1023px;
   }
 }
