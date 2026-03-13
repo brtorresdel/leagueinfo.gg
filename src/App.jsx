@@ -15,7 +15,7 @@ function App() {
       setChampion(championInfo);
     }
 
-    getChampionInfo("Leblanc");
+    getChampionInfo("Katarina");
 
   }, []);
 
