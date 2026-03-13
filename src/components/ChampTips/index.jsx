@@ -27,39 +27,45 @@ export function ChampTips({allyTips, enemyTips}) {
     return (
         <div className="champ-tips-div">
             <section className="champ-tips-mobile">
-                <div className={`champ-tips ${allyTipsView}`}>
-                    <button onClick={toggleAllyTips}>
-                        <h2>Dicas de mecânica</h2>
-                        <img src="./src/assets/icons/arrow.svg" />
-                    </button>
-                    <div className="champ-tips-list">
-                        <ul>
-                            {allyTips.map(tip => {
-                                return <li>
-                                    <img src="./src/assets/icons/check.svg" className="ally"/>
-                                    {tip}
-                                </li>
-                            })}
-                        </ul>
-                    </div>
-                </div>
-                <div className={`champ-tips ${enemyTipsView}`}>
-                    <button onClick={toggleEnemyTips}>
-                        <h2>Estratégias de confronto</h2>
-                        <img src="./src/assets/icons/arrow.svg" />
-                    </button>
-                    <div className="champ-tips-list">
-                        <ul>
-                            {enemyTips.map(tip => {
-                                return <li>
-                                    <img src="./src/assets/icons/exclamation.svg" className="enemy"/>
-                                    {tip}
-                                </li>
-                            })}
-                        </ul>
-                    </div>
-                </div>
+
+                <ChampTipsBlock  
+                view={allyTipsView} 
+                toggle={toggleAllyTips} 
+                title="Dicas de mecânica" 
+                list={allyTips} 
+                icon="check" 
+                type="ally"/>
+
+                <ChampTipsBlock  
+                view={enemyTipsView} 
+                toggle={toggleEnemyTips} 
+                title="Estratégias de confronto" 
+                list={enemyTips} 
+                icon="exclamation" 
+                type="enemy"/>
+
             </section>
         </div>
+    )
+}
+
+function ChampTipsBlock({view, toggle, title, list, icon, type}) {
+    return (
+        <div className={`champ-tips ${view}`}>
+                    <button onClick={toggle}>
+                        <h2>{title}</h2>
+                        <img src="./src/assets/icons/arrow.svg" />
+                    </button>
+                    <div className="champ-tips-list">
+                        <ul>
+                            {list.map(tip => {
+                                return <li>
+                                    <img src={`./src/assets/icons/${icon}.svg`} className={type}/>
+                                    {tip}
+                                </li>
+                            })}
+                        </ul>
+                    </div>
+                </div>
     )
 }
