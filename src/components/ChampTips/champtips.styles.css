@@ -1,0 +1,27 @@
+.champ-tips-div {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.champ-tips-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.champ-tips-tabletDesktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .champ-tips-mobile {
+        display: none;
+    }
+
+    .champ-tips-tabletDesktop {
+        display: block;
+    }
+}
