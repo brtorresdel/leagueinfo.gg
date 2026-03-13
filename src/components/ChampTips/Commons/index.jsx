@@ -1,6 +1,8 @@
-function ChampTipsBtn({toggle, title, arrow}) {
+import './commons.styles.css';
+
+function ChampTipsBtn({toggle, title, arrow, active}) {
     return (
-        <button onClick={toggle}>
+        <button className={active && "active"}onClick={toggle}>
             <h2>{title}</h2>
             {arrow && <img src="./src/assets/icons/arrow.svg" />}
         </button>

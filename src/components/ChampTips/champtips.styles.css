@@ -16,24 +16,6 @@
     display: none;
 }
 
-.champ-tips button {
-  text-decoration: none;
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border: none;
-}
-
-.champ-tips button h2 {
-  color: var(--text-color);
-  opacity: 0.5;
-}
-
-.champ-tips.active button h2 {
-  opacity: 1;
-}
-
 .champ-tips button img {
   transition: transform 0.2s ease-in-out;
   transform: rotate(0deg);
