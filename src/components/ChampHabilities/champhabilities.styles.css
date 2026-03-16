@@ -11,6 +11,18 @@
     gap: 10px;
 }
 
+.habilities-data{
+    display: flex;
+    flex-direction: column;
+}
+
+.habilities-data-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
 .habilities-icons {
     width: 100%;
     display: flex;
@@ -29,15 +41,65 @@
     font-size: 15px;
 }
 
-.hability-info .hability-video {
+.hability-info .hability-video.mobile {
     width: 100%;
     height: 185px;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 
+.hability-video.tablet-desktop {
+    display: none;
+}
+
 .hability-info .hability-description {
     font-size: 13px;
     height: 100px;
     overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+    .champ-habilities h2 {
+        font-size: 32px;
+    }
+
+    .habilities-icons {
+        margin-bottom: 20px;
+    }
+
+    .habilities-data{
+        flex-direction: row;
+        align-items: flex-start;
+        height: 250px;
+        gap: 10px;
+    }
+
+    .hability-data-div {
+        width: 228px;
+    }
+
+    .hability-info {
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .hability-info .hability-title {
+        font-size: 20px;
+    }
+
+    .hability-info .hability-video.mobile {
+        display: none;
+    }
+
+    .hability-video.tablet-desktop {
+        display: block;
+        width: 55%;
+        border-radius: 5px;
+    }
+
+    .hability-info .hability-description {
+        font-size: 13px;
+        line-height: 20px;
+    }
 }
