@@ -1,6 +1,7 @@
 import { ChampHabilities } from "../../components/ChampHabilities";
 import { ChampHero } from "../../components/ChampHero";
 import { ChampTips } from "../../components/ChampTips";
+import { Loading } from "../../components/Loading";
 import { ChampDescription } from './../../components/ChampDescription/index';
 
 export function ChampInfo({champInfo}) {
