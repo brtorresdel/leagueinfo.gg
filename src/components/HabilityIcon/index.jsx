@@ -1,7 +1,9 @@
 import "./habilityicon.styles.css";
 
-export function HabilityIcon ({hability, onClick}) {
+export function HabilityIcon ({hability, onClick, active}) {
     return (
-        <img src={hability.icon} onClick={onClick}/>
+        <button onClick={onClick} className={`${active ? "active-btn" : ''}`}>
+            <img src={hability.icon} />
+        </button>
     )
 }

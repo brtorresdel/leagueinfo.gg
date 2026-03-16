@@ -15,7 +15,7 @@ export function ChampHabilities ({habilities}) {
                 <h2>Habilidades</h2>
                 <div className="habilities-icons">
                     {habilities.map((hab, index) => {
-                        return <HabilityIcon hability={hab} key={hab.key} onClick={() => toggleActiveHability(index)}/>
+                        return <HabilityIcon hability={hab} key={hab.key} onClick={() => toggleActiveHability(index)} active={hab.key == activeHability.key}/>
                     })}
                 </div>
                 <div className="hability-info">

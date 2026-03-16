@@ -12,7 +12,7 @@ button h2 {
   opacity: 0.5;
 }
 
-button.active h2 {
+button.active-chefron h2 {
     opacity: 1;
 }
 
@@ -21,7 +21,7 @@ button img {
   transform: rotate(0deg);
 }
 
-button.active img {
+button.active-chefron img {
   transform: rotate(180deg);
 }
 
@@ -34,7 +34,7 @@ button.active img {
     opacity 0.3s ease;
 }
 
-.champ-tips-list.active {
+.champ-tips-list.active-chefron {
   max-height: 500px;
   opacity: 1;
 }
