@@ -91,12 +91,13 @@
 
     .habilities-data{
         justify-content: space-between;
+        width: 100%;
         height: auto;
         gap: 20px;
     }
 
     .hability-data-div {
-        width: 304px;
+        width: 40%;
     }
 
     .hability-info {
