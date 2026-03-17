@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './champskins.styles.css';
+import './champskins-mobile.styles.css';
 
 export function ChampSkins({skins, champName}) {
 
@@ -41,6 +41,9 @@ export function ChampSkins({skins, champName}) {
                         <div key={index} className={`dot ${currentIndex === index ? 'active' : ''}`} />
                     ))}
                 </div>
+            </section>
+            <section className="champ-skins-tablet-desktop">
+                
             </section>
         </div>
     )

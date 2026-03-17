@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.skins-container {
+.champ-skins-mobile .skins-container {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -16,7 +16,7 @@
   -ms-overflow-style: none;
 }
 
-.skin-card {
+.champ-skins-mobile .skin-card {
   position: relative;
   flex: 0 0 100%;
   scroll-snap-align: start;
@@ -26,12 +26,12 @@
   align-items: center;
 }
 
-.skin-card img {
+.champ-skins-mobile .skin-card img {
   width: 100%;
   border-radius: 4px;
 }
 
-.skin-card h3 {
+.champ-skins-mobile .skin-card h3 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -44,14 +44,14 @@
     margin: 5px;
 }
 
-.skins-dots {
+.champ-skins-mobile .skins-dots {
   display: flex;
   justify-content: center;
   gap: 5px;
   margin-top: 5px;
 }
 
-.dot {
+.champ-skins-mobile .dot {
   width: 4px;
   height: 4px;
   background: transparent;
@@ -60,7 +60,13 @@
   transition: all 0.3s ease;
 }
 
-.dot.active {
+.champ-skins-mobile .dot.active {
   background: white;
   transform: scale(1.5);
+}
+
+@media screen and (min-width: 768px) {
+  .champ-skins-mobile {
+    display: none;
+  }
 }
