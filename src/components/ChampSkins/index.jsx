@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './champskins-mobile.styles.css';
+import './champskins-tabletdesktop.styles.css';
 
 export function ChampSkins({skins, champName}) {
 
@@ -24,6 +25,8 @@ export function ChampSkins({skins, champName}) {
         setCurrentIndex(index);
     };
 
+    const handleClick = (index) => setCurrentIndex(index);
+
     return (
         <div className="champ-skins-div">
             <h2>Skins</h2>
@@ -43,7 +46,24 @@ export function ChampSkins({skins, champName}) {
                 </div>
             </section>
             <section className="champ-skins-tablet-desktop">
-                
+                <div className="skins-splash-div">
+                    {skins.map((skin, index) => {
+                        return <img src={skin.img} alt="" className={`skin-splash ${index == currentIndex ? 'active' : ''}`} />
+                    })}
+                </div>
+                <div className="skins-names">
+                    <ul>
+                        {skins.map((skin, index) => {
+                            return <li key={skin.id}>
+                                <button
+                                onClick={() => handleClick(index)}
+                                className={index == currentIndex && 'active'}>
+                                    {skin.name.toLowerCase() != 'default' ? skin.name : champName}
+                                </button>
+                            </li>
+                        })}
+                    </ul>
+                </div>
             </section>
         </div>
     )

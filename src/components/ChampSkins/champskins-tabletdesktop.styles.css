@@ -1,0 +1,72 @@
+.champ-skins-tablet-desktop {
+    display: none;
+    font-size: var(--text-font-size-tablet);
+}
+
+.champ-skins-tablet-desktop .skins-splash-div {
+    position: relative;
+    width: 55%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.champ-skins-tablet-desktop .skin-splash {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s;
+    z-index: 1;
+}
+
+.champ-skins-tablet-desktop .skin-splash.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+}
+
+
+
+.champ-skins-tablet-desktop .skins-names {
+    width: 45%;
+    overflow:scroll;
+}
+
+.champ-skins-tablet-desktop .skins-names ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.champ-skins-tablet-desktop .skins-names li{
+    list-style-type: none;
+}
+
+.champ-skins-tablet-desktop .skins-names li button{
+    background: transparent;
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-size: 0.6em;
+    opacity: 0.6;
+    text-align: start;
+    transition: 
+        opacity 50ms ease-in,
+        font-size 50ms ease-in;
+}
+
+.champ-skins-tablet-desktop .skins-names li button.active{
+    opacity: 1;
+    font-size: 0.75em;
+}
+
+@media screen and (min-width: 768px) {
+    .champ-skins-tablet-desktop {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        height: 183px;
+    }
+}

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css'
 import { ChampInfo } from './pages/ChampInfo'
 import { LoLService } from './services/LeagueofLegendsService/index';
+import { Loading } from './components/Loading';
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
 
   }, []);
 
-  if (!champion) return <div>Carregando...</div>
+  if (!champion) return <Loading />
 
   return (
     <>
