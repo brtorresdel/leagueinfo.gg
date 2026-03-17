@@ -8,7 +8,7 @@ export function ChampHero ({champInfo}) {
 
     return (
         <>
-            <div className="hero" style={{'--bg-hero': splashUrl}}>
+            <div className="hero" style={{'backgroundImage': splashUrl}}>
                 <section className="hero-section">
                     <ChampTitleandSub name={champInfo.name} title={champInfo.title}/>
                     <div className="champ-classes">

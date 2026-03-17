@@ -12,7 +12,7 @@ export function ChampInfo({champInfo}) {
             <ChampDescription description={champInfo.lore} />
             <ChampTips allyTips={champInfo.allytips} enemyTips={champInfo.enemytips} />
             <ChampHabilities habilities={champInfo.habilities} />
-            <ChampSkins skins={champInfo.skins} />
+            <ChampSkins skins={champInfo.skins} champName={champInfo.name} />
         </>
     )
 }

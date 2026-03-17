@@ -64,6 +64,9 @@ class LeagueofLegendsService{
 
             const spells = ['Q', 'W', "E", "R"];
 
+            console.log(response.skins)
+            
+
             return {
                 name: response.name,
                 id: response.key,
