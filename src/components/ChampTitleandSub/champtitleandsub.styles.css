@@ -8,38 +8,23 @@
 }
 
 .name-n-title h3 {
-    font-size: medium;
+    font-family: var(--text-font);
 }
 
 @media screen and (min-width: 768px) {
     .name-n-title h1 {
-        font-size: 64px;
         margin-bottom: -15px;
-    }
-
-    .name-n-title h3 {
-        font-size: 24px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .name-n-title h1 {
-        font-size: 96px;
         margin-bottom: -25px;
-    }
-
-    .name-n-title h3 {
-        font-size: 32px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .name-n-title h1 {
-        font-size: 128px;
         margin-bottom: -40px;
-    }
-
-    .name-n-title h3 {
-        font-size: 45px;
     }
 }

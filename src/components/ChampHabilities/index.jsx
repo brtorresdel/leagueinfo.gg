@@ -22,7 +22,7 @@ export function ChampHabilities ({habilities}) {
                             })}
                         </div>
                         <div className="hability-info">
-                            <h2 className="hability-title">{activeHability.name} ({activeHability.key})</h2>
+                            <h3 className="hability-title">{activeHability.name} ({activeHability.key})</h3>
                             <HabilityVideo src={activeHability.video} screen='mobile' />
                             <p className="hability-description">{activeHability.description}</p>
                         </div>

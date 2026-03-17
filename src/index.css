@@ -17,7 +17,7 @@
   --text-font-size-desktop: 20px;
   --title1-font-size-desktop: 96px;
   --title2-font-size-desktop: 40px;
-  --title3-font-size-desktop: 25px;
+  --title3-font-size-desktop: 30px;
 
   --text-font-size-desktop-plus: 24px;
   --title1-font-size-desktop-plus: 128px;
@@ -38,8 +38,9 @@ body {
   font-weight: 200;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: var(--title-font);
+  color: var(--text-color);
   font-weight: 400;
 }
 

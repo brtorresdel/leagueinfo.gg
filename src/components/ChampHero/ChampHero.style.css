@@ -43,9 +43,7 @@
 
     .hero::after {
         height: 453px;
-    }
-
-    
+    } 
 }
 
 @media screen and (min-width: 1024px) {
