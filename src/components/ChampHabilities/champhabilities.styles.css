@@ -1,9 +1,3 @@
-.champ-habilities-div {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-}
-
 .champ-habilities {
     display: flex;
     flex-direction: column;

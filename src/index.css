@@ -3,6 +3,10 @@
   --text-color: white;
   --title-font: Bebas Neue, sans-serif;
   --text-font: Montserrat, sans-serif;
+  --text-font-size-mobile: 13px;
+  --title1-font-size-mobile: 32px;
+  --title2-font-size-mobile: 24px;
+  --title3-font-size-mobile: 15px;
 }
 
 * {
@@ -24,6 +28,13 @@ h1, h2 {
 
 h3 {
   font-weight: 200;
+}
+
+div:has(section):not(:has(.hero)):not(:has(.name-n-title)) {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 section {
