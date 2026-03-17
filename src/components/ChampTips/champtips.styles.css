@@ -1,11 +1,3 @@
-.champ-tips-div {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .champ-tips-mobile {
   display: flex;
   flex-direction: column;

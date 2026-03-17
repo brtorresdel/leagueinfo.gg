@@ -9,9 +9,7 @@
 }
 
 .champ-tips-title h2 {
-  color: var(--text-color);
   opacity: 0.5;
-  font-size: 24px;
 }
 
 .champ-tips-title.active-chefron h2 {
@@ -49,10 +47,6 @@
   gap: 10px;
 }
 
-.champ-tips-list li {
-  font-size: 13px;
-}
-
 .champ-tips-list li img {
   width: 13px;
   margin-right: 2px;
@@ -69,10 +63,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .champ-tips-title h2 {
-    font-size: 30px;
-  }
-
   .champ-tips-list{
     height: auto;
     width: 50%;
@@ -100,37 +90,27 @@
   }
 
   .champ-tips-list li {
-    font-size: 16px;
+    line-height: 30px;
+    margin-right: 3px;
   }
 
   .champ-tips-list li img {
-    width: 16px;
     margin-right: 3px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .champ-tips-title h2 {
-    font-size: 40px;
-  }
-
   .champ-tips-list li {
-    font-size: 20px;
     line-height: 30px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .champ-tips-title h2 {
-    font-size: 58px;
-  }
-
   .champ-tips-list ul {
     gap: 20px;
   }
 
   .champ-tips-list li {
-    font-size: 24px;
     line-height: 35px;
   }
 }

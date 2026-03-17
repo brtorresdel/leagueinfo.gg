@@ -1,145 +1,132 @@
-.champ-habilities-div {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-}
-
 .champ-habilities {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-.habilities-data{
-    display: flex;
-    flex-direction: column;
+.habilities-data {
+  display: flex;
+  flex-direction: column;
 }
 
 .habilities-data-div {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .habilities-icons {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .hability-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hability-info .hability-title {
-    font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hability-info .hability-description {
-    font-size: 13px;
-    height: 100px;
-    overflow: auto;
+  font-size: 13px;
+  height: 100px;
+  overflow: auto;
 }
 
 @media screen and (min-width: 768px) {
+  .champ-habilities h2 {
+    font-size: 32px;
+  }
 
-    .champ-habilities h2 {
-        font-size: 32px;
-    }
+  .habilities-icons {
+    margin-bottom: 20px;
+  }
 
-    .habilities-icons {
-        margin-bottom: 20px;
-    }
+  .habilities-data {
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+    gap: 10px;
+  }
 
-    .habilities-data{
-        flex-direction: row;
-        align-items: flex-start;
-        height: auto;
-        gap: 10px;
-    }
+  .hability-data-div {
+    width: 228px;
+  }
 
-    .hability-data-div {
-        width: 228px;
-    }
+  .hability-info {
+    align-items: flex-start;
+    gap: 5px;
+  }
 
-    .hability-info {
-        align-items: flex-start;
-        gap: 5px;
-    }
+  .hability-info .hability-title {
+    font-size: 20px;
+  }
 
-    .hability-info .hability-title {
-        font-size: 20px;
-    }
-
-    .hability-info .hability-description {
-        font-size: 13px;
-        line-height: 20px;
-        height: 120px;
-    }
+  .hability-info .hability-description {
+    font-size: 13px;
+    line-height: 20px;
+    height: 120px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .champ-habilities h2 {
+    font-size: 40px;
+  }
 
-    .champ-habilities h2 {
-        font-size: 40px;
-    }
+  .habilities-data {
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
 
-    .habilities-data{
-        justify-content: space-between;
-        width: 100%;
-        height: auto;
-        gap: 20px;
-    }
+  .hability-data-div {
+    width: 40%;
+  }
 
-    .hability-data-div {
-        width: 40%;
-    }
+  .hability-info {
+    align-items: flex-start;
+    gap: 5px;
+  }
 
-    .hability-info {
-        align-items: flex-start;
-        gap: 5px;
-    }
-
-    .hability-info .hability-description {
-        font-size: 16px;
-        line-height: 25px;
-        height: 180px;
-    }
+  .hability-info .hability-description {
+    font-size: 16px;
+    line-height: 25px;
+    height: 180px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .champ-habilities h2 {
+    font-size: 64px;
+  }
 
-    .champ-habilities h2 {
-        font-size: 64px;
-    }
+  .habilities-data {
+    justify-content: space-between;
+    height: auto;
+    gap: 20px;
+  }
 
-    .habilities-data{
-        justify-content: space-between;
-        height: auto;
-        gap: 20px;
-    }
+  .hability-data-div {
+    width: 433px;
+  }
 
-    .hability-data-div {
-        width: 433px;
-    }
+  .hability-info {
+    align-items: flex-start;
+    gap: 10px;
+  }
 
-    .hability-info {
-        align-items: flex-start;
-        gap: 10px;
-    }
+  .hability-info .hability-title {
+    font-size: 36px;
+  }
 
-    .hability-info .hability-title {
-        font-size: 36px;
-    }
-
-    .hability-info .hability-description {
-        font-size: 24px;
-        line-height: 35px;
-        height: 245px;
-    }
+  .hability-info .hability-description {
+    font-size: 24px;
+    line-height: 35px;
+    height: 245px;
+  }
 }

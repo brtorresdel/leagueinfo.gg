@@ -3,6 +3,26 @@
   --text-color: white;
   --title-font: Bebas Neue, sans-serif;
   --text-font: Montserrat, sans-serif;
+
+  --text-font-size-mobile: 13px;
+  --title1-font-size-mobile: 32px;
+  --title2-font-size-mobile: 24px;
+  --title3-font-size-mobile: 15px;
+
+  --text-font-size-tablet: 20px;
+  --title1-font-size-tablet: 64px;
+  --title2-font-size-tablet: 30px;
+  --title3-font-size-tablet: 20px;
+
+  --text-font-size-desktop: 20px;
+  --title1-font-size-desktop: 96px;
+  --title2-font-size-desktop: 40px;
+  --title3-font-size-desktop: 30px;
+
+  --text-font-size-desktop-plus: 24px;
+  --title1-font-size-desktop-plus: 128px;
+  --title2-font-size-desktop-plus: 58px;
+  --title3-font-size-desktop-plus: 36px;
 }
 
 * {
@@ -14,16 +34,34 @@
 body {
   font-family: var(--text-font);
   color: var(--text-color);
-  font-weight: 100;
+  font-size: var(--text-font-size-mobile);
+  font-weight: 200;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: var(--title-font);
+  color: var(--text-color);
   font-weight: 400;
 }
 
+h1 {
+  font-size: var(--title1-font-size-mobile);
+}
+
+h2 {
+  font-size: var(--title2-font-size-mobile);
+}
+
 h3 {
-  font-weight: 200;
+  font-weight: 300;
+  font-size: var(--title3-font-size-mobile);
+}
+
+div:has(section):not(:has(.hero)):not(:has(.name-n-title)) {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 section {
@@ -37,16 +75,64 @@ section {
     width: 542px;
     margin-bottom: 27px;
   }
+
+  body {
+    font-size: var(--text-font-size-tablet);
+  }
+
+  h1 {
+    font-size: var(--title1-font-size-tablet);
+  }
+
+  h2 {
+    font-size: var(--title2-font-size-tablet);
+  }
+
+  h3 {
+    font-size: var(--title3-font-size-tablet);
+  }
 }
 
 @media screen and (min-width: 1024px) {
   section {
     width: 725px;
   }
+
+  body {
+    font-size: var(--text-font-size-desktop);
+  }
+
+  h1 {
+    font-size: var(--title1-font-size-desktop);
+  }
+
+  h2 {
+    font-size: var(--title2-font-size-desktop);
+  }
+
+  h3 {
+    font-size: var(--title3-font-size-desktop);
+  }
 }
 
 @media screen and (min-width: 1440px) {
   section {
     width: 1023px;
+  }
+
+  body {
+    font-size: var(--text-font-size-desktop-plus);
+  }
+
+  h1 {
+    font-size: var(--title1-font-size-desktop-plus);
+  }
+
+  h2 {
+    font-size: var(--title2-font-size-desktop-plus);
+  }
+
+  h3 {
+    font-size: var(--title3-font-size-desktop-plus);
   }
 }
