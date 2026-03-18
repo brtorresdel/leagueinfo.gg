@@ -1,16 +1,28 @@
-# React + Vite
+# League Info - Champion Explorer (projeto em andamento!)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação web moderna e responsiva para explorar dados detalhados dos campeões de League of Legends. O projeto consome a API oficial da Riot Games (Data Dragon) para oferecer uma experiência imersiva e informações atualizadas dos campeões.
 
-Currently, two official plugins are available:
+## Funcionalidades Principais
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Página principal** com exibição da lista de campeões e filtros de classes e roles
+- **Página do campeão** com informações detalhadas de cada personagem, como habilidades, skins, dicas de jogabilidade, etc.
 
-## React Compiler
+## Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React** (Vite)
+* **CSS Moderno** 
+* **Data Dragon API:** Integração com dados reais da Riot Games (link a documentação: [DDragon](https://developer.riotgames.com/docs/lol))
 
-## Expanding the ESLint configuration
+## 🔧 Como rodar o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/brtorresdel/league.info.git](https://github.com/brtorresdel/league.info.git)
+
+2. Instale as dependências:
+   ```bash
+   npm install
+
+2. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
