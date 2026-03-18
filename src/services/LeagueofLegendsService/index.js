@@ -62,16 +62,17 @@ class LeagueofLegendsService{
 
             let formatedId = response.key.toString().padStart(4, "0");
 
-            const spells = ['Q', 'W', "E", "R"];
-
-            console.log(response.skins)
-            
+            const spells = ['Q', 'W', "E", "R"];            
 
             return {
                 name: response.name,
                 id: response.key,
                 title: response.title,
-                skins: response.skins.map(skin => {return {name: skin.name, img: `${this.baseURL}cdn/img/champion/splash/${champName}_${skin.num}.jpg`, id: skin.num}}),
+                skins: response.skins
+                .filter(skin => !skin.parentSkin)
+                .map(skin => {
+                    return {name: skin.name, img: `${this.baseURL}cdn/img/champion/splash/${champName}_${skin.num}.jpg`, id: skin.num}
+                }),
                 lore: response.lore,
                 allytips: response.allytips,
                 enemytips: response.enemytips,

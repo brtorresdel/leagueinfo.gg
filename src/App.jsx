@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css'
 import { ChampInfo } from './pages/ChampInfo'
 import { LoLService } from './services/LeagueofLegendsService/index';
+import { Loading } from './components/Loading';
 
 function App() {
 
@@ -15,11 +16,11 @@ function App() {
       setChampion(championInfo);
     }
 
-    getChampionInfo("Katarina");
+    getChampionInfo("Teemo");
 
   }, []);
 
-  if (!champion) return <div>Carregando...</div>
+  if (!champion) return <Loading />
 
   return (
     <>
