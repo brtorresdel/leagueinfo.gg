@@ -28,11 +28,14 @@
     z-index: 2;
 }
 
-
-
 .champ-skins-tablet-desktop .skins-names {
     width: 45%;
-    overflow:scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.champ-skins-tablet-desktop .skins-names::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .champ-skins-tablet-desktop .skins-names ul{
@@ -68,5 +71,25 @@
         flex-direction: row;
         gap: 10px;
         height: 183px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .champ-skins-tablet-desktop {
+        height: 236px;
+        font-size: var(--text-font-size-desktop);
+    }
+
+    .champ-skins-tablet-desktop .skins-splash-div {
+        border-radius: 20px;
+    }
+
+    .champ-skins-tablet-desktop .skins-names li button{
+        font-size: 0.75em;
+    }
+
+    .champ-skins-tablet-desktop .skins-names li button.active{
+        opacity: 1;
+        font-size: 0.9em;
     }
 }
