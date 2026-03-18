@@ -38,10 +38,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .champ-habilities h2 {
-    font-size: 32px;
-  }
-
   .habilities-icons {
     margin-bottom: 20px;
   }
@@ -54,7 +50,7 @@
   }
 
   .hability-data-div {
-    width: 228px;
+    width: 45%;
   }
 
   .hability-info {
