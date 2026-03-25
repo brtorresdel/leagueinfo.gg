@@ -1,0 +1,21 @@
+.home-hero {
+    height: 337px;
+    background-image: var(--bg-hero);
+    background-size: 180%;
+    background-position: 35% 15%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.home-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 337px;
+    background: linear-gradient(to top, #111111 5%, rgba(1,1,1,0) 50%);
+    pointer-events: none;
+    z-index: 1;
+}

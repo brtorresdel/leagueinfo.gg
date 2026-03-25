@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react';
 import './App.css'
-import { ChampInfo } from './pages/ChampInfo'
+import { useEffect, useState } from 'react';
+import { ChampInfo } from './pages/ChampInfo';
 import { LoLService } from './services/LeagueofLegendsService/index';
 import { Loading } from './components/Loading';
+import { Home } from './pages/Home';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
       setChampion(championInfo);
     }
 
-    getChampionInfo("Katarina");
+    getChampionInfo("Nami");
 
   }, []);
 
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <>
-      <ChampInfo champInfo={champion} />
+      <Home />
     </>
   )
 }
