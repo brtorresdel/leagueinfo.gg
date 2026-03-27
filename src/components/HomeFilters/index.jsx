@@ -6,7 +6,7 @@ export function HomeFilters ({nameFilter, setNameFilter, classFilter, setClassFi
 
     return (
         <div className="home-filters-div">
-            <section className="home-filters">
+            <div className="home-filters">
                 <input type="text" name="nameSearch" className='input-name' placeholder='Encontre seu campeão...' />
                 <div className="class-filter-div">
                     <label htmlFor="class-filter">Classe:</label>
@@ -18,7 +18,7 @@ export function HomeFilters ({nameFilter, setNameFilter, classFilter, setClassFi
                         }
                     </ul>
                 </div>
-            </section>
+            </div>
         </div>
     )
 }
