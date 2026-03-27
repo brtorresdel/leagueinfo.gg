@@ -9,7 +9,10 @@ export function HomeFilters ({nameFilter, setNameFilter, classFilter, setClassFi
             <div className="home-filters">
                 <input type="text" name="nameSearch" className='input-name' placeholder='Encontre seu campeão...' />
                 <div className="class-filter-div">
-                    <label htmlFor="class-filter">Classe:</label>
+                    <h4>Classes:</h4>
+                    <div className="selected-classes">
+                        
+                    </div>
                     <ul>
                         {
                             champClasses.map(c => {
