@@ -8,7 +8,6 @@ export function Home () {
     const [nameFilter, setNameFilter] = useState('');
     const [classFilter, setClassFilter] = useState([]);
     const [champions, setChampions] = useState([]);
-    const [limit, setLimit] = useState(9);
     
     useEffect(() =>  {
 
@@ -35,7 +34,7 @@ export function Home () {
             setNameFilter={setNameFilter}
             setClassFilter={setClassFilter}
             />
-            <HomeChampList champions={champions} limit={limit} />
+            <HomeChampList champions={champions} />
         </>
     )
 }
