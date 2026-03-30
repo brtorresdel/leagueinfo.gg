@@ -88,6 +88,7 @@
     align-items: center;
     gap: 5px;
     font-family: var(--text-font);
+    font-size: var(--text-font-size-mobile);
     font-weight: 200;
 }
 
@@ -100,6 +101,17 @@
     .selected-classes-container {
         height: 62px;
         border-radius: 30px;
-        
+    }
+
+    .classes-list .class-item button {
+        font-size: var(--text-font-size-tablet);
+    }
+
+    .selected-classes-container.active {
+        border-radius: 30px 30px 0 0;
+    }
+
+    .classes-list.active {
+        border-radius: 0 0 30px 30px;
     }
 }
