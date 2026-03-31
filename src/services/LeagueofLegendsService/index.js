@@ -35,10 +35,11 @@ class LeagueofLegendsService{
 
             for (let champ in response) {
                 champs.push({
+                    formatedName: response[champ].id,
                     name: response[champ].name, 
                     id: response[champ].key,
                     title: response[champ].title,
-                    tile: `${this.baseURL}cdn/img/champion/tiles/${response[champ].name}_0.jpg`,
+                    tile: `${this.baseURL}cdn/img/champion/tiles/${response[champ].id}_0.jpg`,
                     classes: response[champ].tags
                 })
             }

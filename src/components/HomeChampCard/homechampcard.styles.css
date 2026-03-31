@@ -130,7 +130,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 105%;
         height: 100%;
         border-radius: 10px;
         background: linear-gradient(to top, #111111 5%, rgba(1,1,1,0) 50%);

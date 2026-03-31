@@ -12,13 +12,9 @@ export function Home () {
     useEffect(() =>  {
 
         const getChampionsList = async () => {
-            if (!localStorage.getItem('championsList')) {
-                const championsList = await LoLService.getChampionsList("pt_BR");
-                localStorage.setItem('championsList', JSON.stringify(championsList));
-            }
-
-            const championsList = JSON.parse(localStorage.getItem('championsList'));
+            const championsList = await LoLService.getChampionsList("pt_BR");
             setChampions(championsList);
+            console.log(championsList);
         }
 
         getChampionsList();
