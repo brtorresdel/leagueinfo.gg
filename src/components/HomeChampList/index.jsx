@@ -2,6 +2,7 @@ import { Loading } from './../Loading/index';
 import './homechamplist.styles.css'
 import { ChampTitleandSub } from './../ChampTitleandSub/index';
 import { ClassIcon } from './../ClassIcon/index';
+import { HomeChampCard } from '../HomeChampCard';
 
 export function HomeChampList ({championsList}) {
     if (!championsList || championsList.length === 0) {
@@ -11,23 +12,7 @@ export function HomeChampList ({championsList}) {
     return (
         <div className="home-champions-list">
             {championsList.map((champion) => (
-                <div key={champion.id} className="champion-card">
-                    <div className="champion-container">
-                        <img src={champion.tile} alt={champion.name} />
-                        <div className='champion-content'>
-                            <div className="champion-classes">
-                                {champion.classes.map((champClass, index) => (
-                                    <ClassIcon key={index} className={champClass} />
-                                ))}
-                            </div>
-                            <div className="champion-title">
-                                <h1>{champion.name}</h1>
-                                <h3>{champion.title}</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <h3>{champion.name}</h3>
-                </div>
+                <HomeChampCard champion={champion} />
             ))}
         </div>
     )
