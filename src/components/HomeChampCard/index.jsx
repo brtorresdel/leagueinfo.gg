@@ -2,6 +2,7 @@ import { ClassIcon } from "../ClassIcon";
 import './homechampcard.styles.css';
 
 export function HomeChampCard ({champion}) {
+
     return (
         <div key={champion.id} className="champion-card">
             <div className="champion-container">
@@ -9,7 +10,9 @@ export function HomeChampCard ({champion}) {
                 <div className='champion-content'>
                     <div className="champion-classes">
                         {champion.classes.map((champClass, index) => (
-                            <ClassIcon key={index} className={champClass} />
+                            <div className="class-icon-div">
+                                <ClassIcon key={index} className={champClass} />
+                            </div>
                         ))}
                     </div>
                     <div className="champion-title">
