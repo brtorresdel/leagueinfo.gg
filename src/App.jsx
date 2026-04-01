@@ -9,19 +9,19 @@ function App() {
 
   const [champion, setChampion] = useState(null);
 
-  useEffect(() =>  {
+  // useEffect(() =>  {
 
-    const getChampionInfo = async (champName) => {
-      const championInfo = await LoLService.getChampion(champName, "pt_BR");
+  //   const getChampionInfo = async (champName) => {
+  //     const championInfo = await LoLService.getChampion(champName, "pt_BR");
 
-      setChampion(championInfo);
-    }
+  //     setChampion(championInfo);
+  //   }
 
-    getChampionInfo("Nami");
+  //   getChampionInfo("Nami");
 
-  }, []);
+  // }, []);
 
-  if (!champion) return <Loading />
+  // if (!champion) return <Loading />
 
   return (
     <>
