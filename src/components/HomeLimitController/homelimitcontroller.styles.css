@@ -1,0 +1,18 @@
+.limit-controller-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    height: auto;
+}
+
+.limit-controller-btn {
+    width: 85%;
+    background-color: #323232;
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-size: var(--text-font-size-mobile);
+    padding: 1.3em;
+    letter-spacing: 10%;
+    border-radius: 25px;
+}
