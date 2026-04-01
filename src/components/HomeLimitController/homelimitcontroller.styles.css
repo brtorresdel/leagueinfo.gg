@@ -28,6 +28,12 @@
     .limit-controller-btn {
         font-size: var(--text-font-size-desktop);
         border-radius: 45px;
+        transition: all 0.2s ease;
+    }
+
+    .limit-controller-btn:hover {
+        background-color: #323232;
+        transform: scale(1.02);
     }
 }
 
