@@ -1,0 +1,45 @@
+.limit-controller-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    height: auto;
+}
+
+.limit-controller-btn {
+    width: 85%;
+    background-color: #202020;
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-size: var(--text-font-size-mobile);
+    padding: 1.3em;
+    letter-spacing: 10%;
+    border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+    .limit-controller-btn {
+        font-size: var(--text-font-size-tablet);
+        border-radius: 35px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .limit-controller-btn {
+        font-size: var(--text-font-size-desktop);
+        border-radius: 45px;
+        transition: all 0.2s ease;
+    }
+
+    .limit-controller-btn:hover {
+        background-color: #323232;
+        transform: scale(1.02);
+    }
+}
+
+@media (min-width: 1440px) {
+    .limit-controller-btn {
+        font-size: var(--text-font-size-desktop-plus);
+        border-radius: 55px;
+    }
+}
