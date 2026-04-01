@@ -1,0 +1,151 @@
+.champion-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.champion-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1;
+}
+
+.champion-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.champion-card h3 {
+    font-size: var(--text-font-size-mobile);
+    font-family: var(--text-font);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.champion-content {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .champion-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .champion-card h3 {
+        font-size: var(--text-font-size-desktop);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .champion-container img {
+        width: 100%;
+        height: 190px;
+    }
+
+    .champion-card h3 {
+        display: none;
+    }
+
+    .champion-container:hover {
+        transform: scale(1.8);
+        z-index: 100;
+        cursor: pointer; 
+    }
+
+    .champion-content {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 102;
+        opacity: 0;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .champion-content .champion-classes {
+        display: flex;
+        gap: 5px;
+        justify-content: flex-end;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .champion-content .champion-classes .class-icon-div {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .champion-content .champion-classes .class-icon-div img {
+        width: 12px;
+        height: auto;
+        border: none;
+        box-shadow: none;
+    }
+
+    .champion-content .champion-title {
+        position: relative;
+        z-index: 105;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 8px;
+        margin-bottom: 8px;
+    }
+
+    .champion-content .champion-title h1 {
+        font-size: var(--text-font-size-desktop);
+        font-family: var(--title-font);
+        color: var(--text-color);
+        margin-bottom: -3px;
+    }
+
+    .champion-content .champion-title h3 {
+        display: block;
+        font-size: 0.4em;
+        font-family: var(--text-font);
+        color: var(--text-color);
+    }
+
+    .champion-container::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 105%;
+        height: 100%;
+        border-radius: 10px;
+        background: linear-gradient(to top, #111111 5%, rgba(1,1,1,0) 50%);
+        pointer-events: none;
+        z-index: 101;
+        opacity: 0;
+        transition: opacity 0.2s ease-in;
+    }
+
+    .champion-container:hover::after {
+        opacity: 1;
+    }
+
+    .champion-container:hover .champion-content {
+        display: flex;
+        opacity: 1;
+    }
+}
