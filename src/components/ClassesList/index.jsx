@@ -2,10 +2,9 @@ import { useState, useRef, useEffect } from 'react';
 import { ClassIcon } from '../ClassIcon';
 import './classeslist.styles.css';
 
-export function ClassesList ({champClasses}) {
+export function ClassesList ({champClasses, classFilter, setClassFilter}) {
 
     const [classListExibition, setClassListExibition] = useState(false);
-    const [selectedClasses, setSelectedClasses] = useState([]);
     const containerRef = useRef(null);
 
     useEffect(() => {  
@@ -24,10 +23,10 @@ export function ClassesList ({champClasses}) {
 
 
     const toggleClassSelection = (c) => {
-        if(selectedClasses.includes(c)) {
-            setSelectedClasses(selectedClasses.filter(sc => sc !== c));
+        if(classFilter.includes(c)) {
+            setClassFilter(classFilter.filter(sc => sc !== c));
         } else {
-            setSelectedClasses([...selectedClasses, c]);
+            setClassFilter([...classFilter, c]);
         }
     }
 
@@ -46,7 +45,7 @@ export function ClassesList ({champClasses}) {
                     <div 
                     className="selected-classes"
                     >
-                        {selectedClasses.map((c, i) => {
+                        {classFilter.map((c, i) => {
                             return <ClassIcon className={c} key={i}/>
                         })}
 
@@ -60,7 +59,7 @@ export function ClassesList ({champClasses}) {
                         champClasses.map((c, i) => {
                             return <li className='class-item' key={i}>
                                 <button 
-                                className={selectedClasses.includes(c) ? 'active' : ''}
+                                className={classFilter.includes(c) ? 'active' : ''}
                                 onClick={(e) => {
                                     e.stopPropagation();
                                     toggleClassSelection(c);

@@ -69,6 +69,7 @@
     border-radius: 0 0 20px 20px;
     background-color: #202020;
     width: 100%;
+    z-index: 50;
 }
 
 .classes-list .class-item {
@@ -90,6 +91,7 @@
     font-family: var(--text-font);
     font-size: var(--text-font-size-mobile);
     font-weight: 200;
+    cursor: pointer;
 }
 
 .classes-list .class-item button.active {

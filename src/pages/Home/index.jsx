@@ -74,9 +74,15 @@ export function Home () {
     }, [nameFilter, champions]);
 
     useEffect(() => {
+        console.log(classFilter);
         if (classFilter.length > 0) {
-            const filtered = champions.filter(champ => classFilter.includes(champ.class));
+            const filtered = champions.filter(champ => {
+                const champClassesLowerCase = champ.classes.map(c => c.toLowerCase());
+                return classFilter.every(filter => champClassesLowerCase.includes(filter.toLowerCase()));
+            });
             setFilteredChampions(filtered);
+        } else {
+            setFilteredChampions(champions);
         }
     }, [classFilter, champions]);
 
