@@ -24,6 +24,7 @@ export function LanguagesBtn() {
                         key={index}
                         onClick={() => {
                             setLanguagePref(aval);
+                            setLanguagesListView(!languagesListView);
                         }}>
                             {aval}
                             <img src={`./src/assets/img/${aval}.png`} alt=""/>
