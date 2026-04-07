@@ -10,6 +10,29 @@ import { FaXTwitter } from "react-icons/fa6";
 import "./headermenu.styles.css";
 
 export default function HeaderMenu() {
+
+    const SOCIAL_MEDIA = [
+        {
+            name: 'Instagram', 
+            href: 'https://www.instagram.com/brtorresrod/', 
+            icon: <FaInstagram />
+        },
+        {
+            name: 'GitHub',
+            href: 'https://github.com/brtorresdel',
+            icon: <IoLogoGithub />
+        },
+        {
+            name: 'LinkedIn',
+            href: 'https://github.com/brtorresdel',
+            icon: <FaLinkedinIn />
+        },
+        {
+            name: '(antigo Twitter)',
+            href: 'https://github.com/brtorresdel',
+            icon: <FaXTwitter />
+        }
+    ]
         
     const [menuMobileView, setMenuMobileView] = useState(false);
     const [socialMediaView, setSocialMediaView] = useState(false);
@@ -46,22 +69,11 @@ export default function HeaderMenu() {
                             <img src="./src/assets/icons/arrow.svg" className={`arrow ${socialMediaView ? "active" : ""}`} />
                         </button>
                         <nav className={`social-media ${socialMediaView ? "active" : ""}`}>
-                            <a href="https://www.linkedin.com/in/brtorresdel/" target="_blank" rel="noopener noreferrer">
-                                <FaLinkedinIn className='icon'/>
-                                LinkedIn
-                            </a>
-                            <a href="https://github.com/brtorresdel" target="_blank" rel="noopener noreferrer">
-                                <IoLogoGithub className='icon'/>
-                                GitHub
-                            </a>
-                            <a href="https://www.instagram.com/brtorresrod/">
-                                <FaInstagram className='icon'/>
-                                Instagram
-                            </a>
-                            <a href="https://www.instagram.com/brtorresrod/">
-                                <FaXTwitter className='icon'/>
-                                (antigo Twitter)
-                            </a>
+                            {
+                                SOCIAL_MEDIA.map((soc, index) => {
+                                    return <SocialMediaLink key={index} href={soc.href} icon={soc.icon} name={soc.name} />
+                                })
+                            }
                         </nav>
                     </nav>
                 </div>
@@ -71,24 +83,20 @@ export default function HeaderMenu() {
                         <button
                         onClick={handleSocialMediaView}>Sobre o dev</button>
                         <nav className={`social-media ${socialMediaView ? "active" : ""}`}>
-                            <a href="https://www.linkedin.com/in/brtorresdel/" target="_blank" rel="noopener noreferrer">
-                                <FaLinkedinIn className='icon'/>
-                                LinkedIn
-                            </a>
-                            <a href="https://github.com/brtorresdel" target="_blank" rel="noopener noreferrer">
-                                <IoLogoGithub className='icon'/>
-                                GitHub
-                            </a>
-                            <a href="https://www.instagram.com/brtorresrod/">
-                                <FaInstagram className='icon'/>
-                                Instagram
-                            </a>
-                            <a href="https://www.instagram.com/brtorresrod/">
-                                <FaXTwitter className='icon'/>
-                                (antigo Twitter)
-                            </a>
+                            {
+                                SOCIAL_MEDIA.map((soc, index) => {
+                                    return <SocialMediaLink key={index} href={soc.href} icon={soc.icon} name={soc.name} />
+                                })
+                            }
                         </nav>
                     </div>
                 </nav>
             </div>)
+}
+
+function SocialMediaLink ({href, icon, name}) {
+    return <a href={href}>
+        {icon}
+        {name}
+    </a>
 }
