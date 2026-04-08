@@ -2,8 +2,11 @@ import { useState } from "react";
 import { HabilityIcon } from "../HabilityIcon";
 import "./champhabilities.styles.css";
 import { HabilityVideo } from "../HabilityVideo";
+import { useTranslations } from "../Hooks/useTranslations";
 
 export function ChampHabilities ({habilities}) {
+    const { t } = useTranslations();
+
     const [activeHability, setActiveHability] = useState(habilities[0]);
 
     const toggleActiveHability = (habilityPosition) => {
@@ -13,7 +16,7 @@ export function ChampHabilities ({habilities}) {
     return (
         <div className="champ-habilities-div">
             <section className="champ-habilities">
-                <h2>Habilidades</h2>
+                <h2>{t("champInfo.abilities")}</h2>
                 <div className="habilities-data">
                     <div className="hability-data-div">
                         <div className="habilities-icons">

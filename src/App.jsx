@@ -12,9 +12,7 @@ function App() {
   useEffect(() =>  {
 
     const getChampionInfo = async (champName) => {
-      const championInfo = await LoLService.getChampion(champName, "pt_BR");
-
-      console.log(championInfo);
+      const championInfo = await LoLService.getChampion(champName, "en_US");
 
       setChampion(championInfo);
     }
@@ -27,7 +25,7 @@ function App() {
 
   return (
     <>
-      <Home />
+      <ChampInfo champInfo={champion} />
     </>
   )
 }
