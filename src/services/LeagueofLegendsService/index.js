@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { stripHtml } from '../../utils/formatters.js';
+import override from '../../data/overrides.json';
 
 class LeagueofLegendsService{
     constructor() {
@@ -31,9 +32,21 @@ class LeagueofLegendsService{
         try {
             let response = await this.api.get(path);
 
-            response = response.data.data
+            response = response.data.data;
 
             for (let champ in response) {
+                if (override[language] && override[language][champ.toLowerCase()]) {
+                    champs.push ({
+                        formatedName: override[language][champ.toLowerCase()].name.toLowerCase(),
+                        name: override[language][champ.toLowerCase()].name,
+                        id: override[language][champ.toLowerCase()].id,
+                        title: override[language][champ.toLowerCase()].title,
+                        tile: override[language][champ.toLowerCase()].tile,
+                        classes: override[language][champ.toLowerCase()].classes
+                    })
+                    continue;
+                };
+
                 champs.push({
                     formatedName: response[champ].id,
                     name: response[champ].name, 
@@ -51,6 +64,8 @@ class LeagueofLegendsService{
     }
 
     async getChampion(champName, language) {
+        if (override[language] && override[language][champName.toLowerCase()]) return override[language][champName.toLowerCase()];
+
         const lastVersion = await this.#getVersion();
         champName = champName.replace(" ", "");
         champName = champName.charAt(0).toUpperCase() + champName.substring(1);

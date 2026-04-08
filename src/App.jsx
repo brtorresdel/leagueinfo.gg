@@ -7,17 +7,19 @@ import { Home } from './pages/Home';
 
 function App() {
 
-  const [champion, setChampion] = useState(null);
+  // const [champion, setChampion] = useState(null);
 
   // useEffect(() =>  {
 
   //   const getChampionInfo = async (champName) => {
-  //     const championInfo = await LoLService.getChampion(champName, "pt_BR");
+  //     const championInfo = await LoLService.getChampion(champName, "en_US");
+
+  //     console.log(championInfo);
 
   //     setChampion(championInfo);
   //   }
 
-  //   getChampionInfo("Nami");
+  //   getChampionInfo("Fiddlesticks");
 
   // }, []);
 

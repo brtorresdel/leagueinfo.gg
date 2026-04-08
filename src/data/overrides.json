@@ -1,0 +1,384 @@
+{
+    "pt_BR": {
+        "fiddlesticks": {
+            "name": "Fiddlesticks",
+            "id": "9",
+            "title": "o Terror Ancestral",
+            "tile": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_tile.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Fiddlesticks Espectral",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Fiddlesticks Union Jack",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "Fiddlesticks Velho Oeste",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_3.jpg",
+                    "id": 3
+                },
+                {
+                    "name": "Fiddlesticks Cabeça de Abóbora",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_4.jpg",
+                    "id": 4
+                },
+                {
+                    "name": "Fiddlesticks Perna-de-Pau",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_5.jpg",
+                    "id": 5
+                },
+                {
+                    "name": "Fiddlesticks Festa Surpresa",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_6.jpg",
+                    "id": 6
+                },
+                {
+                    "name": "Fiddlesticks Doces Trevosos",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_7.jpg",
+                    "id": 7
+                },
+                {
+                    "name": "Fiddlesticks Ascendente",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_8.jpg",
+                    "id": 8
+                },
+                {
+                    "name": "Fiddlesticks Pretoriano",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_9.jpg",
+                    "id": 9
+                },
+                {
+                    "name": "Fiddlesticks Nêmesis Estelar",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Fiddlesticks Lua Sangrenta",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Fiddlesticks Flora Fatalis",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_12.jpg",
+                    "id": 12
+                }
+            ],
+            "lore": "Algo despertou em Runeterra. Algo ancestral. Algo terrível. O eterno terror conhecido como Fiddlesticks vaga pelos confins do mundo mortal, atraído por áreas dominadas por uma paranoia palpável, onde se alimenta de vítimas apavoradas. Com sua foice afiada, essa criatura malformada e desgastada colhe a própria essência do medo, deixando a mente dos desafortunados que sobrevivem ao seu ataque totalmente fragmentada. Muito cuidado com o som dos corvos, ou com os sussurros de uma figura que parece quase humana... pois Fiddlesticks está de volta.",
+            "allytips": ["Sua passiva pode causar terror quando usada adequadamente na luta, principalmente quando ele está tentando cercar pelas laterais da lane como jungler, ou quando ele está tentando dar roaming em outra lane depois de puxar a sua própria lane", "Ele é subestimadamente forte quando as lutas são em lugares mais fechados. Isso disponibiliza à ele uma utilização completa do seu W também para causar muito dano. Sua passiva o ajuda da mesma forma e pode ser usada para segurar e limpar visão para seu time", "Para a fase de rotas, ou enquanto estiver gankando, ele pode fazer uso completo dos matos para enganar os inimigos. Ele pode cutucar os inimigos usando seu E e, com a itemização correta, seu E pode causar muito dano constante. O silenciamento causado é bastante valioso, principalmente contra magos"],
+            "enemytips": ["Ele é um mago, então qualquer forma de silenciamento ou interrupção de carregamento de habilidade é a sua fraqueza, especialmente se alguém utilizar para interromper sua ultimate, pois essa é uma habilidade que pode virar uma luta de equipe ao favor dele", "Corta cura é bem efetivo contra Fiddlesticks. Ele é bem frágil, então não será capaz de fazer muita coisa se o time inimigo conseguir reduzir sua cura durante o início do jogo", "Sua maior fraqueza é um time inimigo que sabe controlar bem a visão do mapa (wardar bem). Isso vai definitivamente enfraquecer o Fiddlesticks de forma integral e vai prevení-lo de usar todos os recursos contra seu inimigo insistentemente. A visão vai ajudar a antecipar seus movimentos e reagir de acordo"],
+            "classes": [
+                "Mage",
+                "Support"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Um Espantalho Inofensivo",
+                    "description": "O amuleto de Fiddlesticks é substituído por efígies do espantalho.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/FiddlesticksP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Aterrorizar",
+                    "description": "Ao causar dano a inimigos com habilidades enquanto não estiver sendo visto ou alvejar um inimigo com Aterrorizar, Fiddlesticks inflige medo em uma unidade-alvo inimiga, fazendo com que fuja aterrorizada por um curto período.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Colheita Farta",
+                    "description": "Fiddlesticks drena a Vida dos inimigos próximos, causando dano de execução adicional no fim da duração.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Ceifar",
+                    "description": "Fiddlesticks ceifa uma área com sua foice, reduzindo a velocidade de movimento de todos os inimigos atingidos e silenciando os atingidos no centro do corte.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Tempestade de Corvos",
+                    "description": "Uma revoada de corvos assassinos voa em volta de Fiddlesticks, causando dano por segundo a todas as unidades inimigas próximas.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_R1.mp4"
+                }
+            ]
+        },
+        "akshan": {
+            "name": "Akshan",
+            "id": "166",
+            "title": "o Sentinela Rebelde",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Akshan_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Akshan Ciberpop",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Akshan Rosa de Cristal",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Akshan Três Honras",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_20.jpg",
+                    "id": 20
+                }
+            ],
+            "lore": "Akshan ri da cara do perigo, lutando contra o mal com carisma, determinação e desejo de vingança, mas, estranhamente, sem vestir uma camisa sequer. É extremamente habilidoso na arte do combate furtivo, capaz de sumir da vista dos inimigos e reaparecer quando menos se espera. Com um firme senso de justiça e uma arma lendária que pode reverter a morte, ele corrige os delitos dos canalhas de Runeterra e vive de acordo com um código de conduta particular: \"Não seja babaca\".",
+            "allytips": ["Akshan tem grande mobilidades graças ao seu E. Isso permite que ele se mova através da rota com facilidade, e também permite se aproximar do inimigo de forma rápida", "Akshan pode ressucitar seus aliados mortos se executar o inimigo que os eliminou. Isso é ótimo principalmente após um longo tempo de jogo, onde o timer de ressurgimento é bem alto", "Seu W lhe permite fugir de situações complicadas e também permite se camuflar por um longo período, se permanecer próximo à paredes"],
+            "enemytips": ["Akshan não se dá muito bem contra inimigos de longo alcance e contra campeões com facilidade em utilizar controles de grupo, o que o impedirá de utilizar seu E de forma agressiva", "Sua ultimate pode ser interrompida facilmente. Você precisa tomar muito cuidado ao tentar utilizá-la, senão o inimigo vai cancelar seu carregamento", "Contra campeões de poke ou campeões com um bom wave clear, vai ser praticamente impossível você dar roaming e ajudar seus aliados enquanto seu inimigo te pressiona na rota ou leva sua torre enquanto estiver fora"],
+            "classes": [
+                "Marksman",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Lutando Sujo",
+                    "description": "Os Ataques e Habilidades de Akshan causam dano adicional a cada terceiro acerto e concedem a ele um Escudo se o alvo for um Campeão.Ao Atacar, ele desfere um Ataque adicional que causa dano reduzido. Se cancelar o Ataque adicional, ele recebe Velocidade de Movimento.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/akshan_p.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Bumerangue Vingativo",
+                    "description": "Akshan arremessa um bumerangue que causa dano na ida e na volta, ganhando alcance a cada vez que atingir um inimigo.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AkshanQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Rebeldia",
+                    "description": "Akshan marca Campeões inimigos passivamente como Canalhas quando eles abatem Campeões aliados. Se Akshan abater um Canalha, ressuscita o aliado abatido, recebendo ouro adicional e removendo todas as marcas.Quando a Habilidade é ativada, Akshan fica camuflado, recebendo Velocidade de Movimento e Regeneração de Mana enquanto se move em direção a Canalhas. Akshan perde a camuflagem rapidamente enquanto não estiver em um arbusto ou próximo a um terreno.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AkshanW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Impulso Heroico",
+                    "description": "Akshan dispara um arpéu em um terreno e se balança ao redor dele, atirando repetidamente no inimigo mais próximo enquanto estiver se balançando. Ele pode saltar antecipadamente ou ser derrubado ao colidir com Campeões ou terrenos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AkshanE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Punição",
+                    "description": "Akshan trava a mira em um Campeão inimigo e começa a armazenar balas. Ao terminar, ele dispara todas as balas armazenadas, causando dano com base na Vida perdida do primeiro Campeão, tropa ou estrutura que atingir.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AkshanR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_R1.mp4"
+                }
+            ]
+        }
+    },
+    "en_US": {
+        "fiddlesticks": {
+            "name": "Fiddlesticks",
+            "id": "9",
+            "title": "the Ancient Fear",
+            "tile": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_tile.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Spectral Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Union Jack Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "Bandito Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_3.jpg",
+                    "id": 3
+                },
+                {
+                    "name": "Pumpkinhead Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_4.jpg",
+                    "id": 4
+                },
+                {
+                    "name": "Fiddle Me Timbers",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_5.jpg",
+                    "id": 5
+                },
+                {
+                    "name": "Surprise Party Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_6.jpg",
+                    "id": 6
+                },
+                {
+                    "name": "Dark Candy Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_7.jpg",
+                    "id": 7
+                },
+                {
+                    "name": "Risen Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_8.jpg",
+                    "id": 8
+                },
+                {
+                    "name": "Praetorian Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_9.jpg",
+                    "id": 9
+                },
+                {
+                    "name": "Star Nemesis Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Blood Moon Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Flora Fatalis Fiddlesticks",
+                    "img": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_12.jpg",
+                    "id": 12
+                }
+            ],
+            "lore": "Something has awoken in Runeterra. Something ancient. Something terrible. The ageless horror known as Fiddlesticks stalks the edges of mortal society, drawn to areas thick with paranoia where it feeds upon terrorized victims. Wielding a jagged scythe, the haggard, makeshift creature reaps fear itself, shattering the minds of those unlucky enough to survive in its wake. Beware the sounding of the crow, or the whispering of the shape that appears almost human… Fiddlesticks has returned.",
+            "allytips": ["His Passive can cause mayhem when used properly in a fight. This is especially true when he is trying to flank from the sidelines as a Jungler or when he is trying to roam to some other lane after pushing his lane in", "He is superbly strong when it comes to fighting in closed areas. It provides him with complete usage of his W as well as deal a lot of damage. His effigies help him with the same and can be used to secure and clear a lot of vision for his team", "For the side lane, or while lane ganking, he can make complete usage of the lane brushes to bamboozle enemies. He can keep poking the enemy team with his E and with the proper itemization, his E can do a lot of consistent damage. The silence is quite invaluable as well, especially against enchanters"],
+            "enemytips": ["He is a mage, so any form of silence or channel interruption spell is his weakness. This is especially true if someone manages to interrupt his ultimate (R), as that is the ability which can single-handedly turn the tide of a team fight", "Grievous Wounds are quite effective against him. He is quite squishy as well so he won’t be able to do much if the enemy team gets healing reduction during the early game", "His biggest weakness is an enemy team that can ward well. This will legitimately counter Fiddlesticks entirely and will prevent him from all-in’ing the enemy team consistently. The vision will allow the enemy to anticipate his move and react accordingly"],
+            "classes": [
+                "Mage",
+                "Support"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "A Harmless Scarecrow",
+                    "description": "Fiddlesticks' trinket is replaced by scarecrow effigies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/FiddlesticksP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Terrify",
+                    "description": "Fiddlesticks damaging enemies with spells while unseen or targeting an enemy with Terrify's activation strikes a target unit with fear, causing it to flee in terror for a duration.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Bountiful Harvest",
+                    "description": "Fiddlesticks drains health from nearby enemies, dealing bonus execute damage at the end of the duration.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Reap",
+                    "description": "Fiddlesticks slashes an area with its scythe, slowing all enemies hit and silencing enemies hit in the center of the slash.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Crowstorm",
+                    "description": "A murder of crows flock wildly around Fiddlesticks, dealing damage per second to all enemy units in the area.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_R1.mp4"
+                }
+            ]
+        },
+        "akshan": {
+            "name": "Akshan",
+            "id": "166",
+            "title": "the Rogue Sentinel",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Akshan_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Cyber Pop Akshan",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Crystal Rose Akshan",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Three Honors Akshan",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_20.jpg",
+                    "id": 20
+                }
+            ],
+            "lore": "Raising an eyebrow in the face of danger, Akshan fights evil with dashing charisma, righteous vengeance, and a conspicuous lack of shirts. He is highly skilled in the art of stealth combat, able to evade the eyes of his enemies and reappear when they least expect him. With a keen sense of justice and a legendary death-reversing weapon, he rights the wrongs of Runeterra's many scoundrels while living by his own moral code: “Don't be an ass.”",
+            "allytips": ["Akshan has tons of mobility thanks to his E. It can allow him to move around the lane with ease, and get on to the enemy laner quickly", "Akshan can bring back his dead allies if he can kill the enemy who killed them. This is great, especially in the later stages of the game where death timers are quite long.", "His W allows him to get out of sticky situations and allow him to be camouflaged for a long period of time if he stays near a wall"],
+            "enemytips": ["Akshan doesn’t do too well into ranged matchups and champs with easy to land CC as he will be unable to use his E aggressively", "His Ultimate can be interrupted pretty easily. You have to be very careful when trying to use it otherwise the enemy will cancel its channel", "Versus poke or champions with a lot of wave clear, it is going to be near impossible for you to roam and help your allies as the enemy will keep you pushed in or take your tower while you’re roaming"],
+            "classes": [
+                "Marksman",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Dirty Fighting",
+                    "description": "Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion.When Akshan Attacks, he fires an additional Attack for reduced damage. If he cancels the additional Attack, he instead gains Move Speed.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/akshan_p.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Avengerang",
+                    "description": "Akshan throws a boomerang that deals damage going out and coming back, extending its range each time it hits an enemy.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AkshanQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Going Rogue",
+                    "description": "Akshan passively marks enemy champions as Scoundrels when they kill his ally champions. If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and clears all marks.When activated, Akshan enters camouflage and gains Move Speed and Mana Regen while moving towards Scoundrels. Akshan loses the camouflage quickly while he is not in brush or near terrain.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AkshanW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Heroic Swing",
+                    "description": "Akshan fires a grappling hook into terrain then swings around it, repeatedly firing at the nearest enemy while swinging. He can jump off early or gets knocked off when colliding with champions or terrain.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AkshanE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Comeuppance",
+                    "description": "Akshan locks onto an enemy champion and starts storing bullets. When released, he fires all stored bullets, dealing damage based on missing health to the first champion, minion, or structure hit.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AkshanR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0166/ability_0166_R1.mp4"
+                }
+            ]
+        }
+    }    
+}

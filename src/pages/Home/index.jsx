@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { HomeFilters } from "../../components/HomeFilters";
 import { HomeHero } from "../../components/HomeHero";
 import { HomeChampList } from "../../components/HomeChampList";
@@ -23,7 +23,7 @@ export function Home () {
                 const championsList = await LoLService.getChampionsList("pt_BR");
                 localStorage.setItem('championsList', JSON.stringify(championsList));
             }
-
+            
             const championsList = JSON.parse(localStorage.getItem('championsList'));
             setChampions(championsList);
         }
