@@ -1,6 +1,33 @@
 import "./footer.styles.css";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { IoLogoGithub } from "react-icons/io";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export function Footer() {
+    const SOCIAL_MEDIA = [
+        {
+            name: 'GitHub',
+            href: 'https://github.com/brtorresdel',
+            icon: <IoLogoGithub className="icon"/>
+        },
+        {
+            name: 'LinkedIn',
+            href: 'https://github.com/brtorresdel',
+            icon: <FaLinkedinIn className="icon"/>
+        },
+        {
+            name: 'Instagram', 
+            href: 'https://www.instagram.com/brtorresrod/', 
+            icon: <FaInstagram className="icon"/>
+        },
+        {
+            name: '(antigo Twitter)',
+            href: 'https://github.com/brtorresdel',
+            icon: <FaXTwitter className="icon"/>
+        }
+    ];
+
     return (
         <div className="footer-div">
             <div className="policy">
@@ -10,7 +37,11 @@ export function Footer() {
             <div className="dev">
                 <h3>Desenvolvido com ❤️ e muito ☕ por Bruno Torres </h3>
                 <div className="social-media-icons">
-                    
+                    {
+                        SOCIAL_MEDIA.map((soc, index) => {
+                            return <a key={index} href={soc.href}>{soc.icon}</a>
+                        })
+                    }
                 </div>
             </div>
         </div>
