@@ -1,8 +1,11 @@
 import { useState, useRef, useEffect } from 'react';
 import { ClassIcon } from '../ClassIcon';
 import './classeslist.styles.css';
+import { useTranslations } from '../Hooks/useTranslations';
 
 export function ClassesList ({champClasses, classFilter, setClassFilter}) {
+
+    const { t } = useTranslations();
 
     const [classListExibition, setClassListExibition] = useState(false);
     const containerRef = useRef(null);
@@ -65,7 +68,7 @@ export function ClassesList ({champClasses, classFilter, setClassFilter}) {
                                     toggleClassSelection(c);
                                 }}>
                                     <ClassIcon className={c} />
-                                    {c}
+                                    {t(`classes.${c}`)}
                                 </button>
                             </li>
                         })

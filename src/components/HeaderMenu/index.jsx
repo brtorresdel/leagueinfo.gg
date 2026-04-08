@@ -8,8 +8,11 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import "./headermenu.styles.css";
+import { useTranslations } from './../Hooks/useTranslations';
 
 export function HeaderMenu() {
+
+    const { t } = useTranslations();
 
     const SOCIAL_MEDIA = [
         {
@@ -28,7 +31,7 @@ export function HeaderMenu() {
             icon: <FaInstagram />
         },
         {
-            name: '(antigo Twitter)',
+            name: t('socialMedia.twitter'),
             href: 'https://x.com/brtorresrod',
             icon: <FaXTwitter />
         }
@@ -44,6 +47,7 @@ export function HeaderMenu() {
     const handleMenuMobileView = () => {
         setMenuMobileView(!menuMobileView);
     }
+
 
     return (<div className="menu">
                 <div className="menu-mobile">
@@ -78,10 +82,10 @@ export function HeaderMenu() {
                     </nav>
                 </div>
                 <nav className="menu-desktop">
-                    <button>Início</button>
+                    <button>{t('header.home')}</button>
                     <div className="dev-links">
                         <button
-                        onClick={handleSocialMediaView}>Sobre o dev</button>
+                        onClick={handleSocialMediaView}>{t('header.dev')}</button>
                         <nav className={`social-media ${socialMediaView ? "active" : ""}`}>
                             {
                                 SOCIAL_MEDIA.map((soc, index) => {

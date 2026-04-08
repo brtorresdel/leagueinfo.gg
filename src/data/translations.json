@@ -1,0 +1,78 @@
+{
+    "pt_BR": {
+        "header": {
+            "home": "Início",
+            "dev": "Sobre o Dev"
+        },
+        "footer": {
+            "policy": "leagueinfo.gg foi criado sob a política 'Legal Jibber Jabber' da Riot Games com o uso de ativos de propriedade da Riot Games. A Riot Games não endossa nem patrocina este projeto.",
+            "dev": "Desenvolvido com ❤️ e muito ☕ por Bruno Torres"
+        },
+        "classes":{
+            "tank": "Tanque",
+            "support": "Suporte",
+            "fighter": "Lutador",
+            "mage": "Mago",
+            "assassin": "Assassino",
+            "marksman": "Atirador"
+        },
+        "socialMedia": {
+            "twitter": "(antigo Twitter)"
+        },
+        "home": {
+            "hero": {
+                "title": "Cada campeão, uma estratégia",
+                "subtitle": "Dados precisos e atualizados da API oficial. Analise habilidades, descubra visuais únicos e prepare-se para o seu próximo confronto!"
+            },
+            "filters": {
+                "placeholder": "Encontre seu campeão..."
+            },
+            "champList": {
+                "btn": "Listar mais campeões..."
+            }
+        },
+        "champInfo": {
+            "allyTips": "Dicas de mecânica",
+            "enemyTips": "Estratégias de confronto",
+            "abilities": "Habilidades"
+        }
+    },
+    "en_US": {
+        "header": {
+            "home": "Home",
+            "dev": "About Dev"
+        },
+        "footer": {
+            "policy": "leagueinfo.gg was created under Riot Games' Legal Jibber Jabber policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.",
+            "dev": "Coded with ❤️ and lots of ☕ by Bruno Torres"
+        },
+        "classes": {
+            "tank": "Tank",
+            "support": "Support",
+            "fighter": "Fighter",
+            "mage": "Mage",
+            "assassin": "Assassin",
+            "marksman": "Marksman"
+        },
+        "socialMedia": {
+            "twitter": "(old Twitter)"
+        },
+        "home": {
+            "hero": {
+                "title": "For every champion, an strategy",
+                "subtitle": "Accurate and up-to-date data from the official API. Analyze skills, discover unique visuals, and prepare for your next match!"
+            },
+            "filters": {
+                "placeholder": "Find your champion..."
+            },
+            "champList": {
+                "btn": "List more champions..."
+            }
+        },
+        "champInfo": {
+            "allyTips": "Mechanics Tips",
+            "enemyTips": "Confrontation strategies",
+            "abilities": "Abilities"
+        }
+    }
+}

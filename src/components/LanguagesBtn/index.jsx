@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import './languagesbtn.styles.css'
+import { useTranslations } from '../Hooks/useTranslations';
 
 export function LanguagesBtn() {
 
-    const [languagePref, setLanguagePref] = useState('pt-br');
+    const {language, handleLanguage} = useTranslations();
+
+    const [languagePref, setLanguagePref] = useState(language);
     const [languagesListView, setLanguagesListView] = useState(false);
 
-    const AVAILABLE_LANGUAGES = ['pt-br', 'en-us'];
+
+    const AVAILABLE_LANGUAGES = ['pt_BR', 'en_US'];
 
     return(
         <div className="languages-bnt-div">
@@ -24,6 +28,7 @@ export function LanguagesBtn() {
                         key={index}
                         onClick={() => {
                             setLanguagePref(aval);
+                            handleLanguage(aval)
                             setLanguagesListView(!languagesListView);
                         }}>
                             {aval}

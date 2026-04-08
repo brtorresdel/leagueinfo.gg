@@ -2,8 +2,11 @@ import { useState } from "react";
 import "./champtips.styles.css";
 import { ChampTipsMobile } from "./ChampTipsMobile";
 import { ChampTipsTabletDesktop } from "./ChampTipsTabletDesktop";
+import { useTranslations } from "../Hooks/useTranslations";
 
 export function ChampTips({allyTips, enemyTips}) {
+    const { t } = useTranslations();
+
     const [allyTipsView, setAllyTipsView] = useState('active');
     const [enemyTipsView, setEnemyTipsView] = useState('');
 
@@ -26,7 +29,7 @@ export function ChampTips({allyTips, enemyTips}) {
                 <ChampTipsMobile  
                 view={allyTipsView} 
                 toggle={toggleAllyTips} 
-                title="Dicas de mecânica" 
+                title={t("champInfo.allyTips")} 
                 list={allyTips} 
                 icon="check" 
                 type="ally"/>
@@ -34,7 +37,7 @@ export function ChampTips({allyTips, enemyTips}) {
                 <ChampTipsMobile  
                 view={enemyTipsView} 
                 toggle={toggleEnemyTips} 
-                title="Estratégias de confronto" 
+                title={t("champInfo.enemyTips")} 
                 list={enemyTips} 
                 icon="exclamation" 
                 type="enemy"/>
@@ -45,11 +48,13 @@ export function ChampTips({allyTips, enemyTips}) {
                 <ChampTipsTabletDesktop ally={{
                     tipsToggle: toggleAllyTips,
                     tipsList: allyTips,
-                    tipsView: allyTipsView
+                    tipsView: allyTipsView,
+                    title: t("champInfo.allyTips")
                 }} enemy={{
                     tipsToggle: toggleEnemyTips,
                     tipsList: enemyTips,
-                    tipsView: enemyTipsView
+                    tipsView: enemyTipsView,
+                    title: t("champInfo.enemyTips")
                 }} />
 
             </section>

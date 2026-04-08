@@ -5,8 +5,8 @@ export function ChampTipsTabletDesktop ({ally, enemy}) {
     return (
         <>
             <div className="champ-tips-options">
-                <ChampTipsBtn title="Dicas de mecânica" toggle={ally.tipsToggle} active={ally.tipsView}/>
-                <ChampTipsBtn title="Estratégias de confronto" toggle={enemy.tipsToggle} active={enemy.tipsView}/>
+                <ChampTipsBtn title={ally.title} toggle={ally.tipsToggle} active={ally.tipsView}/>
+                <ChampTipsBtn title={enemy.title} toggle={enemy.tipsToggle} active={enemy.tipsView}/>
             </div>
             <div className="champ-tip-list-content">
                 <div className={`champ-tip-list-track ${ally.tipsView ? 'ally' : 'enemy'}`}>

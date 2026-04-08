@@ -1,9 +1,12 @@
 import { ClassesList } from '../ClassesList';
+import { useTranslations } from '../Hooks/useTranslations';
 import './homefilters.styles.css';
 
 export function HomeFilters ({nameFilter, setNameFilter, classFilter, setClassFilter}) {
 
     const champClasses = ['tank', 'support', 'fighter', 'mage', 'assassin', 'marksman'];
+
+    const { t } = useTranslations();
 
     return (
         <div className="home-filters-div">
@@ -12,7 +15,7 @@ export function HomeFilters ({nameFilter, setNameFilter, classFilter, setClassFi
                 type="text" 
                 name="nameSearch" 
                 className='input-name' 
-                placeholder='Encontre seu campeão...' 
+                placeholder={t("home.filters.placeholder")} 
                 value={nameFilter}
                 onChange={(e) => setNameFilter(e.target.value)}
                 />
