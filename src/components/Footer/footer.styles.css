@@ -60,7 +60,7 @@
         align-items: center;
         justify-content: space-between;
         gap: none;
-        padding: 50px;
+        padding: 2.5em;
     }
 
     .policy {
@@ -71,10 +71,43 @@
         gap: 15px;
     }
 
+    .policy h1 {
+        font-size: calc(var(--title1-font-size-tablet) - 10px);
+    }
+
     .dev {
         width: 50%;
         align-items: flex-end;
         text-align: end;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-div {
+        padding: 4em;
+    }
+
+    .dev .social-media-icons a {
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        color: #5c5c5c;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .dev .social-media-icons a:hover {
+        color: var(--text-color);
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .dev .social-media-icons a {
+        width: 80px;
+        height: 80px;
+        text-decoration: none;
+        color: #5c5c5c;
+        transition: all 0.2s ease-in-out;
     }
 }
 

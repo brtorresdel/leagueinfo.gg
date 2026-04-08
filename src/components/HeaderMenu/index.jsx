@@ -13,23 +13,23 @@ export function HeaderMenu() {
 
     const SOCIAL_MEDIA = [
         {
-            name: 'Instagram', 
-            href: 'https://www.instagram.com/brtorresrod/', 
-            icon: <FaInstagram />
-        },
-        {
             name: 'GitHub',
             href: 'https://github.com/brtorresdel',
             icon: <IoLogoGithub />
         },
         {
             name: 'LinkedIn',
-            href: 'https://github.com/brtorresdel',
+            href: 'https://www.linkedin.com/in/brtorresdel/',
             icon: <FaLinkedinIn />
         },
         {
+            name: 'Instagram', 
+            href: 'https://www.instagram.com/brtorresrod/', 
+            icon: <FaInstagram />
+        },
+        {
             name: '(antigo Twitter)',
-            href: 'https://github.com/brtorresdel',
+            href: 'https://x.com/brtorresrod',
             icon: <FaXTwitter />
         }
     ]

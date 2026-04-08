@@ -13,7 +13,7 @@ export function Footer() {
         },
         {
             name: 'LinkedIn',
-            href: 'https://github.com/brtorresdel',
+            href: 'https://www.linkedin.com/in/brtorresdel/',
             icon: <FaLinkedinIn className="icon"/>
         },
         {
@@ -23,7 +23,7 @@ export function Footer() {
         },
         {
             name: '(antigo Twitter)',
-            href: 'https://github.com/brtorresdel',
+            href: 'https://x.com/brtorresrod',
             icon: <FaXTwitter className="icon"/>
         }
     ];
