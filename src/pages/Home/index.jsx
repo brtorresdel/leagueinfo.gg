@@ -5,6 +5,7 @@ import { HomeChampList } from "../../components/HomeChampList";
 import { LoLService } from "../../services/LeagueofLegendsService";
 import { HomeLimitController } from "../../components/HomeLimitController";
 import { Header } from './../../components/Header/index';
+import { Footer } from './../../components/Footer/index';
 
 export function Home () {
     const [nameFilter, setNameFilter] = useState('');
@@ -103,6 +104,7 @@ export function Home () {
             />
             <HomeChampList championsList={filteredChampions} limit={limit} />
             <HomeLimitController onClick={handleLimitBtnClick} show={showLimitBtn} />
+            <Footer />
         </>
     )
 }
