@@ -1,0 +1,118 @@
+{
+    "fiddlesticks": {
+        "name": "Fiddlesticks",
+        "id": "9",
+        "title": "o Terror Ancestral",
+        "skins": [
+            {
+                "name": "default",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg",
+                "id": 0
+            },
+            {
+                "name": "Fiddlesticks Espectral",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_1.jpg",
+                "id": 1
+            },
+            {
+                "name": "Fiddlesticks Union Jack",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_2.jpg",
+                "id": 2
+            },
+            {
+                "name": "Fiddlesticks Velho Oeste",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_3.jpg",
+                "id": 3
+            },
+            {
+                "name": "Fiddlesticks Cabeça de Abóbora",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_4.jpg",
+                "id": 4
+            },
+            {
+                "name": "Fiddlesticks Perna-de-Pau",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_5.jpg",
+                "id": 5
+            },
+            {
+                "name": "Fiddlesticks Festa Surpresa",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_6.jpg",
+                "id": 6
+            },
+            {
+                "name": "Fiddlesticks Doces Trevosos",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_7.jpg",
+                "id": 7
+            },
+            {
+                "name": "Fiddlesticks Ascendente",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_8.jpg",
+                "id": 8
+            },
+            {
+                "name": "Fiddlesticks Pretoriano",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_9.jpg",
+                "id": 9
+            },
+            {
+                "name": "Fiddlesticks Nêmesis Estelar",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_27.jpg",
+                "id": 27
+            },
+            {
+                "name": "Fiddlesticks Lua Sangrenta",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_37.jpg",
+                "id": 37
+            },
+            {
+                "name": "Fiddlesticks Flora Fatalis",
+                "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_46.jpg",
+                "id": 46
+            }
+        ],
+        "lore": "Algo despertou em Runeterra. Algo ancestral. Algo terrível. O eterno terror conhecido como Fiddlesticks vaga pelos confins do mundo mortal, atraído por áreas dominadas por uma paranoia palpável, onde se alimenta de vítimas apavoradas. Com sua foice afiada, essa criatura malformada e desgastada colhe a própria essência do medo, deixando a mente dos desafortunados que sobrevivem ao seu ataque totalmente fragmentada. Muito cuidado com o som dos corvos, ou com os sussurros de uma figura que parece quase humana... pois Fiddlesticks está de volta.",
+        "allytips": ["Sua passiva pode causar terror quando usada adequadamente na luta, principalmente quando ele está tentando cercar pelas laterais da lane como jungler, ou quando ele está tentando dar roaming em outra lane depois de puxar a sua própria lane", "Ele é subestimadamente forte quando as lutas são em lugares mais fechados. Isso disponibiliza à ele uma utilização completa do seu W também para causar muito dano. Sua passiva o ajuda da mesma forma e pode ser usada para segurar e limpar visão para seu time", "Para a fase de rotas, ou enquanto estiver gankando, ele pode fazer uso completo dos matos para enganar os inimigos. Ele pode cutucar os inimigos usando seu E e, com a itemização correta, seu E pode causar muito dano constante. O silenciamento causado é bastante valioso, principalmente contra magos"],
+        "enemytips": ["Ele é um mago, então qualquer forma de silenciamento ou interrupção de carregamento de habilidade é a sua fraqueza, especialmente se alguém utilizar para interromper sua ultimate, pois essa é uma habilidade que pode virar uma luta de equipe ao favor dele", "Corta cura é bem efetivo contra Fiddlesticks. Ele é bem frágil, então não será capaz de fazer muita coisa se o time inimigo conseguir reduzir sua cura durante o início do jogo", "Sua maior fraqueza é um time inimigo que sabe controlar bem a visão do mapa (wardar bem). Isso vai definitivamente enfraquecer o Fiddlesticks de forma integral e vai prevení-lo de usar todos os recursos contra seu inimigo insistentemente. A visão vai ajudar a antecipar seus movimentos e reagir de acordo"],
+        "classes": [
+            "Mage",
+            "Support"
+        ],
+        "habilities": [
+            {
+                "key": "P",
+                "name": "Um Espantalho Inofensivo",
+                "description": "O amuleto de Fiddlesticks é substituído por efígies do espantalho.",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/FiddlesticksP.png",
+                "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_P1.mp4"
+            },
+            {
+                "key": "Q",
+                "name": "Aterrorizar",
+                "description": "Ao causar dano a inimigos com habilidades enquanto não estiver sendo visto ou alvejar um inimigo com Aterrorizar, Fiddlesticks inflige medo em uma unidade-alvo inimiga, fazendo com que fuja aterrorizada por um curto período.",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksQ.png",
+                "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_Q1.mp4"
+            },
+            {
+                "key": "W",
+                "name": "Colheita Farta",
+                "description": "Fiddlesticks drena a Vida dos inimigos próximos, causando dano de execução adicional no fim da duração.",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksW.png",
+                "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_W1.mp4"
+            },
+            {
+                "key": "E",
+                "name": "Ceifar",
+                "description": "Fiddlesticks ceifa uma área com sua foice, reduzindo a velocidade de movimento de todos os inimigos atingidos e silenciando os atingidos no centro do corte.",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksE.png",
+                "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_E1.mp4"
+            },
+            {
+                "key": "R",
+                "name": "Tempestade de Corvos",
+                "description": "Uma revoada de corvos assassinos voa em volta de Fiddlesticks, causando dano por segundo a todas as unidades inimigas próximas.",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/FiddleSticksR.png",
+                "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0009/ability_0009_R1.mp4"
+            }
+        ]
+    }
+}
