@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <ChampInfo champInfo={champion} />
+      <Home />
     </>
   )
 }

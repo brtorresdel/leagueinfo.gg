@@ -17,7 +17,7 @@
             "marksman": "Atirador"
         },
         "socialMedia": {
-            "twiter": "(antigo Twitter)"
+            "twitter": "(antigo Twitter)"
         },
         "home": {
             "hero": {
@@ -46,7 +46,7 @@
             "policy": "leagueinfo.gg was created under Riot Games' Legal Jibber Jabber policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.",
             "dev": "Coded with ❤️ and lots of ☕ by Bruno Torres"
         },
-        "classes":{
+        "classes": {
             "tank": "Tank",
             "support": "Support",
             "fighter": "Fighter",
@@ -55,7 +55,7 @@
             "marksman": "Marksman"
         },
         "socialMedia": {
-            "twiter": "(old Twitter)"
+            "twitter": "(old Twitter)"
         },
         "home": {
             "hero": {

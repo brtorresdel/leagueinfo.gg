@@ -6,7 +6,7 @@ import translations from "../../../data/translations.json";
 export const LanguageContext = createContext();
 
 export function LanguageProvider({children}) {
-    const [language, setLanguage] = useState(localStorage.getItem('lang') || 'pt_BR');
+    const [language, setLanguage] = useState(localStorage.getItem('lang') || 'en_US');
 
     useEffect(() => localStorage.setItem('lang', language), [language]);
 
