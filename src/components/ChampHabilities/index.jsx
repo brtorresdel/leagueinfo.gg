@@ -3,9 +3,12 @@ import { HabilityIcon } from "../HabilityIcon";
 import "./champhabilities.styles.css";
 import { HabilityVideo } from "../HabilityVideo";
 import { useTranslations } from "../Hooks/useTranslations";
+import { useObserver } from "../Hooks/useObserver";
 
 export function ChampHabilities ({habilities}) {
     const { t } = useTranslations();
+
+    const [ref, visible] = useObserver();
 
     const [activeHability, setActiveHability] = useState(habilities[0]);
 
@@ -14,8 +17,12 @@ export function ChampHabilities ({habilities}) {
     }
 
     return (
-        <div className="champ-habilities-div">
-            <section className="champ-habilities">
+        <div 
+        
+        className="champ-habilities-div">
+            <section 
+            ref={ref}
+            className={`champ-habilities ${visible ? "visible" : "" }`}>
                 <h2>{t("champInfo.abilities")}</h2>
                 <div className="habilities-data">
                     <div className="hability-data-div">
