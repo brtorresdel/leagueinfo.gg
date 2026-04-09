@@ -1,0 +1,12 @@
+.champ-skins-div h2 {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: 0.5s;
+}
+
+.champ-skins-div h2.visible {
+    opacity: 1;
+    transform: translateY(0);
+
+}

@@ -3,8 +3,11 @@ import "./champtips.styles.css";
 import { ChampTipsMobile } from "./ChampTipsMobile";
 import { ChampTipsTabletDesktop } from "./ChampTipsTabletDesktop";
 import { useTranslations } from "../Hooks/useTranslations";
+import { useObserver } from "../Hooks/useObserver";
 
 export function ChampTips({allyTips, enemyTips}) {
+    const [ref, visible] = useObserver();
+
     const { t } = useTranslations();
 
     const [allyTipsView, setAllyTipsView] = useState('active');
@@ -23,8 +26,10 @@ export function ChampTips({allyTips, enemyTips}) {
     };
 
     return (
-        <div className="champ-tips-div">
-            <section className="champ-tips-mobile">
+        <div 
+        ref={ref}
+        className="champ-tips-div">
+            <section className={`champ-tips-mobile ${visible ? 'visible' : ''}`}>
 
                 <ChampTipsMobile  
                 view={allyTipsView} 
@@ -43,7 +48,7 @@ export function ChampTips({allyTips, enemyTips}) {
                 type="enemy"/>
 
             </section>
-            <section className="champ-tips-tabletDesktop">
+            <section className={`champ-tips-tabletDesktop ${visible ? 'visible' : ''}`}>
 
                 <ChampTipsTabletDesktop ally={{
                     tipsToggle: toggleAllyTips,

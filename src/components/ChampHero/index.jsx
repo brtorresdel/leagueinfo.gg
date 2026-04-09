@@ -12,8 +12,8 @@ export function ChampHero ({champInfo}) {
                 <section className="hero-section">
                     <ChampTitleandSub name={champInfo.name} title={champInfo.title}/>
                     <div className="champ-classes">
-                        {champInfo.classes.map(className => {
-                            return <ChampClass className={className} />
+                        {champInfo.classes.map((className, index) => {
+                            return <ChampClass className={className} index={index} />
                         })}
                     </div>
                 </section>

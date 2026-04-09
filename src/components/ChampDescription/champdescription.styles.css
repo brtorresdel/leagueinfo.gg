@@ -1,5 +1,9 @@
 .champ-description {
+    opacity: 0;
     line-height: 20px;
+    transform: translateY(30px);
+    transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: 1.5s;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,4 +16,9 @@
     .champ-description {
         line-height: 40px;
     }
+}
+
+.champ-description.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
