@@ -15,6 +15,7 @@ export function Home () {
     const [rows, setRows] = useState(4);
     const [limit, setLimit] = useState(9);
     const [filteredChampions, setFilteredChampions] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
     
     useEffect(() =>  {
@@ -27,9 +28,11 @@ export function Home () {
             
             const championsList = JSON.parse(localStorage.getItem('championsList'));
             setChampions(championsList);
+            setIsLoading(false);
         }
 
         getChampionsList();
+
 
     }, []);
 
@@ -102,7 +105,7 @@ export function Home () {
             setNameFilter={setNameFilter}
             setClassFilter={setClassFilter}
             />
-            <HomeChampList championsList={filteredChampions} limit={limit} />
+            <HomeChampList championsList={filteredChampions} limit={limit} isLoading={isLoading}/>
             <HomeLimitController onClick={handleLimitBtnClick} show={showLimitBtn} />
             <Footer />
         </>

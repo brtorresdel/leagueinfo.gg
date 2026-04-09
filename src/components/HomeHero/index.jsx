@@ -10,7 +10,7 @@ export function HomeHero() {
     return (
         <div className="home-hero" style={{'backgroundImage': splashUrl}}>
             <section className="home-hero-content">
-                <h1>{title[0]},<br className='break'/>{title[1]}</h1>
+                <h1><span className='first'>{title[0]},</span><br className='break'/><span className='second'>{title[1]}</span></h1>
                 <h3>
                     {t("home.hero.subtitle")}
                 </h3>

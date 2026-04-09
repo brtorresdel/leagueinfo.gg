@@ -32,15 +32,6 @@
   animation: skeleton-loading 1.5s infinite linear;
 }
 
-@keyframes skeleton-loading {
-  0% {
-    background-position: 200% 0;
-  }
-  100% {
-    background-position: -200% 0;
-  }
-}
-
 .img-hidden {
   opacity: 0;
 }
@@ -183,5 +174,14 @@
   .champion-container:hover .champion-content {
     display: flex;
     opacity: 1;
+  }
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
   }
 }
