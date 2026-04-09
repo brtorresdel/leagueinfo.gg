@@ -2,7 +2,7 @@
   opacity: 0;
   transform: translateY(30px);
   transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
-  transition-delay: 0.5s;
+  transition-delay: 2s;
   display: flex;
   flex-direction: column;
   gap: 25px;

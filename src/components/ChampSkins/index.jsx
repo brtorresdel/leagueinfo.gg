@@ -1,10 +1,14 @@
 import { useState } from 'react';
+import './champskins-h2.styles.css';
 import './champskins-mobile.styles.css';
 import './champskins-tabletdesktop.styles.css';
+import { useObserver } from '../Hooks/useObserver';
 
 export function ChampSkins({skins, champName}) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
+
+    const [ref, visible] = useObserver();
 
     const handleScroll = (e) => {
         const container = e.target;
@@ -28,9 +32,11 @@ export function ChampSkins({skins, champName}) {
     const handleClick = (index) => setCurrentIndex(index);
 
     return (
-        <div className="champ-skins-div">
-            <h2>Skins</h2>
-            <section className="champ-skins-mobile">
+        <div 
+        ref={ref}
+        className="champ-skins-div">
+            <h2 className={visible ? "visible" : ""}>Skins</h2>
+            <section className={`champ-skins-mobile ${visible ? "visible" : ""}`}>
                 <div className="skins-container" onScroll={handleScroll}>
                     {skins.map((skin) => (
                         <div className="skin-card" key={skin.id} >
@@ -45,7 +51,7 @@ export function ChampSkins({skins, champName}) {
                     ))}
                 </div>
             </section>
-            <section className="champ-skins-tablet-desktop">
+            <section className={`champ-skins-tablet-desktop ${visible ? "visible" : ""}`}>
                 <div className="skins-splash-div">
                     {skins.map((skin, index) => {
                         return <img src={skin.img} alt="" className={`skin-splash ${index == currentIndex ? 'active' : ''}`} />

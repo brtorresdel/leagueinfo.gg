@@ -1,3 +1,15 @@
+.champ-skins-mobile {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: 1s;
+}
+
+.champ-skins-mobile.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .champ-skins-mobile .skins-container {
   display: flex;
   overflow-x: auto;

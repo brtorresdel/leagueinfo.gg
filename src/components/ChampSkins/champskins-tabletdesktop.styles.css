@@ -72,6 +72,15 @@
         flex-direction: row;
         gap: 10px;
         height: 183px;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+        transition-delay: 1s;
+    }
+
+    .champ-skins-tablet-desktop.visible {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
