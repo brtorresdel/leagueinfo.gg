@@ -12,7 +12,7 @@
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
-    transition-delay: 2s;
+    transition-delay: 1s;
 }
 
 .home-champions-list.visible {
