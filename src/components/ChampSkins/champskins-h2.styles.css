@@ -1,3 +1,7 @@
+.champ-skins-div {
+    padding-bottom: 3%;
+}
+
 .champ-skins-div h2 {
     opacity: 0;
     transform: translateY(30px);
