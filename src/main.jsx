@@ -4,13 +4,8 @@ import { BrowserRouter } from 'react-router'
 import './index.css'
 import App from './App.jsx'
 import { LanguageProvider } from './components/Context/LanguageContext/index.jsx'
+import AppRouter from './router/index.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <StrictMode>
-      <LanguageProvider>
-        <App />
-      </LanguageProvider>
-    </StrictMode>
-  </BrowserRouter>,
+  <AppRouter />,
 )

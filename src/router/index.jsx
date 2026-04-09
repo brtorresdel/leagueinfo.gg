@@ -1,19 +1,25 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
 import { Layout } from '../Layout';
+import { Home } from '../pages/Home';
+import { ChampInfo } from '../pages/ChampInfo';
+import { LanguageProvider } from '../components/Context/LanguageContext';
 
 
 export default function AppRouter() {
     return (
         <>
             <BrowserRouter>
-                <Routes>
+                <LanguageProvider>
+                    <Routes>
 
-                    <Route path='/' element={<Layout />}>
+                        <Route path='/' element={<Layout />}>
+                            <Route path='' element={<Home />} />
+                            <Route path='home' element={<Home />} />
+                            <Route path='champion/:id' element={<ChampInfo />} />
+                        </Route>
 
-
-                    </Route>
-
-                </Routes>
+                    </Routes>
+                </LanguageProvider>
             </BrowserRouter>
         </>
     )
