@@ -1,12 +1,23 @@
+import { useState } from "react";
 import { ClassIcon } from "../ClassIcon";
 import './homechampcard.styles.css';
 
 export function HomeChampCard ({champion}) {
 
+    const [imgLoad, setImgLoad] = useState(false);
+
     return (
         <div key={champion.id} className="champion-card">
             <div className="champion-container">
-                <img src={champion.tile} alt={champion.name} />
+                <div className={`img-wrapper ${!imgLoad ? 'loading': ''}`}>
+                    {!imgLoad && <div className="skeleton"></div>}
+                    <img 
+                    src={champion.tile} 
+                    alt={champion.name}
+                    onLoad={() => setImgLoad(true)}
+                    loading="lazy"
+                    className={imgLoad ? 'fade-in' : 'img-hidden'} />
+                </div>
                 <div className='champion-content'>
                     <div className="champion-classes">
                         {champion.classes.map((champClass, index) => (
