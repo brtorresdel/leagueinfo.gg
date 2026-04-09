@@ -24,7 +24,7 @@
 }
 
 .home-hero-content {
-    width: 90%;
+    width: 95%;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -79,10 +79,10 @@
     } 
 
     .home-hero-content {
-        width: 60%;
+        width: 70%;
         align-items: flex-start;
         text-align: start;
-        margin: 3% 5%;
+        margin: 3% 4.5%;
     }
 
     .home-hero-content .break {
@@ -107,6 +107,13 @@
 
     .home-hero::after {
         height: 637px;
+    }
+
+    .home-hero-content {
+        width: 70%;
+        align-items: flex-start;
+        text-align: start;
+        margin: 3% 7.5%;
     }
 }
 
