@@ -1,0 +1,11 @@
+.not-found-page-div {
+    margin-top: 15%;
+    height: 80vh;
+}
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
