@@ -408,6 +408,78 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_R1.mp4"
                 }
             ]
+        },
+        "belveth": {
+            "name": "Bel'Veth",
+            "id": "200",
+            "title": "a Imperatriz do Vazio",
+            "formatedName": "Belveth",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Belveth_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Bel'Veth Chefona",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Bel'Veth Matriarca Cósmica",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Bel'Veth Primordiana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_19.jpg",
+                    "id": 19
+                }
+            ],
+            "lore": "Bel'Veth, uma imperatriz tenebrosa nascida da essência de uma cidade devorada, é o fim da própria Runeterra... E o início de uma realidade monstruosa criada à sua imagem. Guiada por eras de história, conhecimento e lembranças adaptadas do mundo superior, ela se alimenta vorazmente de uma necessidade cada vez maior de novas experiências e emoções, consumindo tudo que cruza o seu caminho. Mas seus desejos jamais serão saciados por apenas um mundo, e é por isso que ela volta seus olhos famintos para os antigos mestres do Vazio...",
+            "allytips": ["Bel'veth tem um kit completo de habilidades com sua alta mobilidade, controle de grupo antes do level 6 com seu W, e seu E garante redução de dano recebido, dano baseado na vida E roubo de vida. Isso significa que ela é uma campeã completa já no level 3", "Ela escala muito com velocidade de ataque, o que beneficia todas as suas habilidades, e seu estilo de jogo roda em torno disso. Se souber gerenciar para pegar os itens essenciais e conseguir vantagem no meio do jogo, ela vai literalmente botar terror no campo", "Bel'veth tem muito dano à alvo único com seus ataques básicos e sua passiva, mas ela também pode dar um dano considerável em área com seus Corais do Void, que ela pode conseguir através de abates e objetivos"],
+            "enemytips": ["Apesar de ter muito a oferecer, ela realmente depende da velocidade de ataque para se manter no jogo, e se ela ficar muito atrás na partida antes de pegar seus itens essenciais, talvez ela não consiga se recuperar", "Bel'veth depende muito do seu Q, sua passiva, e seus ataques básicos para dar a maioria de seu dano, então ela é facilmente contestada por qualquer forma de controle de grupo. Seu E também é uma habilidade de carregamento, que também pode ser interrompida com qualquer controle de grupo", "Se Bel'veth não conseguir nenhum abate de campeão ou nenhum objetivo nas lutas em grupo, ela não conseguirá ativar sua Verdadeira Forma, o que a tornará muito mais difícil de lidar"],
+            "classes": [
+                "Fighter"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Morte em Lavanda ",
+                    "description": "Bel'Veth recebe acúmulos de Velocidade de Ataque permanente depois de eliminar tropas, monstros grandes e Campeões. Além disso, ela recebe Velocidade de Ataque adicional temporária depois de usar uma Habilidade.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Belveth_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Impulso do Vazio",
+                    "description": "Bel'Veth avança na direção escolhida e causa dano a todos os inimigos atravessados.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BelvethQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Acima e Abaixo",
+                    "description": "Bel'Veth bate a cauda no chão, causando dano e Lentidão, além de Arremessar os inimigos ao ar.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BelvethW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Turbilhão da Realeza",
+                    "description": "Bel'Veth se enraíza num lugar, canalizando uma tempestade de golpes ao redor de si, visando o inimigo com a Vida mais baixa, além de receber Roubo de Vida e redução de dano.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BelvethE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Banquete Eterno",
+                    "description": "Bel'Veth consome os restos de Coral do Vazio e revela sua Forma Verdadeira, aumentando a própria Vida máxima, Alcance de Ataque, Velocidade de Ataque e Velocidade de Movimento fora de combate. Consumir Coral do Vazio dos restos de um monstro épico concederá a ela uma ultimate de maior duração, assim como a capacidade de invocar rêmoras do Vazio.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BelvethR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -817,6 +889,78 @@
                     "description": "Aurora leaps in a direction of her choosing, releasing a shockwave that damages and slows any enemies it hits. Afterward, she creates an area that slows enemies within it and allows Aurora to teleport from one side of the area to the other.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AuroraR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_R1.mp4"
+                }
+            ]
+        },
+        "belveth": {
+            "name": "Bel'Veth",
+            "id": "200",
+            "title": "the Empress of the Void",
+            "formatedName": "Belveth",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Belveth_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Battle Boss Bel'Veth",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Cosmic Matriarch Bel'Veth",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Primordian Bel'Veth",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_19.jpg",
+                    "id": 19
+                }
+            ],
+            "lore": "A nightmarish empress created from the raw material of an entire devoured city, Bel'Veth is the end of Runeterra itself... and the beginning of a monstrous reality of her own design. Driven by epochs of repurposed history, knowledge, and memories from the world above, she voraciously feeds an ever-expanding need for new experiences and emotions, consuming all that crosses her path. Yet her wants could never be sated by only one world as she turns her hungry eyes toward the Void's old masters...",
+            "allytips": ["Bel’Veth has a lot of depth to her basic abilities with high mobility, Pre-6 CC in her  W knockup and her E granting her damage reduction, % missing health damage AND lifesteal. This means she’s a very complete champion already at level 3", "She scales incredibly well with Attack speed as it benefits her whole kit and her whole playstyle revolves around this. If she manages to get those core items and hit that mid game ahead, she will absolutely terrorise the rift", "Bel’Veth has a lot of single target damage with her auto attacks and her passive but she also deals significant AoE true damage due to those Void Corals that she can consume from enemy champions and objectives"],
+            "enemytips": ["Despite having a lot to offer, she really needs that Attack speed to come online and if she gets put too far behind before she can get those few core items, she may never be able to recover", "Bel’Veth relies heavily on her Q, her passive and her auto attacks to deal the majority of her damage, this means naturally she’s incredibly countered by any form of hard CC. Her E is also a channel ability which can additionally be interrupted by Crowd control", "If Bel’Veth doesn’t get any take downs on champions or objectives in teamfights she can never activate her True Form which is when she becomes so much harder to deal with"],
+            "classes": [
+                "Fighter"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Death in Lavender ",
+                    "description": "Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions. She also gains temporary bonus attack speed after using an ability.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Belveth_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Void Surge",
+                    "description": "Bel'Veth dashes in a chosen direction and damages all enemies she passes through.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BelvethQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Above and Below",
+                    "description": "Bel'Veth slams her tail to the ground, damaging, knocking up, and slowing her enemies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BelvethW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Royal Maelstrom",
+                    "description": "Bel'Veth roots herself in place, channeling a storm of slashes around her that targets the lowest-health enemy and grants her lifesteal and damage reduction.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BelvethE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Endless Banquet",
+                    "description": "Bel'Veth consumes Void coral remnants, transforming into her true form and increasing her max health, attack range, attack speed, and out-of-combat move speed. Consuming the Void coral remnants of a Void epic monster will grant her a longer ultimate duration, as well as the power to summon Void remora.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/BelvethR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0200/ability_0200_R1.mp4"
                 }
             ]
         }    
