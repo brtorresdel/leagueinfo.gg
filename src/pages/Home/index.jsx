@@ -4,8 +4,6 @@ import { HomeHero } from "../../components/HomeHero";
 import { HomeChampList } from "../../components/HomeChampList";
 import { LoLService } from "../../services/LeagueofLegendsService";
 import { HomeLimitController } from "../../components/HomeLimitController";
-import { Header } from './../../components/Header/index';
-import { Footer } from './../../components/Footer/index';
 
 export function Home () {
     const [nameFilter, setNameFilter] = useState('');
@@ -97,7 +95,7 @@ export function Home () {
 
     return (
         <>
-            <Header />
+
             <HomeHero />
             <HomeFilters 
             nameFilter={nameFilter} 
@@ -107,7 +105,6 @@ export function Home () {
             />
             <HomeChampList championsList={filteredChampions} limit={limit} isLoading={isLoading}/>
             <HomeLimitController onClick={handleLimitBtnClick} show={showLimitBtn} />
-            <Footer />
         </>
     )
 }

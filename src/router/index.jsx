@@ -15,7 +15,7 @@ export default function AppRouter() {
                         <Route path='/' element={<Layout />}>
                             <Route path='' element={<Home />} />
                             <Route path='home' element={<Home />} />
-                            <Route path='champion/:id' element={<ChampInfo />} />
+                            <Route path='champion/:champId' element={<ChampInfo />} />
                         </Route>
 
                     </Routes>
