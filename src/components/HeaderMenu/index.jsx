@@ -9,8 +9,11 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import "./headermenu.styles.css";
 import { useTranslations } from './../Hooks/useTranslations';
+import { useNavigate } from "react-router";
 
 export function HeaderMenu() {
+
+    const navigate = useNavigate();
 
     const { t } = useTranslations();
 
@@ -48,6 +51,8 @@ export function HeaderMenu() {
         setMenuMobileView(!menuMobileView);
     }
 
+    const handleHomeClick = () => navigate('/home');
+
 
     return (<div className="menu">
                 <div className="menu-mobile">
@@ -59,7 +64,8 @@ export function HeaderMenu() {
                             className='icon close'
                             onClick={handleMenuMobileView}/>
                         </button>
-                        <button>
+                        <button
+                        onClick={handleHomeClick}>
                             <FiHome className='icon'/>
                             Início
                         </button>
@@ -82,7 +88,11 @@ export function HeaderMenu() {
                     </nav>
                 </div>
                 <nav className="menu-desktop">
-                    <button>{t('header.home')}</button>
+                    <button
+                    onClick={handleHomeClick}
+                    >
+                        {t('header.home')}
+                    </button>
                     <div className="dev-links">
                         <button
                         onClick={handleSocialMediaView}>{t('header.dev')}</button>

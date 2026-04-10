@@ -7,26 +7,27 @@ import { ChampTips } from "../../components/ChampTips";
 import { ChampDescription } from './../../components/ChampDescription/index';
 import { LoLService } from "../../services/LeagueofLegendsService";
 import { Loading } from "../../components/Loading";
+import { useTranslations } from "../../components/Hooks/useTranslations";
 
 
 export function ChampInfo() {
 
-    const [champion, setChampion] = useState(null);
-    const {champId} = useParams();
-    const navigate = useNavigate();
+    const [ champion, setChampion ] = useState(null);
+    const { champId } = useParams();
+    const { language } = useTranslations();
     
     useEffect(() =>  {
     
         const getChampionInfo = async (champId) => {
             console.log(champId);
 
-            const championInfo = await LoLService.getChampion(champId, "en_US");
+            const championInfo = await LoLService.getChampion(champId, language);
         
             setChampion(championInfo);
         }
         
         getChampionInfo(champId);
-    }, [champId]);
+    }, [champId, language]);
 
     if (!champion) return <Loading />
 
