@@ -4,6 +4,7 @@ import { HomeHero } from "../../components/HomeHero";
 import { HomeChampList } from "../../components/HomeChampList";
 import { LoLService } from "../../services/LeagueofLegendsService";
 import { HomeLimitController } from "../../components/HomeLimitController";
+import { useTranslations } from "../../components/Hooks/useTranslations";
 
 export function Home () {
     const [nameFilter, setNameFilter] = useState('');
@@ -15,24 +16,28 @@ export function Home () {
     const [filteredChampions, setFilteredChampions] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
+    const { language } = useTranslations();
     
     useEffect(() =>  {
 
         const getChampionsList = async () => {
-            if (!localStorage.getItem('championsList')) {
-                const championsList = await LoLService.getChampionsList("pt_BR");
-                localStorage.setItem('championsList', JSON.stringify(championsList));
+            let localChampList = JSON.parse(localStorage.getItem("championsList"));
+
+            if (!localChampList || localChampList.language !== language) {
+                const champList = await LoLService.getChampionsList("pt_BR");
+                localStorage.setItem('championsList', JSON.stringify({
+                    championList: champList,
+                    language: language
+                }));
             }
-            
-            const championsList = JSON.parse(localStorage.getItem('championsList'));
-            setChampions(championsList);
+
+            setChampions(localChampList.championList);
             setIsLoading(false);
         }
 
         getChampionsList();
 
-
-    }, []);
+    }, [language]);
 
     useEffect(() => {
 
@@ -77,7 +82,6 @@ export function Home () {
     }, [nameFilter, champions]);
 
     useEffect(() => {
-        console.log(classFilter);
         if (classFilter.length > 0) {
             const filtered = champions.filter(champ => {
                 const champClassesLowerCase = champ.classes.map(c => c.toLowerCase());
@@ -95,7 +99,6 @@ export function Home () {
 
     return (
         <>
-
             <HomeHero />
             <HomeFilters 
             nameFilter={nameFilter} 
