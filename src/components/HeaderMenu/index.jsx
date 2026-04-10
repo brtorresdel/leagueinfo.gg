@@ -108,8 +108,8 @@ export function HeaderMenu() {
             </div>)
 }
 
-function SocialMediaLink ({href, icon, name}) {
-    return <a href={href}>
+function SocialMediaLink ({key, href, icon, name}) {
+    return <a key={key} href={href} target="_blank" rel="noopener noreferrer">
         {icon}
         {name}
     </a>

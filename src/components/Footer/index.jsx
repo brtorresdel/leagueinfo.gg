@@ -44,7 +44,7 @@ export function Footer() {
                 <div className="social-media-icons">
                     {
                         SOCIAL_MEDIA.map((soc, index) => {
-                            return <a key={index} href={soc.href}>{soc.icon}</a>
+                            return <a key={index} href={soc.href} target="_blank" rel="noopener noreferrer">{soc.icon}</a>
                         })
                     }
                 </div>
