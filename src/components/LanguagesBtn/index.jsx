@@ -1,8 +1,16 @@
 import { useState } from 'react'
 import './languagesbtn.styles.css'
 import { useTranslations } from '../Hooks/useTranslations';
+import arrowIcon from '../../assets/icons/arrow.svg'
+import brFlag from '../../assets/img/pt_BR.png'
+import usFlag from '../../assets/img/en_US.png'
 
 export function LanguagesBtn() {
+
+    const flagsIcons = {
+        pt_BR: brFlag,
+        en_US: usFlag
+    }
 
     const {language, handleLanguage} = useTranslations();
 
@@ -18,8 +26,8 @@ export function LanguagesBtn() {
             onClick={() => {
                 setLanguagesListView(!languagesListView);
             }}>
-                <img src="./src/assets/icons/arrow.svg" alt="" className={`arrow ${languagesListView ? "active" : ""}`} />
-                <img src={`./src/assets/img/${languagePref}.png`} alt="" className='flag-icon'/>
+                <img src={arrowIcon} alt="" className={`arrow ${languagesListView ? "active" : ""}`} />
+                <img src={flagsIcons[languagePref]} alt="" className='flag-icon'/>
             </button>
             <ul className={`available-languages ${languagesListView ? 'active' : ''}`}>
                 {
@@ -32,7 +40,7 @@ export function LanguagesBtn() {
                             setLanguagesListView(!languagesListView);
                         }}>
                             {aval}
-                            <img src={`./src/assets/img/${aval}.png`} alt=""/>
+                            <img src={flagsIcons[aval]} alt=""/>
                         </li>
                     })
                 }
