@@ -2,6 +2,7 @@ import { NotFoundElement } from './../../components/NotFoundElement/index';
 import { useTranslations } from './../../components/Hooks/useTranslations';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
+import "./notfoundpage.styles.css"
 
 export function NotFoundPage() {
     const { t } = useTranslations();
@@ -24,7 +25,7 @@ export function NotFoundPage() {
     }, [seconds, navigate]);
 
     return(
-        <div className="not-found-div">
+        <div className="not-found-page-div">
             <section className="not-found">
                 <h1>{t("notFound.title")}</h1>
                 <NotFoundElement message={t("notFound.message").replace("{sec}", seconds)} />
