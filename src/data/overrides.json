@@ -340,6 +340,74 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_R1.mp4"
                 }
             ]
+        },
+        "aurora": {
+            "name": "Aurora",
+            "id": "893",
+            "title": "a Bruxa Entre Mundos",
+            "formatedName": "Aurora",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Aurora_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Aurora Coelha de Batalha",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Aurora Arcana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_11.jpg",
+                    "id": 11
+                }
+            ],
+            "lore": "Desde que nasceu, Aurora vive com uma habilidade inigualável de viajar entre os reinos dos mortais e dos espíritos. Determinada a aprender mais sobre os habitantes do reino espiritual, ela deixou seu lar para trás com o objetivo de conduzir mais pesquisas e acabou encontrando um semideus corrompido, perdido e deformado. Testemunhando tamanho desespero, Aurora decidiu encontrar uma maneira de ajudar seu amigo selvagem a resgatar sua identidade perdida, uma jornada que a levaria até os cantos mais inóspitos de Freljord.",
+            "allytips": ["Boa demonstração de habilidade. Ela possui muitas ferramentas úteis que podem ser utilizadas em diversas situações", "Ela possui muitas ferramentas de fuga. Seu W lhe permite ficar invisível, e seu E pode ser utilizado para pular paredes pequenas", "A sua ultimate (R) é muito boa em lutas de equipe"],
+            "enemytips": ["No começo do jogo, ela é vulnerável à all-ins já que lhe falta dano cedo e é fraca contra campeões de engage ou all-in cedo", "Ela pode ser bem complicada de jogar, por conta da sua ultimate (R). Vai levar um tempo até que você se acostume se você quiser abusar das suas habilidades", "Você precisa que seus aliados avançem com você nas lutas em grupo. Se ninguém avançar com você, então estará contra toda a equipe inimiga e será focada nessas lutas"],
+            "classes": [
+                "Mage",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Abjuração Espiritual",
+                    "description": "As Habilidades e Ataques da Aurora exorcizam espíritos dos inimigos aos quais ela causar dano. Espíritos exorcizados seguem e curam Aurora.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/AuroraPassive.Aurora.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Feitiço Dúplice",
+                    "description": "Aurora envia um projétil que amaldiçoa qualquer inimigo que atingir. Ela pode reconjurar a Habilidade para puxar de volta as maldições ativas na direção dela, causando dano a inimigos atingidos no caminho.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AuroraQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Através do Véu",
+                    "description": "Aurora salta em uma direção escolhida, entrando no reino espiritual ao aterrissar, ficando invisível e recebendo Velocidade de Movimento por um breve período.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AuroraW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Estranheza",
+                    "description": "Aurora converge os reinos, lançando uma explosão de magia espiritual que causa dano e Lentidão a inimigos antes que ela salte de volta em segurança.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AuroraE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Entre Mundos",
+                    "description": "Aurora salta em uma direção escolhida, liberando uma onda de choque que causa dano e Lentidão a inimigos atingidos. Depois, Aurora cria uma área que causa Lentidão a inimigos, permitindo que ela se teleporte de um lado a outro da área.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AuroraR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -681,6 +749,74 @@
                     "description": "Falling Star: Aurelion Sol crashes a star into the earth. This impact deals magic damage and stuns enemies while also granting Stardust for each enemy champion it hits. Gathering enough Stardust transforms Aurelion Sol's next Falling Star into The Skies Descend.The Skies Descend: Aurelion Sol drags a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits. Stardust increases the impact area of both Falling Star and The Skies Descend.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AurelionSolR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0136/ability_0136_R1.mp4"
+                }
+            ]
+        },
+        "aurora": {
+            "name": "Aurora",
+            "id": "893",
+            "title": "the Witch Between Worlds",
+            "formatedName": "Aurora",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Aurora_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Battle Bunny Aurora",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Arcana Aurora",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aurora_11.jpg",
+                    "id": 11
+                }
+            ],
+            "lore": "From the moment she was born, Aurora navigated life with a unique ability to move between the spirit and material realms. Determined to learn more about the spirit realm's inhabitants, she left her home to further her research and happened upon a wayward demigod who'd become twisted and lost to time. Witnessing his desperation, Aurora resolved to find a way to help her feral friend regain his forgotten identity—a journey that would take her to the farthest reaches of the Freljord.",
+            "allytips": ["Good skill expression. She has a lot of good tools in her kit that can be used in a variety of situations", "Multiple escape tools. She has her Across the W which is an invisibility spell, and her E can also be used to get over small walls", "Her ultimate (R) is really good in team fights"],
+            "enemytips": ["In the early game, she is vulnerable to all-ins as she lacks damage and is weak vs engage/ all-in champs early", "She can be difficult to play due to her ultimate (R). So it will take some getting used to if you want to fully abuse this spell", "You need allies to go deep with you in team fights. If no one wants to go ham, then you’re going to be 1v5 and focused by the enemy in team fights"],
+            "classes": [
+                "Mage",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Spirit Abjuration",
+                    "description": "Aurora's spells and attacks exorcise spirits from the enemies she damages. Exorcised spirits follow Aurora around and heal her.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/AuroraPassive.Aurora.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Twofold Hex",
+                    "description": "Aurora sends out a missile that curses any enemies it hits. She can then recast the ability to draw active curses back toward herself, damaging foes who are hit along the way.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AuroraQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Across the Veil",
+                    "description": "Aurora leaps in a direction of her choosing, entering the spirit realm upon landing, becoming invisible, and gaining Move Speed for a short duration of time.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AuroraW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "The Weirding",
+                    "description": "Aurora converges the realms, sending out a blast of spirit magic that damages and slows enemies before Aurora hops backward to safety.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AuroraE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Between Worlds",
+                    "description": "Aurora leaps in a direction of her choosing, releasing a shockwave that damages and slows any enemies it hits. Afterward, she creates an area that slows enemies within it and allows Aurora to teleport from one side of the area to the other.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/AuroraR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0893/ability_0893_R1.mp4"
                 }
             ]
         }    
