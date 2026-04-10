@@ -1,13 +1,10 @@
 import { useState } from "react";
 import { ClassIcon } from "../ClassIcon";
 import './homechampcard.styles.css';
-import { useObserver } from './../Hooks/useObserver';
 
 export function HomeChampCard ({champion, index}) {
 
     const [imgLoad, setImgLoad] = useState(false);
-
-    const [ref, visible] = useObserver();
 
     return (
         <div key={champion.id} className="champion-card" style={{'--delay': index}}>

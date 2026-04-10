@@ -16,5 +16,5 @@ const classIconsList = {
 };
 
 export function ClassIcon ({className}) {
-    return <img src={classIconsList[className]} alt="" className="class-icon"/>
+    return <img src={classIconsList[className.toLowerCase()]} alt="" className="class-icon"/>
 }
