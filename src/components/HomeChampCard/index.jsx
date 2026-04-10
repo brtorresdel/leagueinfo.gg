@@ -1,16 +1,23 @@
 import { useState } from "react";
 import { ClassIcon } from "../ClassIcon";
 import './homechampcard.styles.css';
-import { useObserver } from './../Hooks/useObserver';
+import { useNavigate } from "react-router";
 
 export function HomeChampCard ({champion, index}) {
 
+    const navigate = useNavigate();
+
+    const handleCardClick = (champId) => {
+        navigate(`/champion/${champId}`)
+    }
+
     const [imgLoad, setImgLoad] = useState(false);
 
-    const [ref, visible] = useObserver();
-
     return (
-        <div key={champion.id} className="champion-card" style={{'--delay': index}}>
+        <div key={champion.id} 
+        className="champion-card" 
+        style={{'--delay': index}}
+        onClick={() => handleCardClick(champion.formatedName)}>
             <div className="champion-container">
                 <div className={`img-wrapper ${!imgLoad ? 'loading': ''}`}>
                     {!imgLoad && <div className="skeleton"></div>}

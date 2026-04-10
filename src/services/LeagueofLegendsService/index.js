@@ -63,18 +63,16 @@ class LeagueofLegendsService{
         }
     }
 
-    async getChampion(champName, language) {
-        if (override[language] && override[language][champName.toLowerCase()]) return override[language][champName.toLowerCase()];
+    async getChampion(champId, language) {
+        if (override[language] && override[language][champId.toLowerCase()]) return override[language][champId.toLowerCase()];
 
         const lastVersion = await this.#getVersion();
-        champName = champName.replace(" ", "");
-        champName = champName.charAt(0).toUpperCase() + champName.substring(1);
-        const path = `cdn/${lastVersion}/data/${language}/champion/${champName}.json`;
+        const path = `cdn/${lastVersion}/data/${language}/champion/${champId}.json`;
 
         try {
             let response = await this.api.get(path);
 
-            response = response.data.data[champName];
+            response = response.data.data[champId];
 
             let formatedId = response.key.toString().padStart(4, "0");
 
@@ -87,7 +85,7 @@ class LeagueofLegendsService{
                 skins: response.skins
                 .filter(skin => !skin.parentSkin)
                 .map(skin => {
-                    return {name: skin.name, img: `${this.baseURL}cdn/img/champion/splash/${champName}_${skin.num}.jpg`, id: skin.num}
+                    return {name: skin.name, img: `${this.baseURL}cdn/img/champion/splash/${champId}_${skin.num}.jpg`, id: skin.num}
                 }),
                 lore: response.lore,
                 allytips: response.allytips,
