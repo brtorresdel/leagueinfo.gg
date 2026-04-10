@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router";
+import { useParams } from "react-router";
 import { ChampHabilities } from "../../components/ChampHabilities";
 import { ChampHero } from "../../components/ChampHero";
 import { ChampSkins } from "../../components/ChampSkins";
