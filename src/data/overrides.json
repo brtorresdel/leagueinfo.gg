@@ -4,6 +4,7 @@
             "name": "Fiddlesticks",
             "id": "9",
             "title": "o Terror Ancestral",
+            "formatedName": "Fiddlesticks",
             "tile": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_tile.jpg",
             "skins": [
                 {
@@ -121,6 +122,7 @@
             "name": "Akshan",
             "id": "166",
             "title": "o Sentinela Rebelde",
+            "formatedName": "Akshan",
             "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Akshan_0.jpg",
             "skins": [
                 {
@@ -193,6 +195,7 @@
             "name": "Ambessa",
             "id": "799",
             "title": "Matriarca da Guerra",
+            "formatedName": "Ambessa",
             "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Ambessa_0.jpg",
             "skins": [
                 {
@@ -255,7 +258,8 @@
             "name": "Aurelion Sol",
             "id": "136",
             "title": "o Forjador de Estrelas",
-            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Ambessa_0.jpg",
+            "formatedName": "AurelionSol",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/AurelionSol_0.jpg",
             "skins": [
                 {
                     "name": "default",
@@ -343,6 +347,7 @@
             "name": "Fiddlesticks",
             "id": "9",
             "title": "the Ancient Fear",
+            "formatedName": "Fiddlesticks",
             "tile": "./src/assets/img/fiddlesticks_skins/Fiddlesticks_tile.jpg",
             "skins": [
                 {
@@ -460,6 +465,7 @@
             "name": "Akshan",
             "id": "166",
             "title": "the Rogue Sentinel",
+            "formatedName": "Akshan",
             "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Akshan_0.jpg",
             "skins": [
                 {
@@ -532,6 +538,7 @@
             "name": "Ambessa",
             "id": "799",
             "title": "Matriarch of War",
+            "formatedName": "Ambessa",
             "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Ambessa_0.jpg",
             "skins": [
                 {
@@ -594,6 +601,7 @@
             "name": "Aurelion Sol",
             "id": "136",
             "title": "The Star Forger",
+            "formatedName": "AurelionSol",
             "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/AurelionSol_0.jpg",
             "skins": [
                 {

@@ -37,7 +37,7 @@ class LeagueofLegendsService{
             for (let champ in response) {
                 if (override[language] && override[language][champ.toLowerCase()]) {
                     champs.push ({
-                        formatedName: override[language][champ.toLowerCase()].name.toLowerCase(),
+                        formatedName: override[language][champ.toLowerCase()].formatedName,
                         name: override[language][champ.toLowerCase()].name,
                         id: override[language][champ.toLowerCase()].id,
                         title: override[language][champ.toLowerCase()].title,
