@@ -31,12 +31,17 @@
 }
 
 .header .title h1 {
+  display: none;
   font-size: var(--title1-font-size-mobile);
   font-family: "Protest Revolution", sans-serif;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);
   flex-shrink: 0;
   text-align: center;
+}
+
+.header .title h1.scrolled {
+  display: block;
 }
 
 .header .menu,
