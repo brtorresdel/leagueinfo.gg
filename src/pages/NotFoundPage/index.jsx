@@ -2,6 +2,7 @@ import { NotFoundElement } from './../../components/NotFoundElement/index';
 import { useTranslations } from './../../components/Hooks/useTranslations';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
+import { SEO } from '../../components/SEO';
 import "./notfoundpage.styles.css"
 
 export function NotFoundPage() {
