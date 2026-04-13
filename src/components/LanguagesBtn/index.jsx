@@ -24,11 +24,15 @@ export function LanguagesBtn() {
         <div className="languages-bnt-div">
             <button 
             className="languages-btn"
+            alt='Language selection'
             aria-label='Language selection'
             onClick={() => {
                 setLanguagesListView(!languagesListView);
             }}>
-                <img src={arrowIcon} alt="Language selecion arrow" className={`arrow ${languagesListView ? "active" : ""}`} />
+                <img src={arrowIcon} 
+                alt="Language selecion arrow"
+                aria-label="Language selecion arrow"
+                className={`arrow ${languagesListView ? "active" : ""}`} />
                 <img src={flagsIcons[languagePref]} alt={`Selected language: ${languagePref}`} className='flag-icon'/>
             </button>
             <ul className={`available-languages ${languagesListView ? 'active' : ''}`}>

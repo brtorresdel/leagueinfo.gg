@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { ClassIcon } from '../ClassIcon';
 import './classeslist.styles.css';
 import { useTranslations } from '../Hooks/useTranslations';
+import arrow from '../../assets/icons/arrow.svg'
 
 export function ClassesList ({champClasses, classFilter, setClassFilter}) {
 
@@ -54,7 +55,11 @@ export function ClassesList ({champClasses, classFilter, setClassFilter}) {
 
                     </div>
                     <div>
-                        <img src="./src/assets/icons/arrow.svg" className={`arrow-icon ${classListExibition && 'active'}`}/>
+                        <img 
+                        src={arrow} 
+                        className={`arrow-icon ${classListExibition && 'active'}`}
+                        aria-label='Arrow icon to show classes list'
+                        alt='Arrow icon to show classes list'/>
                     </div>
                 </div>
                 <ul className={`classes-list ${classListExibition ? 'active' : ''}`}>

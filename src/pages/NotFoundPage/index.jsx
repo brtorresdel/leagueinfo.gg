@@ -25,11 +25,17 @@ export function NotFoundPage() {
     }, [seconds, navigate]);
 
     return(
-        <div className="not-found-page-div">
-            <section className="not-found">
-                <h1>{t("notFound.title")}</h1>
-                <NotFoundElement message={t("notFound.message").replace("{sec}", seconds)} />
-            </section>
-        </div>
+        <>
+            <SEO
+            title="Not found - 404"
+            description="Not found - 404"
+            image="..\assets\img\ata_emote.png" />
+            <div className="not-found-page-div">
+                <section className="not-found">
+                    <h1>{t("notFound.title")}</h1>
+                    <NotFoundElement message={t("notFound.message").replace("{sec}", seconds)} />
+                </section>
+            </div>
+        </>
     )
 }
