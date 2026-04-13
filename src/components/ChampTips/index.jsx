@@ -29,7 +29,9 @@ export function ChampTips({allyTips, enemyTips}) {
         <div 
         ref={ref}
         className="champ-tips-div">
-            <section className={`champ-tips-mobile ${visible ? 'visible' : ''}`}>
+            <section 
+            className={`champ-tips-mobile ${visible ? 'visible' : ''}`}
+            aria-label={`Gameplay tips for the champion`}>
 
                 <ChampTipsMobile  
                 view={allyTipsView} 
@@ -48,7 +50,9 @@ export function ChampTips({allyTips, enemyTips}) {
                 type="enemy"/>
 
             </section>
-            <section className={`champ-tips-tabletDesktop ${visible ? 'visible' : ''}`}>
+            <section 
+            className={`champ-tips-tabletDesktop ${visible ? 'visible' : ''}`}
+            aria-label={`Gameplay tips for the champion`}>
 
                 <ChampTipsTabletDesktop ally={{
                     tipsToggle: toggleAllyTips,
