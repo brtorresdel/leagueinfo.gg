@@ -1150,8 +1150,8 @@
             "name": "Senna",
             "id": "235",
             "title": "A Redentora",
-            "formatedName": "Samira",
-            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Samira_0.jpg",
+            "formatedName": "Senna",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Senna_0.jpg",
             "skins": [
                 {
                     "name": "default",
@@ -1256,6 +1256,119 @@
                     "description": "Senna invoca as pedras relicárias dos Sentinelas caídos, dividindo seu canhão relicário em uma miríade de luz e sombra. Ela, então, dispara um raio global que concede escudo a aliados, enquanto causa dano aos inimigos atingidos no centro.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SennaR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_R1.mp4"
+                }
+            ]
+        },
+        "seraphine": {
+            "name": "Seraphine",
+            "id": "147",
+            "title": "a Cantora Sonhadora",
+            "formatedName": "Seraphine",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Seraphine_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Seraphine K/DA ALL OUT Indie",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Seraphine K/DA ALL OUT Rumo ao Estrelato",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "Seraphine K/DA ALL OUT Superstar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_3.jpg",
+                    "id": 3
+                },
+                {
+                    "name": "Seraphine Fênix Graciosa",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_4.jpg",
+                    "id": 4
+                },
+                {
+                    "name": "Seraphine Canção do Oceano",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_14.jpg",
+                    "id": 14
+                },
+                {
+                    "name": "Seraphine Canção do Oceano de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_15.jpg",
+                    "id": 15
+                },
+                {
+                    "name": "Seraphine Corte das Fadas",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_24.jpg",
+                    "id": 24
+                },
+                {
+                    "name": "Seraphine Guardiã Estelar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_34.jpg",
+                    "id": 34
+                },
+                {
+                    "name": "Seraphine Ave de Batalha",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_43.jpg",
+                    "id": 43
+                },
+                {
+                    "name": "Seraphine Meili Café",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_50.jpg",
+                    "id": 50
+                },
+                {
+                    "name": "Seraphine Fogos de Artifício",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_59.jpg",
+                    "id": 59
+                }
+            ],
+            "lore": "Nascida em Piltover e filha de zaunitas, Seraphine é capaz de ouvir a alma das pessoas. O mundo canta para ela, e ela canta em resposta. Esses sons a perturbavam quando era mais jovem, mas hoje ela os usa como inspiração, transformando o caos em uma sinfonia. A cantora se apresenta nas cidades irmãs para lembrar a seus cidadãos que eles não estão sozinhos, que são mais fortes juntos e que, aos olhos dela, o potencial deles é ilimitado.",
+            "allytips": ["Seraphine é uma campeã fácil de aprender. Você não precisa gastar muito tempo aprendendo sobre ela em comparação a outros campeões, como Akali ou Camille", "Ela tem muito controle de grupo graças a sua passiva, E e ultimate (R). Ela também tem cura e escudo com seu W. Isso a faz uma grande campeã de utilidade", "Sua ultimate (R) tem o poder de acertar todo o time inimigo. Quanto mais campeões você acerta, mais longe ela vai. Se você for capaz de acertar um bom R, você vai aumentar muito as chances de vitória em uma luta de grupo"],
+            "enemytips": ["Seraphine tem baixo status base e é bem vulnerável no começo do jogo. Jogue de forma segura e tente evitar tomar dano para aumentar sua sobrevivência", "Seraphine não tem nenhuma ferramenta de escape. Isso diminui suas chances de desviar de habilidades e torna difícil escapar de all-ins do time inimigo", "O escudo e cura que você disponibiliza no W são bem fracos, especialmente no começo do jogo. Não dependa deles para se salvar ou salvar seu aliado"],
+            "classes": [
+                "Support",
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Presença de Palco",
+                    "description": "Cada terceira habilidade básica será conjurada duas vezes por Seraphine. Conjurar habilidades próximas a aliados também concede dano e alcance adicionais a ela no próximo ataque básico.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Seraphine_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Nota Aguda",
+                    "description": "Seraphine causa dano em uma área.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SeraphineQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Som Envolvente",
+                    "description": "Seraphine concede Escudo e Aceleração aos aliados próximos. Caso ela já esteja protegida por um Escudo, também Curará os aliados próximos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SeraphineW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Ritmo Contagiante",
+                    "description": "Seraphine causa dano e debilita o movimento dos inimigos em linha reta.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SeraphineE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Bis",
+                    "description": "Seraphine causa dano e Encanta os inimigos atingidos, ampliando o alcance a cada Campeão aliado ou inimigo atingido.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SeraphineR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_R1.mp4"
                 }
             ]
         }
@@ -2519,6 +2632,117 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0235/ability_0235_R1.mp4"
                 }
             ]
-        }    
+        },
+        "seraphine": {
+            "name": "Seraphine",
+            "id": "147",
+            "title": "the Starry-Eyed Songstress",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "K/DA ALL OUT Seraphine Indie",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "K/DA ALL OUT Seraphine Rising Star",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "K/DA ALL OUT Seraphine Superstar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_3.jpg",
+                    "id": 3
+                },
+                {
+                    "name": "Graceful Phoenix Seraphine",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_4.jpg",
+                    "id": 4
+                },
+                {
+                    "name": "Ocean Song Seraphine",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_14.jpg",
+                    "id": 14
+                },
+                {
+                    "name": "Prestige Ocean Song Seraphine",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_15.jpg",
+                    "id": 15
+                },
+                {
+                    "name": "Faerie Court Seraphine",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_24.jpg",
+                    "id": 24
+                },
+                {
+                    "name": "Star Guardian Seraphine",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_34.jpg",
+                    "id": 34
+                },
+                {
+                    "name": "Battle Dove Seraphine",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_43.jpg",
+                    "id": 43
+                },
+                {
+                    "name": "Dumpling Darlings Seraphine",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_50.jpg",
+                    "id": 50
+                },
+                {
+                    "name": "Firecracker Seraphine",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_59.jpg",
+                    "id": 59
+                }
+            ],
+            "lore": "Born in Piltover to Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She performs for the sister cities to remind their citizens that they're not alone, that they're stronger together, and that, in her eyes, their potential is limitless.",
+            "allytips": ["Seraphine is an easy champion to learn. You don’t need to spend as much time into learning her compared to someone like Akali or Camille", "She has a lot of CC thanks to her Passive, E and ultimate (R). She also has a heal and shield with her W. This makes her a great utility champion", "Her ultimate (R) has the potential to hit the whole enemy team. The more champions you hit too, the further it will go. If you’re able to get a good R off, you will increase your chances of winning the team fight"],
+            "enemytips": ["Seraphine has low base stats and is pretty vulnerable in the early game. Play safe and avoid taking damage to increase your survivability", "Seraphine lacks an escape tool. This reduces her chances of dodging skill shots and makes it harder for her to escape an all-in from the enemy", "The shield and heal you get from your W is pretty lackluster, especially in the early game. Do not rely on it to save you or your ADC’s life"],
+            "classes": [
+                "Support",
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Stage Presence",
+                    "description": "Every third basic spell will cast twice from Seraphine. Additionally, casting spells near allies grants her bonus magic damage and range on her next basic attack.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Seraphine_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "High Note",
+                    "description": "Seraphine deals damage in an area.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SeraphineQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Surround Sound",
+                    "description": "Seraphine Shields and Hastes nearby allies. If she is already Shielded she will Heal nearby allies as well.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SeraphineW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Beat Drop",
+                    "description": "Seraphine deals damage and impairs the movement of enemies in a line.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SeraphineE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Encore",
+                    "description": "Seraphine deals damage and charms enemies hit, refreshing the range with every allied or enemy champion hit.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SeraphineR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_R1.mp4"
+                }
+            ]
+        }
     }    
 }
