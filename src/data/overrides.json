@@ -896,6 +896,84 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_R1.mp4"
                 }
             ]
+        },
+        "rell": {
+            "name": "Rell",
+            "id": "526",
+            "title": "a Dama de Ferro",
+            "formatedName": "Rell",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Rell_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Rell Rainha de Batalha",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Rell Guardiã Estelar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Rell Velho Oeste",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Rell Desafio Grandioso",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_30.jpg",
+                    "id": 30
+                }
+            ],
+            "lore": "Produto de um experimento brutal nas mãos da Rosa Negra, Rell é uma arma humana rebelde que está determinada a destruir Noxus. Sua infância foi repleta de sofrimento e horror; a jovem teve que suportar procedimentos indescritíveis para aperfeiçoar e fortalecer seu controle mágico do metal – até que, um dia, empreendeu uma fuga violenta, matando muitos de seus captores no processo. Agora, Rell é tida como criminosa e ataca qualquer soldado noxiano que apareça diante dela. Ao mesmo tempo, procura sobreviventes de sua antiga \"academia\", defendendo os fracos enquanto despacha violentamente seus antigos supervisores para a morte.",
+            "allytips": ["Rell consegue destruir escudos graças ao seu Q. Isso a faz uma grande arma contra campeões com muitos escudos", "Sua ultimate (R) é uma ótima ferramenta de lutas em grupo, já que te permite aplicar controle de grupo em vários inimigos de uma vez. Tente utilizar no máximo de inimigos possível: de preferência quando estiverem proximamente juntos", "Você pode utilizar seu E para avanços as escondidas. Aguarde na frente, deixem vir para cima, e então use seu E e seus controles de grupo contra eles!"],
+            "enemytips": ["Reel não conseguirá avançar contra o time inimigo se eles tiverem habilidades de arremesso ao ar ou interruções na rota. Para jogar contra isso, procure ir em outras rotas ou use seu W em um mato sem sentinelas para avançar", "Rell é praticamente imóvel quando está desmontada. Isso a faz muito vulnerável quando ela desmonta usando seu W", "Se você estiver na desvantagem, vai ser impossível para você conseguir utilizar uma boa ultimate (R) ou W por você estar muito frágil e ser eliminada assim que avançar"],
+            "classes": [
+                "Tank",
+                "Support"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "A Ferro e Fogo",
+                    "description": "Os Ataques e Habilidades de Rell causam Dano Mágico adicional e roubam Armadura e Resistência Mágica ao contato.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/RellP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Golpe Estilhaçador",
+                    "description": "Rell causa Dano Mágico às unidades em linha reta, destruindo o Escudo delas e atordoando-as. ",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RellQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Ferromante: Queda Esmagadora",
+                    "description": "Montaria: Rell Desmonta, caindo com a armadura sobre os inimigos, Arremessando-os ao ar e recebendo um grande Escudo. Sem montaria, ela recebe Armadura, Resistência Mágica, Velocidade de Ataque e Alcance de Ataque, mas sofre Lentidão.Desmontada: Rell forja a Montaria, recebendo um impulso de velocidade e Arremessando ao ar o próximo inimigo que Atacar.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RellW_Dismount.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Investida Absoluta",
+                    "description": "Passivo: Rell recebe Velocidade de Movimento fora de combate.Ativo: Rell e um aliado recebem Velocidade de Movimento crescente, dobrada em direção aos inimigos e entre si. O próximo Ataque dela explode, causando Dano Mágico.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RellE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Tempestade Magnética",
+                    "description": "Rell explode em uma fúria magnética, Puxando violentamente os inimigos próximos em sua direção. Ela, então, Arrasta esses inimigos em direção a si por um curto período, causando Dano Mágico ao longo do tempo.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RellR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -1793,6 +1871,84 @@
                     "description": "Qiyana sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/QiyanaR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_R1.mp4"
+                }
+            ]
+        },
+        "rell": {
+            "name": "Rell",
+            "id": "526",
+            "title": "the Iron Maiden",
+            "formatedName": "Rell",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Rell_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Battle Queen Rell",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Star Guardian Rell",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "High Noon Rell",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Grand Reckoning Rell",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_30.jpg",
+                    "id": 30
+                }
+            ],
+            "lore": "The product of brutal experimentation at the hands of the Black Rose, Rell is a defiant, living weapon determined to topple Noxus. Her childhood was one of misery and horror, enduring unspeakable procedures to perfect and weaponize her magical control over metal... until she staged a violent escape, killing many of her captors in the process. Now branded as a criminal, Rell attacks Noxian soldiers on sight as she searches for survivors of her old “academy,” defending the meek while delivering violent death to her former overseers.",
+            "allytips": ["Rell can destroy shields thanks to her Q. This makes it a great tool against champions with a lot of shielding", "Rell’s ultimate (R) is a great team fighting tool as it can allow her to CC multiple enemies at once. Try to use it on as many champions as possible: preferably when they’re grouped closely together", "You can look for sneaky engages with your E. Put it on the frontline, let them engage and then E and CC the enemy team!"],
+            "enemytips": ["You will be unable to engage at all if the enemy has knock-ups or interrupts in the lane. To work around this, either look to roam or use your W from an unwarded bush to engage", "Rell is very immobile when she is dismounted. This makes her incredibly vulnerable when she is dismounted W", "If you’re behind, it’s going to be impossible for you to get a good ultimate (R) or W off as you’ll be too squishy and die as soon as you go in"],
+            "classes": [
+                "Tank",
+                "Support"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Break the Mold",
+                    "description": "Rell's Attacks and Abilities deal additional magic damage and steal Armor and Magic Resist on hit.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/RellP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Shattering Strike",
+                    "description": "Rell deals magic damage to units in a line, breaking their shields and stunning them. ",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RellQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Ferromancy: Crash Down",
+                    "description": "Mounted: Rell Dismounts, crashing down in her armor, Knocking enemies up and gaining a large Shield. While dismounted, she gains Armor, Magic Resist, Attack Speed, and Attack Range, but is Slowed.Dismounted: Rell forms her Mount, gaining a burst of speed and Knocking Up the next enemy she attacks.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RellW_Dismount.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Full Tilt",
+                    "description": "Passive: Rell gains out of combat Move Speed.Active: Rell and an ally gain ramping Move Speed, doubled toward enemies and each other. Her next Attack explodes, dealing magic damage.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RellE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Magnet Storm",
+                    "description": "Rell explodes in a magnetic fury, violently Pulling nearby enemies toward herself. Then Rell constantly Drags nearby enemies toward herself for a short while, dealing magic damage over time.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RellR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0526/ability_0526_R1.mp4"
                 }
             ]
         }    
