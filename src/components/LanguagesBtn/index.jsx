@@ -2,8 +2,8 @@ import { useState } from 'react'
 import './languagesbtn.styles.css'
 import { useTranslations } from '../Hooks/useTranslations';
 import arrowIcon from '../../assets/icons/arrow.svg'
-import brFlag from '../../assets/img/pt_BR.png'
-import usFlag from '../../assets/img/en_US.png'
+import brFlag from '../../assets/img/pt_BR.webp'
+import usFlag from '../../assets/img/en_US.webp'
 
 export function LanguagesBtn() {
 
