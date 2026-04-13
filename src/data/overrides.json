@@ -721,6 +721,79 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_R1.mp4"
                 }
             ]
+        },
+        "nilah": {
+            "name": "Nilah",
+            "id": "895",
+            "title": "a Alegria Irrestrita",
+            "formatedName": "Nilah",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Nilah_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Nilah Guardiã Estelar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Nilah Congregação das Bruxas",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Nilah Tinta Sombria",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_21.jpg",
+                    "id": 21
+                }
+            ],
+            "lore": "Nilah, uma guerreira asceta de uma terra distante, busca os oponentes mais gigantescos e mortais do mundo para poder desafiá-los e destruí-los. Tendo conquistado seu poder após enfrentar o demônio da alegria, que estava aprisionado há muito tempo, ela não sente outra emoção senão um júbilo incessante — um preço pequeno a ser pago pela força vasta que possui agora. Canalizando a forma líquida do demônio numa lâmina de poder inigualável, a combatente desafia antigas ameaças esquecidas no tempo.",
+            "allytips": ["Seu W bloqueia ataques básicos e ataques melhorados por habilidades, como o W do Twisted Fate, por exemplo", "Sua passiva te permite ganhar vantagem de experiência contra o inimigo na rota, o que te permite alcançar sua maior força antes deles", "Seu E te permite dar 2 avanços. Isso é bom pois te permite entrar e sair de qualquer situação"],
+            "enemytips": ["Quando seu E está em tempo de recarga, se torna fácil imobilizá-la e também não permite que ela jogue agressivamente", "Para utilizar o potencial máximo da sua ultimate (R), ela precisa que seu time a siga ou vá ao mesmo tempo que ela em uma luta de grupo", "Assim como boa parte dos campeões, Nilah é bem fraca quando está em desvantagem. Evite essa desvantagem se possível"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Alegria Eterna",
+                    "description": "Nilah recebe mais experiência ao abater tropas, além de aprimorar e compartilhar curas e Escudos conjurados por aliados próximos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/NIlahP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Lâmina Sem Forma",
+                    "description": "Com um estalo de sua lâmina-chicote, Nilah causa dano a qualquer inimigo que acertar em linha reta na direção escolhida. A habilidade também aumenta seu Alcance de Ataque por um curto período.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Véu Jubiloso",
+                    "description": "Nilah se envolve em névoa, aumentando sua Velocidade de Movimento e esquivando-se graciosamente de todos os ataques. Todos os aliados que ela tocar durante a duração da névoa também receberão esse efeito.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Turbilhão",
+                    "description": "Nilah avança com muito entusiasmo em direção ao alvo, causando dano a todos os inimigos que atravessar no caminho.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Apoteose",
+                    "description": "Girando sua lâmina-chicote com alegre exuberância, Nilah causa dano aos inimigos ao redor antes de puxá-los para perto com a arma.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -1443,6 +1516,79 @@
                     "description": "Naafiri and her packmates dash at a champion, dealing damage. Naafiri reveals nearby enemies if she scores a takedown and can recast this Ability once. The second cast grants a shield.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NaafiriW.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_R1.mp4"
+                }
+            ]
+        },
+        "nilah": {
+            "name": "Nilah",
+            "id": "895",
+            "title": "the Joy Unbound",
+            "formatedName": "Nilah",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Nilah_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Star Guardian Nilah",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Coven Nilah",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Inkshadow Nilah",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_21.jpg",
+                    "id": 21
+                }
+            ],
+            "lore": "Nilah is an ascetic warrior from a distant land, seeking the world's deadliest, most titanic opponents so that she might challenge and destroy them. Having won her power through an encounter with the long-imprisoned demon of joy, she has no emotions other than unceasing jubilation—a small price to pay for the vast strength she now possesses. Channeling the demon's liquid form into a blade of unparalleled might, she stands defiant against ancient threats long forgotten.",
+            "allytips": ["Her W blocks auto-attacks and enhanced auto-attack abilities. This includes abilities like Twisted Fate’s W", "Your Passive helps you gain XP advantages over the enemy laners, which can help you hit power spikes before them", "Her E gives Nillah 2 dashes. This is good for her as she can quickly get in and out of skirmishes"],
+            "enemytips": ["When her E is down, she is pretty easy to lock down and neither can she play aggressively", "To get the maximum use out of her ultimate (R), she needs her team to follow up or go in at the same time as her", "Like most champions, Nilah is pretty weak when she is behind. Avoid falling behind if you can"],
+            "classes": [
+                "Fighter",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Joy Unending",
+                    "description": "Nilah gains increased experience from last-hitting minions along with the ability to enhance and share nearby healing and shielding from her allies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/NIlahP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Formless Blade",
+                    "description": "With a snap of her whip-blade, Nilah damages any enemies she hits in a straight line in her chosen direction. This action extends her attack range for a short duration.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Jubilant Veil",
+                    "description": "Nilah envelops herself in mist, increasing her movement speed and allowing her to gracefully dodge all incoming attacks. Any allies she touches during the mist's duration will also gain this effect.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Slipstream",
+                    "description": "Nilah enthusiastically dashes toward her target, dealing damage to any enemies she passes through on the way.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Apotheosis",
+                    "description": "Twirling her whip-blade in joyful exuberance, Nilah deals damage to enemies around her before pulling them closer with her weapon.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_R1.mp4"
                 }
             ]
         }    
