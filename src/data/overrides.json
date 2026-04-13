@@ -1932,6 +1932,114 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_R1.mp4"
                 }
             ]
+        },
+        "yuumi": {
+            "name": "Yuumi",
+            "id": "350",
+            "title": "a Gata Mágica",
+            "formatedName": "Yuumi",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Yuumi_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Yuumi Diretora da Academia",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Yuumi Cupido Mortal",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Yuumel",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Yuumi Feiticeira",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_28.jpg",
+                    "id": 28
+                },
+                {
+                    "name": "Yuumi EDG",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_37.jpg",
+                    "id": 37
+                },
+                {
+                    "name": "Yuumi Shiba",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_39.jpg",
+                    "id": 39
+                },
+                {
+                    "name": "Yuumi Gata Cibernética",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_49.jpg",
+                    "id": 49
+                },
+                {
+                    "name": "Yuumi Gata Cibernética de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_50.jpg",
+                    "id": 50
+                },
+                {
+                    "name": "Yuumi Emissária da Escuridão",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_61.jpg",
+                    "id": 61
+                },
+                {
+                    "name": "Yuumi Fogos de Artifício",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_70.jpg",
+                    "id": 70
+                }
+            ],
+            "lore": "Uma gata mágica de Bandópolis, Yuumi já foi a mascote de uma feiticeira yordle chamada Norra. Mas quando sua mestra desapareceu misteriosamente, Yuumi se tornou a Guardiã do Livro dos Portais de Norra, viajando à procura dela através dos portais nas páginas. Sentindo falta do carinho de sua mestra, Yuumi busca diversas companhias em sua jornada, protegendo a todos com escudos luminosos e determinação ferrenha. Enquanto Livro se esforça para mantê-la focada na tarefa, Yuumi costuma se distrair com regalias mundanas, como cochilos e peixe para o jantar. Porém, no fim das contas, ela sempre retoma a missão: encontrar sua querida amiga.",
+            "allytips": ["Yuumi pode contestar muito poke inimigo, e dar ao seu aliado um aumento de velocidade de movimento para desviar de habilidades inimigas, especialmente de campeões que tenham controle de grupo", "Uma vez que tenha sua ultimate (R), ela pode facilmente interromper qualquer avanço inimigo desde que tenha seu R disponível", "Yuumi pode usar seu W para desmontar e tomar habilidades essenciais pelo seu aliado, quando necessário"],
+            "enemytips": ["Yuumi pode ser facilmente eliminada se for pega fora de posição, distante dos seus aliados. O mesmo se aplica caso o W esteja em tempo de recarga", "Seu E custa muita mana, então ela fica muito vulnerável a dano de poke. Uma vez que esteja sem mana, ela não será muito útil na rota", "Yuumi vai frequentemente ser deixada sozinha para colocar sentinelas, onde abre uma brecha para capturá-la. Ou ela não irá sem um aliado, o que te permite abusar disso e ganhar vantagem sobre ela"],
+            "classes": [
+                "Support",
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Amizade Felina",
+                    "description": "Periodicamente, quando Yuumi atinge um Campeão com um Ataque ou Habilidade, ela restaura Vida para si e para o próximo aliado a quem ela se Conectar.Enquanto Conectada, Yuumi cria um laço especial com os aliados. O aliado com o laço mais forte aprimora as Habilidades de Yuumi enquanto ela estiver Conectada a ele.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/YuumiP2.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Projétil Errante",
+                    "description": "Yuumi dispara um projétil, causando dano e Lentidão ao primeiro alvo que atingir. O projétil causa dano adicional e a Lentidão é fortalecida se demorar pelo menos 1,35s para chegar até o alvo. Enquanto Yuumi estiver com o Melhor Amigo, a Lentidão sempre será fortalecida e a Campeã concederá dano adicional ao contato para o aliado.Enquanto ela estiver Conectada, o projétil poderá ser controlado pelo cursor do mouse por um breve período.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YuumiQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Você e Eu!",
+                    "description": "Yuumi avança em direção a um aliado-alvo, tornando-se inalvejável por qualquer ataque, exceto de torres. Enquanto Conectada ao Melhor Amigo, ela recebe Resistência do Escudo e Cura, e concede cura ao contato para o aliado.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YuumiW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Frenética",
+                    "description": "Protege Yuumi com um Escudo e aumenta a Velocidade de Movimento e a Velocidade de Ataque. Se ela estiver conectada, isso afetará o aliado em vez dela.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YuumiE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Capítulo Final",
+                    "description": "Yuumi canaliza cinco ondas que causam dano a inimigos e curam aliados. Ela também pode se mover, se conectar e conjurar Frenética! durante a canalização. Enquanto estiver com o Melhor Amigo, esta Habilidade também seguirá o cursor do mouse.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YuumiR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -3865,6 +3973,114 @@
                     "description": "Yunara enters a Transcendent State that upgrades her basic Abilities.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YunaraR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0804/ability_0804_R1.mp4"
+                }
+            ]
+        },
+        "yuumi": {
+            "name": "Yuumi",
+            "id": "350",
+            "title": "the Magical Cat",
+            "formatedName": "Yuumi",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Yuumi_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Battle Principal Yuumi",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Heartseeker Yuumi",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Yuubee",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Bewitching Yuumi",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_28.jpg",
+                    "id": 28
+                },
+                {
+                    "name": "EDG Yuumi",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_37.jpg",
+                    "id": 37
+                },
+                {
+                    "name": "Shiba Yuumi",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_39.jpg",
+                    "id": 39
+                },
+                {
+                    "name": "Cyber Cat Yuumi",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_49.jpg",
+                    "id": 49
+                },
+                {
+                    "name": "Prestige Cyber Cat Yuumi",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_50.jpg",
+                    "id": 50
+                },
+                {
+                    "name": "Nightbringer Yuumi",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_61.jpg",
+                    "id": 61
+                },
+                {
+                    "name": "Firecracker Yuumi",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_70.jpg",
+                    "id": 70
+                }
+            ],
+            "lore": "A magical cat from Bandle City, Yuumi was once the familiar of a yordle enchantress, Norra. When her master mysteriously disappeared, Yuumi became the Keeper of Norra's sentient Book of Thresholds, traveling through portals in its pages to search for her. Yearning for affection, Yuumi seeks friendly companions to partner with on her journey, protecting them with luminous shields and fierce resolve. While Book strives to keep her on task, Yuumi is often drawn to worldly comforts, such as naps and fish. In the end, however, she always returns to her quest to find her friend.",
+            "allytips": ["Can undo a lot of poke, and give her carry a vital boost of movement speed to dodge incoming skillshots, especially from champions having crowd control", "Once she gets her ultimate (R), she can pretty much keep any form of engage away from her carry as long as she has her R up", "She can use her W to dismount and body block vital skill shots for her carry"],
+            "enemytips": ["Can be killed almost immediately if she is caught out of range from any of her allies. Same applies if her W is on cooldown", "Her E costs a lot of mana so she is very susceptible to poke damage. Once out of mana, she can’t really do a lot in the lane", "She will often be left alone to go and ward, which you can capitalise on. Or, she will not go to ward without a carry, which you can abuse to gain an advantage over her"],
+            "classes": [
+                "Support",
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Feline Friendship",
+                    "description": "Periodically, when Yuumi strikes a champion with an attack or ability, she restores health to herself and the next ally she Attaches to.While Attached, Yuumi generates a special bond with her allies. The ally with the strongest bond enhances Yuumi's abilities while she is Attached to them.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/YuumiP2.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Prowling Projectile",
+                    "description": "Yuumi fires a missile, dealing damage and slowing first target hit. It deals bonus damage and an enchanced slow if it takes at least 1.35 seconds to get to its target. While on her Best Friend, the slow is always enhanced and grants bonus On-Hit damage to her ally.While Attached, the missile can be controlled with your cursor for a brief period.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YuumiQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "You and Me!",
+                    "description": "Yuumi dashes to a target ally, becoming untargetable from everything except turrets. While on her Best Friend, she gains Heal & Shield Power and grants her Ally On-Hit healing.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YuumiW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Zoomies",
+                    "description": "Shields Yuumi and boosts Move Speed and Attack Speed. If she's attached, she passes it to her ally instead.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YuumiE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Final Chapter",
+                    "description": "Yuumi channels five waves that damage enemies and heal allies. Yuumi can move, attach, and cast Zoomies! while channeling. While on her Best Friend, this spell also follows her mouse.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/YuumiR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0350/ability_0350_R1.mp4"
                 }
             ]
         }
