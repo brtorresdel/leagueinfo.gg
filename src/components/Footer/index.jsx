@@ -14,22 +14,30 @@ export function Footer() {
         {
             name: 'GitHub',
             href: 'https://github.com/brtorresdel',
-            icon: <IoLogoGithub className="icon"/>
+            icon: <IoLogoGithub className="icon"/>,
+            iconAlt: "GitHub icon",
+            ariaLabel: "Link to developer's GitHub"
         },
         {
             name: 'LinkedIn',
             href: 'https://www.linkedin.com/in/brtorresdel/',
-            icon: <FaLinkedinIn className="icon"/>
+            icon: <FaLinkedinIn className="icon"/>,
+            iconAlt: "LinkedIn icon",
+            ariaLabel: "Link to developer's LinkedIn"
         },
         {
             name: 'Instagram', 
             href: 'https://www.instagram.com/brtorresrod/', 
-            icon: <FaInstagram className="icon"/>
+            icon: <FaInstagram className="icon"/>,
+            iconAlt: "Instagram icon",
+            ariaLabel: "Link to developer's Instagram"
         },
         {
             name: t("socialMedia.twitter"),
             href: 'https://x.com/brtorresrod',
-            icon: <FaXTwitter className="icon"/>
+            icon: <FaXTwitter className="icon"/>,
+            iconAlt: "X icon",
+            ariaLabel: "Link to developer's X"
         }
     ];
 
@@ -44,7 +52,13 @@ export function Footer() {
                 <div className="social-media-icons">
                     {
                         SOCIAL_MEDIA.map((soc, index) => {
-                            return <a key={index} href={soc.href} target="_blank" rel="noopener noreferrer">{soc.icon}</a>
+                            return <a 
+                            key={index} 
+                            href={soc.href} 
+                            target="_blank" 
+                            rel="noopener noreferrer">{soc.icon}
+                            aria-label={soc.ariaLabel}
+                            alt={soc.iconAlt}</a>
                         })
                     }
                 </div>
