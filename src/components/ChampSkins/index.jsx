@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import './champskins-h2.styles.css';
 import './champskins.styles.css';
 import { useObserver } from '../Hooks/useObserver';
-import { getOptimizedImg } from '../../utils/imgOptimizations';
+import { getOptimizedImg, getLocalImg } from '../../utils/imgOptimizations';
 
 export function ChampSkins({skins, champName}) {
 
@@ -77,7 +77,7 @@ export function ChampSkins({skins, champName}) {
                         aria-roledescription='slide'
                         aria-label={`Skin ${index + 1} de ${skins.length}: ${skin.name}`}>
                             <img 
-                            src={champName == "Fiddlesticks" ? skin.img : getOptimizedImg(skin.img)} 
+                            src={champName == "Fiddlesticks" ? getLocalImg(skin.img) : getOptimizedImg(skin.img)} 
                             alt={`Splash art da skin ${skin.name} de ${champName}`} />
                             <h3 aria-hidden='true'>{skin.name.toLowerCase() != 'default' ? skin.name : champName}</h3>
                         </div>
