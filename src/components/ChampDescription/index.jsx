@@ -9,7 +9,9 @@ export function ChampDescription({description}) {
         <div 
         className="champ-description-div"
         ref={ref}>
-            <section className={`champ-description ${visible ? 'visible' : ''}`}>
+            <section 
+            className={`champ-description ${visible ? 'visible' : ''}`}
+            aria-label="Champ description">
                 {description}
             </section>
         </div>
