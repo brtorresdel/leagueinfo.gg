@@ -1371,6 +1371,114 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_R1.mp4"
                 }
             ]
+        },
+        "sett": {
+            "name": "Sett",
+            "id": "875",
+            "title": "o Chefe",
+            "formatedName": "Sett",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Sett_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Sett Reinos Mech",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Sett Dragão de Obsidiana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_8.jpg",
+                    "id": 8
+                },
+                {
+                    "name": "Sett Dragão de Obsidiana de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_9.jpg",
+                    "id": 9
+                },
+                {
+                    "name": "Sett Curtindo o Verão",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Sett Fogos de Artifício",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Sett Florescer Espiritual",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_38.jpg",
+                    "id": 38
+                },
+                {
+                    "name": "Sett Soul Fighter",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_45.jpg",
+                    "id": 45
+                },
+                {
+                    "name": "Sett HEARTSTEEL",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_56.jpg",
+                    "id": 56
+                },
+                {
+                    "name": "Sett Serpente Radiante",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_66.jpg",
+                    "id": 66
+                },
+                {
+                    "name": "Sett Termas do Florescer Espiritual",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_67.jpg",
+                    "id": 67
+                }
+            ],
+            "lore": "Líder de parte do próspero submundo do crime em Ionia, Sett deve todo o seu sucesso à guerra contra Noxus. Mesmo estreando como um simples desafiante nas arenas de combate em Navori, ele logo conquistou notoriedade com sua força bruta e capacidade de suportar dor contínua e extrema. Agora, após superar todos os combatentes locais, Sett chegou até o topo e reina sobre as arenas onde um dia lutara.",
+            "allytips": ["Sett é ótimo em trocas longas graças ao seu Q. Desde que consiga esticar as lutas contra o campeão inimigo, ele consegue ganhar lutas 1v1 facilmente", "Sua ultimate (R) te permite tirar tanques de cima dos seus aliados, bem como te permite dar muito dano no time inimigo se bem posicionado acima deles. Isso pode mudar o rumo da luta em grupo em um instante", "Sua passiva te permite regenerar muita vida, o que te permite receber uma boa quantidade de dano em trocas contra o inimigo, diferente de outros campeões. Seu W também dá muito dano, além de proporcionar uma redução de dano recebido"],
+            "enemytips": ["Sett pode ser kitado com muita facilidade, especialmente quando ele está contra um campeão de ataque de longa distância com algum avanço ou proteção", "O mau uso do seu W pode resultar na sua eliminação, já que é a sua única forma de redução de dano recebido. Ele não pode escapar facilmente se algum inimigo der all-in nele depois de utilizar essa habilidade", "Se o time inimigo for esperto, eles vão evitar ficar muito juntos durante as lutas. Isso previne do Sett usar sua ultimate (R) efetivamente, já que não será capaz de dar muito dano ou dar lentidão em muitos campeões do time inimigo"],
+            "classes": [
+                "Fighter",
+                "Tank"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Ousadia da Arena",
+                    "description": "Os ataques básicos de Sett alternam entre socos de direita e esquerda. Socos de direita são levemente mais fortes e rápidos. Como Sett odeia perder, recebe Regeneração de Vida adicional com base na Vida perdida.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Sett_P.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Pancadaria",
+                    "description": "Os próximos dois ataques de Sett causam dano adicional com base na Vida máxima do alvo. Ele também recebe Velocidade de Movimento enquanto se move em direção a Campeões inimigos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SettQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Casca-Grossa",
+                    "description": "O dano que Sett sofre é armazenado passivamente como Ousadia. Ao conjurar a habilidade, Sett consome toda a Ousadia armazenada em troca de um escudo e desfere um soco em uma área, causando Dano Verdadeiro no centro e Dano Físico nas laterais.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SettW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Quebra-Crânio",
+                    "description": "Sett puxa todos os inimigos de cada lado seu, causando dano e atordoando. Caso haja inimigos somente de um lado, eles sofrem redução de velocidade em vez de atordoamento.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SettE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Hora do Show",
+                    "description": "Sett carrega um Campeão inimigo pelos ares e o arremessa no chão, causando dano e redução de velocidade a todos os inimigos que estiverem próximos ao local de aterrissagem.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SettR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -2743,6 +2851,114 @@
                     "description": "Seraphine deals damage and charms enemies hit, refreshing the range with every allied or enemy champion hit.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SeraphineR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0147/ability_0147_R1.mp4"
+                }
+            ]
+        },
+        "sett": {
+            "name": "Sett",
+            "id": "875",
+            "title": "the Boss",
+            "formatedName": "Sett",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Sett_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Mecha Kingdoms Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Obsidian Dragon Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_8.jpg",
+                    "id": 8
+                },
+                {
+                    "name": "Prestige Obsidian Dragon Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_9.jpg",
+                    "id": 9
+                },
+                {
+                    "name": "Pool Party Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Firecracker Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Spirit Blossom Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_38.jpg",
+                    "id": 38
+                },
+                {
+                    "name": "Soul Fighter Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_45.jpg",
+                    "id": 45
+                },
+                {
+                    "name": "HEARTSTEEL Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_56.jpg",
+                    "id": 56
+                },
+                {
+                    "name": "Radiant Serpent Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_66.jpg",
+                    "id": 66
+                },
+                {
+                    "name": "Spirit Blossom Springs Sett",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_67.jpg",
+                    "id": 67
+                }
+            ],
+            "lore": "A leader of Ionia's growing criminal underworld, Sett rose to prominence in the wake of the war with Noxus. Though he began as a humble challenger in the fighting pits of Navori, he quickly gained notoriety for his savage strength, and his ability to take seemingly endless amounts of punishment. Now, having climbed through the ranks of local combatants, Sett has muscled to the top, reigning over the pits he once fought in.",
+            "allytips": ["Sett is great in extended trades thanks to his Q. As long as he can stick to an enemy champion, he should win 1v1 fights", "His ultimate (R) allows him to both get tanks off his carries as well as deal a lot of damage to the enemy team if he manages to ult his target into them. This can change the tide of a team fight in an instant", "His Passive allows him to regenerate a lot of health so he can resort to short burst trades against enemy champions unlike other tanks. His W does deceptively high damage as well, while providing damage mitigation to him"],
+            "enemytips": ["Can be kited to oblivion, especially when he is against a ranged carry with some form or dash or peel", "Misuse of his W can get him killed as it is his only form of damage mitigation. He can’t escape easily if someone all-ins him after he uses this ability", "If the enemy is smart, they will avoid grouping up during fights. This will prevent Sett from using his ultimate (R) effectively, as he won’t be able to land a lot of damage or slow multiple members of the enemy team"],
+            "classes": [
+                "Fighter",
+                "Tank"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Pit Grit",
+                    "description": "Sett's basic attacks alternate between left and right punch. Right punch is slightly stronger and faster. Sett also hates losing, gaining additional health regeneration based off of his missing health.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Sett_P.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Knuckle Down",
+                    "description": "Sett's next two attacks deal additional damage based off of the target's max health. Sett also gains Move Speed while moving towards enemy champions.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SettQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Haymaker",
+                    "description": "Sett passively stores damage he takes as Grit. On cast, Sett expends all stored Grit to gain a shield and punch an area, dealing true damage in the center and physical damage on the sides.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SettW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Facebreaker",
+                    "description": "Sett pulls in all enemies on opposite sides of him, dealing damage and stunning them. If enemies were only on one side, they are slowed instead of stunned.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SettE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "The Show Stopper",
+                    "description": "Sett carries an enemy champion through the air and slams them into the ground, dealing damage and slowing all enemies near where they land.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SettR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_R1.mp4"
                 }
             ]
         }
