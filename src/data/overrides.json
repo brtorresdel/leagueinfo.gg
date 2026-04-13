@@ -794,6 +794,108 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_R1.mp4"
                 }
             ]
+        },
+        "qiyana": {
+            "name": "Qiyana",
+            "id": "246",
+            "title": "a Imperatriz dos Elementos",
+            "formatedName": "Qiyana",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Qiyana_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Qiyana Chefona",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Qiyana True Damage",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "Qiyana True Damage de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Qiyana Rainha de Batalha",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Qiyana Lâmina do Trovão",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Qiyana True Damage de Prestígio (2022)",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_21.jpg",
+                    "id": 21
+                },
+                {
+                    "name": "Qiyana Imperatriz Lunar",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_30.jpg",
+                    "id": 30
+                },
+                {
+                    "name": "Qiyana La Ilusión",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_40.jpg",
+                    "id": 40
+                },
+                {
+                    "name": "Qiyana Academia de Batalha de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_50.jpg",
+                    "id": 50
+                }
+            ],
+            "lore": "Na cidade-selva de Ixaocan, Qiyana planeja seu próprio e implacável caminho até o trono de Yun Tal. Última na fila para suceder seus pais, ela enfrenta qualquer um no seu caminho com uma confiança impetuosa e domínio sem precedentes sobre a magia elemental. Com a própria terra obedecendo a todos os seus comandos, Qiyana se vê como a maior elementalista na história de Ixaocan. Por esse motivo, julga-se merecedora não apenas de uma cidade, mas de todo um império.",
+            "allytips": ["Sua ultimate (R) é uma habilidade que pode definir o jogo. Se Qiyana conseguir acertar um bom R, ela pode garantir o jogo para sua equipe. Particularmente, se for possível lutar na selva, ela pode facilmente acertar um bom R", "Qiyana tem muita mobilidade, o que lhe permite chegar nos inimigos rapidamente ou escapar de situações complicadas com facilidade", "Qiyana tem um grande dano explosivo graças ao seu Q. Isso significa que ela pode eliminar inimigos rapidamente com um combo"],
+            "enemytips": ["Qiyana tem muitos combos para masterizar. Isso faz com que ela seja uma campeã mecanicamente difícil de se jogar, e de se jogar bem. Considere gastar muitas partidas para masterizá-la", "Dependendo do elemento, ela pode ser menos efetiva na rota. O inimigo sempre vai saber qual elemento você tem e serão capazes de jogar em torno disso. Ademais, pegar um determinado elemento pode não ser tão útil na rota", "Se Qiyana estiver na desvantagem, ela não dará nenhum dano em lutas de grupo. Mas ela pode, entretanto, ser útil caso acerte uma boa ultimate (R)"],
+            "classes": [
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Privilégio da Realeza",
+                    "description": "O primeiro ataque básico ou habilidade de Qiyana contra cada inimigo causa dano adicional.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Qiyana_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Cólera Elemental / Lâmina de Ixtal",
+                    "description": "Qiyana brande sua arma, causando dano com um efeito adicional baseado no seu elemento.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/QiyanaQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Terraforme",
+                    "description": "Qiyana avança para um local e encanta sua arma com um elemento. Ataques e habilidades causam dano adicional enquanto sua arma estiver encantada. ",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/QiyanaW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Audácia",
+                    "description": "Qiyana avança em um inimigo e causa dano.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/QiyanaE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Suprema Demonstração de Talento",
+                    "description": "Qiyana lança uma onda de choque que detona quaisquer elementos que ela acertar, atordoando e causando dano a inimigos próximos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/QiyanaR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -1589,6 +1691,108 @@
                     "description": "Twirling her whip-blade in joyful exuberance, Nilah deals damage to enemies around her before pulling them closer with her weapon.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0895/ability_0895_R1.mp4"
+                }
+            ]
+        },
+        "qiyana": {
+            "name": "Qiyana",
+            "id": "246",
+            "title": "Empress of the Elements",
+            "formatedName": "Qiyana",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Qiyana_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Battle Boss Qiyana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "True Damage Qiyana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_2.jpg",
+                    "id": 2
+                },
+                {
+                    "name": "Prestige True Damage Qiyana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Battle Queen Qiyana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Shockblade Qiyana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Prestige True Damage Qiyana (2022)",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_21.jpg",
+                    "id": 21
+                },
+                {
+                    "name": "Lunar Empress Qiyana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_30.jpg",
+                    "id": 30
+                },
+                {
+                    "name": "La Ilusión Qiyana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_40.jpg",
+                    "id": 40
+                },
+                {
+                    "name": "Prestige Battle Academia Qiyana",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_50.jpg",
+                    "id": 50
+                }
+            ],
+            "lore": "In the jungle city of Ixaocan, Qiyana plots her own ruthless path to the high seat of the Yun Tal. Last in line to succeed her parents, she faces those who stand in her way with brash confidence and unprecedented mastery over elemental magic. With the land itself obeying her every command, Qiyana sees herself as the greatest elementalist in the history of Ixaocan—and by that right, deserving of not only a city, but an empire.",
+            "allytips": ["Her ultimate (R) is game-changing. If she gets one good R off, it could win her team the game. In particular, if she is able to fight inside the jungle, she should easily get a good R off", "Has lots of mobility which can allow her to get on to enemies quickly or escape horrible sticky situations", "Finally, Qiyana has a lot of burst damage thanks to her Q. This means she can one-shot enemies in the late game in one combo"],
+            "enemytips": ["She has tons of combos to master. This makes her a mechanically difficult champion to play and do well on. Expect to put in a lot of games to master her", "Depending on her Element, she can be a less effective laner. The enemy will always know what Element you have and they will be able to play around it. Also, having a certain Element may not be helpful in lane", "If Qiyana is behind, she will not deal any damage in team fights. She may, however, be able to get a good ultimate (R) off"],
+            "classes": [
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Royal Privilege",
+                    "description": "Qiyana's first basic attack or ability against each enemy deals bonus damage.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Qiyana_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Elemental Wrath / Edge of Ixtal",
+                    "description": "Qiyana swings her weapon, dealing damage with a bonus effect based on her element.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/QiyanaQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Terrashape",
+                    "description": "Qiyana dashes to a location and enchants her weapon with an element. Her attacks and abilities deal bonus damage while her weapon is enchanted. ",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/QiyanaW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Audacity",
+                    "description": "Qiyana dashes to an enemy, damaging them.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/QiyanaE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Supreme Display of Talent",
+                    "description": "Qiyana sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/QiyanaR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0246/ability_0246_R1.mp4"
                 }
             ]
         }    
