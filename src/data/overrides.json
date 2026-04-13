@@ -2637,6 +2637,8 @@
             "name": "Seraphine",
             "id": "147",
             "title": "the Starry-Eyed Songstress",
+            "formatedName": "Seraphine",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Seraphine_0.jpg",
             "skins": [
                 {
                     "name": "default",
