@@ -1057,6 +1057,94 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_R1.mp4"
                 }
             ]
+        },
+        "samira": {
+            "name": "Samira",
+            "id": "360",
+            "title": "a Rosa do Deserto",
+            "formatedName": "Samira",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Samira_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Samira PsyOps",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Samira Embalos no Espaço",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Samira Velho Oeste",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Samira Soul Fighter",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_30.jpg",
+                    "id": 30
+                },
+                {
+                    "name": "Samira Baile da Rosa Negra",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_33.jpg",
+                    "id": 33
+                },
+                {
+                    "name": "Samira Professora da Academia",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_35.jpg",
+                    "id": 35
+                }
+            ],
+            "lore": "Samira encara a morte nos olhos com confiança inabalável, procurando diversão e adrenalina aonde quer que vá. Depois que seu lar em Shurima foi destruído quando ainda era criança, ela encontrou sua verdadeira vocação em Noxus, onde conquistou fama como a guerreira valente e estilosa que aceitava missões arriscadas do mais alto calibre. Empunhando pistolas de pólvora negra e uma espada personalizada, Samira prospera em circunstâncias de vida ou morte, eliminando – com estilo e rapidez – qualquer um que cruze seu caminho.",
+            "allytips": ["Samira tem um forte all-in. Isso te permite avançar por eliminações frequentemente, especialmente quando o inimigo extende demais a luta ou quando fica muito fora de posição", "Sua ultimate (R) é uma ferramenta poderosa em lutas de grupo. Evite lutar a não ser que já tenha seu R disponível para dar muito dano", "Suas utilidades e habilidades de avanço te permitem escapar de situações complicadas, tornando Samira uma campeã forte e com alta mobilidade"],
+            "enemytips": ["Samira se complica muito em lutas de grupo se seu time não avançar com ela. Uma vez que ela avança, o time inimigo só irá focá-la se estiver sozinha", "Ela depende muito dos itens no meio do jogo. Se estiver na desvantagem, ela terá problemas para dar dano", "Samira é vulnerável à all-ins e dano se seu E e W estiverem em tempo de recarga. Ela não será capaz de bloquear dano ou desviar / fugir de alguma habilidade"],
+            "classes": [
+                "Marksman",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Impulso Audacioso",
+                    "description": "Samira gera um combo conforme Ataca ou conjura habilidades de forma alternada. Seus Ataques corpo a corpo causam Dano Mágico adicional. Os Ataques de Samira contra inimigos sob efeitos Imobilizadores a farão avançar ao Alcance de Ataque dela. Se o inimigo estiver afetado por Arremesso ao ar, ela mantém o Arremesso ao ar por um curto período.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/SamiraP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Talento Natural",
+                    "description": "Samira dispara um projétil ou golpeia com a espada, causando dano. Se a habilidade for conjurada durante Ímpeto Indomável, ela atinge todos os inimigos no caminho.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SamiraQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Voragem Afiada",
+                    "description": "Samira gira a espada ao seu redor, causando dano e destruindo projéteis inimigos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SamiraW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Ímpeto Indomável",
+                    "description": "Samira avança e atravessa um inimigo (incluindo estruturas), cortando os inimigos atravessados e recebendo Velocidade de Ataque. Abater um Campeão inimigo reinicia o Tempo de Recarga da habilidade.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SamiraE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Gatilho Infernal",
+                    "description": "Samira dispara uma saraivada de tiros, atingindo todos os inimigos ao redor dela.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SamiraR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -2115,6 +2203,94 @@
                     "description": "Renata sends out a wave of chemicals, causing any enemies hit to go Berserk.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RenataR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0888/ability_0888_R1.mp4"
+                }
+            ]
+        },
+        "samira": {
+            "name": "Samira",
+            "id": "360",
+            "title": "the Desert Rose",
+            "formatedName": "Samira",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Samira_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "PsyOps Samira",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Space Groove Samira",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "High Noon Samira",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Soul Fighter Samira",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_30.jpg",
+                    "id": 30
+                },
+                {
+                    "name": "Masque of the Black Rose Samira",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_33.jpg",
+                    "id": 33
+                },
+                {
+                    "name": "Battle Professor Samira",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_35.jpg",
+                    "id": 35
+                }
+            ],
+            "lore": "Samira stares death in the eye with unyielding confidence, seeking thrill wherever she goes. After her Shuriman home was destroyed as a child, Samira found her true calling in Noxus, where she built a reputation as a stylish daredevil taking on dangerous missions of the highest caliber. Wielding black-powder pistols and a custom-engineered blade, Samira thrives in life-or-death circumstances, eliminating any who stand in her way with flash and flair.",
+            "allytips": ["Samira has an incredibly strong all-in. This will allow her to go for kills frequently, especially when the enemy overextends or walks too far forward", "Her ultimate (R) is an incredibly strong tool in team fights. Avoid fighting unless you have your R available as it deals tons of damage", "Samira’s utility and ability to dash allows her to escape sticky situations makes her an incredibly strong and mobile champion"],
+            "enemytips": ["Samira struggles to team fight if her team doesn’t have follow up engage. Once she goes in, the enemy will just focus her if she is alone", "Relies heavily on items in the mid-game. If she is behind, she is going to struggle to dish out a lot of damage", "Is vulnerable to all-ins and damage when her E and W are both down. She will not be able to block incoming damage or dodge/ get away from them"],
+            "classes": [
+                "Marksman",
+                "Assassin"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Daredevil Impulse",
+                    "description": "Samira builds a combo by hitting attacks or abilities unique from the previous hit. Samira's attacks in melee range deal additional magic damage. Samira's attacks against enemies affected by Immobilizing effects will dash her to her attack range. If the enemy is Knocked Up, she also keeps them Knocked Up briefly.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/SamiraP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Flair",
+                    "description": "Samira fires a shot or swings her sword, dealing damage. If cast during Wild Rush, strike all enemies in her path upon completion.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SamiraQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Blade Whirl",
+                    "description": "Samira slashes around her, damaging enemies and destroying enemy missiles.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SamiraW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Wild Rush",
+                    "description": "Samira dashes through an enemy (including structures), slashing enemies she passes through and gaining Attack Speed. Killing an enemy champion refreshes this ability's cooldown.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SamiraE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Inferno Trigger",
+                    "description": "Samira unleashes a torrent of shots from her weapons, wildly shooting all enemies surrounding her.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SamiraR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0360/ability_0360_R1.mp4"
                 }
             ]
         }    
