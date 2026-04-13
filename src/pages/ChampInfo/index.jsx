@@ -9,6 +9,7 @@ import { LoLService } from "../../services/LeagueofLegendsService";
 import { Loading } from "../../components/Loading";
 import { useTranslations } from "../../components/Hooks/useTranslations";
 import { SEO } from "../../components/SEO";
+import { getOptimizedImg } from "../../utils/imgOptimizations";
 
 
 export function ChampInfo() {
@@ -26,7 +27,7 @@ export function ChampInfo() {
 
             const img = new Image();
 
-            img.src = championInfo.skins[0].img;
+            img.src = getOptimizedImg(championInfo.skins[0].img);
             img.onload = () => {
                 setChampion(championInfo);
                 setHeroLoading(true);
