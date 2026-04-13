@@ -1479,6 +1479,83 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_R1.mp4"
                 }
             ]
+        },
+        "vex": {
+            "name": "Vex",
+            "id": "711",
+            "title": "a Melancolista",
+            "formatedName": "Vex",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Vex_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Vex Emissária da Luz",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Vex Empírea",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Vex Astromante",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Vex Festa Surpresa",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_29.jpg",
+                    "id": 29
+                }
+            ],
+            "lore": "Em meio à escuridão das Ilhas das Sombras, uma solitária yordle se move com pesar, abrindo caminho pela névoa espectral, satisfeita em viver nas trevas. Com uma poderosa sombra no seu encalço e uma fonte inesgotável de mazelas nas costas, Vex vive num mundinho de agonia que ela mesma criou, longe da alegria repulsiva do mundo dos \"normais\". Apesar de não ser a mais ambiciosa das yordles, perto dela a cor e a felicidade não têm vez. Com sua indisposição mágica, ela afasta qualquer possível intrometido.",
+            "allytips": ["Vex tem escudo no seu W, que pode te proteger de dano inimigo", "Ela tem grande facilidade na limpeza dos minions com seu Q e E", "Ela também tem grande potencial de avanço com sua ultimate (R), que pode ajudá-la a avançar e ajudar em outras rotas"],
+            "enemytips": ["Maximizar sua aplicação de dano pode ser difícil com Vex, especialmente quando está jogando contra campeões com avanços", "Mesmo com seu W, ela pode ter problemas com campeões de all-in", "Enquanto ela tem uma boa limpeza de minions, ela também pode receber muita pressão de campeões com alcance e dano superior"],
+            "classes": [
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Destruição e Escuridão",
+                    "description": "Periodicamente, Vex é fortalecida, fazendo com que a próxima Habilidade básica dela cause Temor aos inimigos e interrompa avanços. Sempre que um inimigo próximo avança, Vex aplica uma marca que é consumida para causar dano adicional, além de reduzir o Tempo de Recarga do estado fortalecido.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Icons_Vex_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Rajada Mistral",
+                    "description": "Lança um projétil que causa dano e acelera no meio do trajeto.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VexQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Espaço Pessoal",
+                    "description": "Recebe um Escudo e causa dano a inimigos próximos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VexW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Penumbra Iminente",
+                    "description": "Invoca uma área que causa dano e Lentidão aos inimigos, além de aplicar Escuridão.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VexE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Onda Sombria",
+                    "description": "Dispara um projétil que marca um Campeão inimigo.  Reconjure para avançar até o alvo e causar dano.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VexR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -2959,6 +3036,83 @@
                     "description": "Sett carries an enemy champion through the air and slams them into the ground, dealing damage and slowing all enemies near where they land.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SettR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0875/ability_0875_R1.mp4"
+                }
+            ]
+        },
+        "vex": {
+            "name": "Vex",
+            "id": "711",
+            "title": "the Gloomist",
+            "formatedName": "Vex",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Vex_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Dawnbringer Vex",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Empyrean Vex",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Stargazer Vex",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Surprise Party Vex",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vex_29.jpg",
+                    "id": 29
+                }
+            ],
+            "lore": "In the black heart of the Shadow Isles, a lone yordle trudges through the spectral fog, content in its murky misery. With an endless supply of teen angst and a powerful shadow in tow, Vex lives in her own self-made slice of gloom, far from the revolting cheer of the “normie” world. Though she lacks ambition, she is quick to strike down color and happiness, stopping all would-be interlopers with her magical malaise.",
+            "allytips": ["Vex has a shield on her W that can protect her from incoming damage", "Really good wave clear with her Q and E", "Great pick potential with her ultimate (R) which can also be used to help her roam to other lanes"],
+            "enemytips": ["Maximizing damage output can be really difficult on Vex, especially when laning against champions with dashes", "Even with her W, she still struggles against some all-in champions", "While she has good wave clear, she can get out pushed and out poked by champions with superior range and damage"],
+            "classes": [
+                "Mage"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Doom 'n Gloom",
+                    "description": "Vex periodically becomes empowered, causing her next basic Ability to fear enemies and interrupt dashes. Whenever a nearby enemy dashes, Vex applies a mark that can be consumed for bonus damage that also reduces the cooldown of her empowered state.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Icons_Vex_Passive.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Mistral Bolt",
+                    "description": "Launch a damaging missile that accelerates mid-flight.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VexQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Personal Space",
+                    "description": "Gain a shield and damage nearby enemies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VexW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Looming Darkness",
+                    "description": "Summon a damaging and slowing zone that applies Gloom to enemies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VexE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Shadow Surge",
+                    "description": "Fire a missile that marks an enemy champion.  Recast to dash to them and deal damage.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/VexR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0711/ability_0711_R1.mp4"
                 }
             ]
         }
