@@ -2103,6 +2103,93 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_R1.mp4"
                 }
             ]
+        },
+        "zeri": {
+            "name": "Zeri",
+            "id": "221",
+            "title": "A Faísca de Zaun",
+            "formatedName": "Zeri",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Zeri_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Zeri Rosa Definhada",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Zeri Canção do Oceano",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Zeri Jornada Imortal",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Zeri Noite Apavorante",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_28.jpg",
+                    "id": 28
+                },
+                {
+                    "name": "Zeri Noite Apavorante de Prestígio",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_29.jpg",
+                    "id": 29
+                },
+                {
+                    "name": "Zeri Inverno Mágico",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_40.jpg",
+                    "id": 40
+                }
+            ],
+            "lore": "Uma jovem obstinada e vivaz da classe operária de Zaun, Zeri canaliza magia elétrica para carregar a si mesma e a uma arma personalizada. O poder volátil espelha o que ela sente, as centelhas refletindo o estilo de vida ultrarrápido dela. Profundamente compassiva para com os outros, Zeri leva o amor da família e do lar dela consigo a todas as lutas. Embora as tentativas de ajudar saiam pela culatra às vezes, Zeri acredita piamente em uma verdade: lute pela sua comunidade, e ela lutará com você.",
+            "allytips": ["Zeri se dá muito bem contra campeões com muito escudo", "Seu E te permite escapar de situações complicadas e fugir de emboscadas facilmente", "Zeri é bem versátil. Ela pode construir itens AP ou AD dependendo da necessidade do time"],
+            "enemytips": ["Zeri tem uma mecânica unica entre seu Q e seus ataques básicos. Pode ser difícil masterizar", "Ela é bem fraca quando está na desvantagem, assim como boa parte dos outros campeões. Se você conseguir um bom início de jogo em cima dela, será fácil contestá-la", "Seu E é sua única habilidade de movimento, e tem um tempo de recarga bem alto comparado com outros campeões que são utilizados na mesma rota"],
+            "classes": [
+                "Marksman"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Bateria Viva",
+                    "description": "Os Ataques de Zeri causam Dano Mágico e são considerados Habilidades. Mover-se e conjurar Rajada Reluzente armazena energia na Eletrobolsa. Quando estiver totalmente carregada, o próximo Ataque da Campeã causará dano adicional.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/ZeriP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Rajada Reluzente",
+                    "description": "Rajada Reluzente dispara 7 projéteis que causam Dano de Ataque ao primeiro inimigo atingido. Esta Habilidade é considerada um Ataque.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Laser de Ultrachoque",
+                    "description": "Zeri dispara um pulso elétrico que causa dano e Lentidão ao primeiro inimigo atingido. Se o pulso atingir uma parede, ele se transforma em um laser de longo alcance.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Faísca Acelerada",
+                    "description": "Zeri avança por uma curta distância e energiza os próximos 3 disparos de Rajada Reluzente, fazendo com que atravessem os inimigos. Ela pode saltar e deslizar por qualquer terreno que tocar.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Impacto Eletrizante",
+                    "description": "Zeri descarrega uma grande explosão elétrica e se sobrecarrega, recebendo dano aumentado e Velocidade de Movimento cumulativa que se redefine e aumenta sempre que atinge um Campeão inimigo. Durante esse período, Rajada Reluzente se transforma em um disparo triplo mais rápido que faz ricochetear relâmpagos entre os inimigos.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -4207,6 +4294,93 @@
                     "description": "Zaahen rises then stabs downward, damaging enemies and healing for a portion of the damage dealt.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZaahenR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0904/ability_0904_R1.mp4"
+                }
+            ]
+        },
+        "zeri": {
+            "name": "Zeri",
+            "id": "221",
+            "title": "The Spark of Zaun",
+            "formatedName": "Zeri",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Zeri_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Withered Rose Zeri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "Ocean Song Zeri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_10.jpg",
+                    "id": 10
+                },
+                {
+                    "name": "Immortal Journey Zeri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_19.jpg",
+                    "id": 19
+                },
+                {
+                    "name": "Fright Night Zeri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_28.jpg",
+                    "id": 28
+                },
+                {
+                    "name": "Prestige Fright Night Zeri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_29.jpg",
+                    "id": 29
+                },
+                {
+                    "name": "Winter Wonder Zeri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_40.jpg",
+                    "id": 40
+                }
+            ],
+            "lore": "A headstrong, spirited young woman from Zaun's working-class, Zeri channels her electric magic to charge herself and her custom-crafted gun. Her volatile power mirrors her emotions, its sparks reflecting her lightning-fast approach to life. Deeply compassionate toward others, Zeri carries the love of her family and her home into every fight. Though her eagerness to help can sometimes backfire, Zeri believes one truth to be certain: stand up for your community, and it will stand up with you.",
+            "allytips": ["Good versus team compositions with lots of shields", "Her E allows her to escape sticky situations and get away from ganks easily", "Zeri’s versatile. She can either go AP or AD depending on her team’s needs"],
+            "enemytips": ["Unique mechanic with her Q and basic attacks. This can be hard to master", "She is pretty weak from behind, but then again so are many other champions. If you get a good early lead, you can easily snowball though", "Her E is her only movement spell, and it has a really long cooldown compared to other champions who are played in the same lane"],
+            "classes": [
+                "Marksman"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Living Battery",
+                    "description": "Zeri's Attacks deal magic damage and are treated as Abilities. Moving and casting Burst Fire stores up energy in Zeri's Sparkpack. When fully charged her next Attack deals bonus damage.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/ZeriP.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Burst Fire",
+                    "description": "Burst Fire shoots a burst of 7 rounds that deal attack damage to the first enemy hit. This Ability is treated as an Attack.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Ultrashock Laser",
+                    "description": "Zeri fires an electric pulse that slows and damages the first enemy hit. If the pulse hits a wall it expands into a long range laser.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Spark Surge",
+                    "description": "Zeri dashes a short distance and energizes her next 3 shots of Burst Fire, causing them to pierce through enemies. She will vault and grind over any terrain she touches.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Lightning Crash",
+                    "description": "Zeri discharges a nova of electricity and overcharges herself, gaining increased damage and stacking Move Speed that refreshes and gets stronger every time she hits an enemy champion. While overcharged, Burst fire becomes a faster triple shot that chains lightning between enemies.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0221/ability_0221_R1.mp4"
                 }
             ]
         }
