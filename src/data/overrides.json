@@ -641,6 +641,86 @@
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_R1.mp4"
                 }
             ]
+        },
+        "naafiri": {
+            "name": "Naafiri",
+            "id": "950",
+            "title": "Fera das Cem Mordidas",
+            "formatedName": "Naarifi",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Naarifi_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Naafiri Soul Fighter",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "PROJETO: Naafiri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Naafiri Dogão",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Naafiri Cão de Guerra",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_29.jpg",
+                    "id": 29
+                }
+            ],
+            "lore": "Pelas areias de Shurima, um coro de uivos ressoa. É o chamado dos cães das dunas, predadores vorazes que formam matilhas e disputam o direito de caçar nessas terras áridas. Entre eles, uma matilha se destaca, pois é movida não apenas por instintos caninos, mas pelo poder ancestral dos Darkin.",
+            "allytips": [
+                "Naafiri é muito boa em executar campeões frágeis que estejam andando sozinho pelo mapa", "Naafiri é uma campeã de mobilidade, o que te permite iniciar ou fugir de cenários complicados", "Naafiri é uma campeã que pode ficar muito forte no fim do jogo. Vá para outras lanes com frequência para pegar alguma vantagem e antecipar essa força!"
+            ],
+            "enemytips": ["Naafiri é uma campeã que pode ficar muito forte no fim do jogo se obter essa vantagem, então se não correr atrás no começo / meio de jogo, vai ser bem difícil conseguir isso mais tarde", "Naafiri sofre contra times espertos ou com bom trabalho em grupo. Isso faz com que seja arriscado avançar sozinha, e você vai precisar do seu time para avançar com você", "Naafiri pode ser facilmente kitada assim que ela avançar. Pode ser difícil lidar com campeões com avanços ou ferramentas de escapada"],
+            "classes": [
+                "Assassin",
+                "Fighter"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "Em Maior Número",
+                    "description": "Uma matilha surge e ataca os alvos dos ataques e habilidades de Naafiri.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Icons_Naafiri_P.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Adagas Darkin",
+                    "description": "Naafiri arremessa até duas adagas; cada uma causa dano de sangramento ou, caso o alvo já esteja sangrando, dano adicional.A matilha avança para atacar o primeiro Campeão ou monstro atingido pela Habilidade.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NaafiriQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "Chamado da Matilha",
+                    "description": "Naafiri fica Inalvejável e fortalece sua matilha, fazendo surgir mais companheiros e recebendo Velocidade de Movimento e Dano de Ataque aumentados.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NaafiriR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Eviscerar",
+                    "description": "Naafiri avança e causa dano a inimigos em uma área ao seu redor, evocando e curando totalmente sua matilha.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NaafiriE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Caça dos Cães",
+                    "description": "Naafiri e sua matilha avançam contra um Campeão, causando dano. Se conseguir uma eliminação, Naafiri revelará inimigos próximos e poderá reconjurar esta habilidade uma vez. A segunda conjuração concederá um Escudo.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NaafiriW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_R1.mp4"
+                }
+            ]
         }
     },
     "en_US": {
@@ -1283,6 +1363,86 @@
                     "description": "Lillia causes all enemies with Dream Dust on them to become Drowsy before falling asleep. Those enemies will take extra damage on being forcibly woken up.",
                     "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LilliaR.png",
                     "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0876/ability_0876_R1.mp4"
+                }
+            ]
+        },
+        "naafiri": {
+            "name": "Naafiri",
+            "id": "950",
+            "title": "the Hound of a Hundred Bites",
+            "formatedName": "Naafiri",
+            "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Naafiri_0.jpg",
+            "skins": [
+                {
+                    "name": "default",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_0.jpg",
+                    "id": 0
+                },
+                {
+                    "name": "Soul Fighter Naafiri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_1.jpg",
+                    "id": 1
+                },
+                {
+                    "name": "PROJECT: Naafiri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_11.jpg",
+                    "id": 11
+                },
+                {
+                    "name": "Glizzy Naafiri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_20.jpg",
+                    "id": 20
+                },
+                {
+                    "name": "Warhound Naafiri",
+                    "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Naafiri_29.jpg",
+                    "id": 29
+                }
+            ],
+            "lore": "Across the sands of Shurima, a chorus of howls rings out. It is the call of the dune hounds, voracious predators who form packs and compete for the right to hunt in these barren lands. Among them, one pack stands above all, for they are driven not only by canine instincts, but by the ancient power of the Darkin.",
+            "allytips": [
+                "Naafari is really good at executing and taking down squishy champions who are walking alone on the map", "You are a very mobile champion which can allow you to engage or escape sticky scenarios", "Naafari is a snowball heavy champion. Gank often in the early game to get an advantage and snowball from there"
+            ],
+            "enemytips": ["As suggested, she is a snowball heavy champion, so if you do not get an early lead, it will be hard to carry later on", "She suffers against teams that are smart and group together. It makes it riskier for you to go in alone, and you need your allies to go in with you", "She can be kited pretty well after she has gone in. It can be hard to handle champions with dashes or escape tools"],
+            "classes": [
+                "Assassin",
+                "Fighter"
+            ],
+            "habilities": [
+                {
+                    "key": "P",
+                    "name": "We Are More",
+                    "description": "Naafiri spawns packmates that attack the targets of her attacks and abilities.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/passive/Icons_Naafiri_P.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_P1.mp4"
+                },
+                {
+                    "key": "Q",
+                    "name": "Darkin Daggers",
+                    "description": "Naafiri hurls up to two daggers, each inflicting bleed, or each inflicting bonus damage if the target is already bleeding.Packmates leap to attack the first champion or monster hit by this skill.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NaafiriQ.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_Q1.mp4"
+                },
+                {
+                    "key": "W",
+                    "name": "The Call of the Pack",
+                    "description": "Naafiri becomes Untargetable and empowers her pack, spawning additional packmates and gaining increased Move Speed and Attack Damage.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NaafiriR.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_W1.mp4"
+                },
+                {
+                    "key": "E",
+                    "name": "Eviscerate",
+                    "description": "Naafiri dashes and damages enemies in an area around her, recalling her packmates and fully healing them.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NaafiriE.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_E1.mp4"
+                },
+                {
+                    "key": "R",
+                    "name": "Hounds' Pursuit",
+                    "description": "Naafiri and her packmates dash at a champion, dealing damage. Naafiri reveals nearby enemies if she scores a takedown and can recast this Ability once. The second cast grants a shield.",
+                    "icon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NaafiriW.png",
+                    "video": "https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0950/ability_0950_R1.mp4"
                 }
             ]
         }    
