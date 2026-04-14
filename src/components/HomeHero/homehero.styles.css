@@ -33,8 +33,10 @@
     text-align: center;
 }
 
-.home-hero-content .break {
-    display: none;
+.home-hero-content h1 {
+    white-space: nowrap;
+    max-width: 100%;
+    font-size: clamp(32px, 7vw, 84px);
 }
 
 .home-hero-content h1 span {
@@ -82,10 +84,6 @@
         align-items: flex-start;
         text-align: start;
         margin: 3% 5%;
-    }
-
-    .home-hero-content .break {
-        display: block;
     }
 
     .home-hero-content h1 {
