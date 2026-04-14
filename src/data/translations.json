@@ -39,6 +39,9 @@
         "notFound": {
             "title": "404",
             "message": "Essa página não foi encontrada... Voltando à página inicial em {sec} segundos."
+        },
+        "noChamp": {
+            "message": "Nenhum campeão encontrado!"
         }
     },
     "en_US": {
@@ -82,6 +85,9 @@
         "notFound": {
             "title": "404",
             "message": "This page has not founded... Going back to homepage in {sec} seconds."
+        },
+        "noChamp": {
+            "message": "No champions found!"
         }
     }
 }
