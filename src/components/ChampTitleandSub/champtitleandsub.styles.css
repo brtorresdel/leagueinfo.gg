@@ -1,10 +1,12 @@
 .name-n-title {
     display: flex;
     flex-direction: column;
+    gap: 0.15em;
 }
 
 .name-n-title h1 {
-    margin-bottom: -5px;
+    margin-bottom: 0;
+    line-height: 1;
     opacity: 0;
     animation: fadeInUp 0.3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
     animation-delay: 0.5s;
@@ -20,20 +22,20 @@
 }
 
 @media screen and (min-width: 768px) {
-    .name-n-title h1 {
-        margin-bottom: -15px;
+    .name-n-title {
+        gap: 0.12em;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .name-n-title h1 {
-        margin-bottom: -25px;
+    .name-n-title {
+        gap: 0.1em;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .name-n-title h1 {
-        margin-bottom: -40px;
+    .name-n-title {
+        gap: 0.08em;
     }
 }
 
