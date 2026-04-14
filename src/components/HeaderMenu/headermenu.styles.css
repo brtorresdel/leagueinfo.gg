@@ -39,13 +39,25 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  gap: 0.6em;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  padding: 0.25em 0;
+  min-height: 2.2em;
+}
+
+.menu div.menu-mobile .menu-mobile-options .menu-label {
+  display: inline-block;
+  line-height: 1;
 }
 
 .menu div.menu-mobile .menu-mobile-options button .icon {
+  font-size: 1.15em;
   width: 1em;
   height: 1em;
   color: var(--text-color);
+  flex: 0 0 auto;
+  display: block;
 }
 
 .menu div.menu-mobile .menu-mobile-options button.about-dev-bnt {
@@ -70,10 +82,15 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  gap: 0.6em;
+  line-height: 1;
+  letter-spacing: 0.02em;
 }
 
 .menu div.menu-mobile .menu-mobile-options button.about-dev-bnt .arrow {
+  width: 1.15em;
+  height: 1.15em;
+  display: block;
   transform: rotate(0deg);
   transition: transform 0.2s ease-in-out;
 }
@@ -121,7 +138,9 @@
 }
 
 .menu div.menu-mobile button .icon.close {
-  transform: scale(2);
+  font-size: 1.35em;
+  width: 1em;
+  height: 1em;
 }
 
 .menu nav.menu-desktop {
@@ -132,21 +151,46 @@
 @media screen and (min-width: 768px) {
   .menu div.menu-mobile button {
     width: calc(var(--title1-font-size-tablet) - 10px);
-    height: auto;
+    height: calc(var(--title1-font-size-tablet) - 10px);
   }
 
   .menu div.menu-mobile .menu-mobile-options button {
     font-size: var(--title2-font-size-tablet);
     font-family: var(--title-font);
+    gap: 0.6em;
+    padding: 0.35em 0;
+    min-height: 2.15em;
+  }
+
+  .menu div.menu-mobile .menu-mobile-options .menu-label {
+    transform: none;
   }
 
   .menu div.menu-mobile .menu-mobile-options button.about-dev-bnt .about-dev {
     font-size: var(--title2-font-size-tablet);
     font-family: var(--title-font);
+    gap: 0.6em;
+  }
+
+  .menu div.menu-mobile .menu-mobile-options button .icon {
+    font-size: 1.1em;
+    width: 1em;
+    height: 1em;
+  }
+
+  .menu div.menu-mobile .menu-mobile-options button.about-dev-bnt .arrow {
+    width: 1.1em;
+    height: 1.1em;
   }
 
   .menu div.menu-mobile .menu-mobile-options .social-media {
     gap: 25px;
+  }
+
+  .menu div.menu-mobile .menu-mobile-options {
+    width: 55%;
+    padding: 40px 28px;
+    gap: 32px;
   }
 }
 

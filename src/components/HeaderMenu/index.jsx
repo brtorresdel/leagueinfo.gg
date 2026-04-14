@@ -52,7 +52,11 @@ export function HeaderMenu() {
         setMenuMobileView(!menuMobileView);
     }
 
-    const handleHomeClick = () => navigate('/');
+    const handleHomeClick = () => {
+        navigate('/');
+        setMenuMobileView(false);
+        setSocialMediaView(false);
+    };
 
 
     return (<div className="menu">
